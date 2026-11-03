@@ -1,0 +1,318 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "6194428cce742b6f77258530cfb9c59f3688031c5129ed603819d0d458579839",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.86,
+      "text": "Section 2. You'll hear part of a free class about safety around campus."
+    },
+    {
+      "start": 8.38,
+      "end": 12.72,
+      "text": "First, you have some time to look at questions 11 to 14."
+    },
+    {
+      "start": 30.0,
+      "end": 46.86,
+      "text": "Now, listen carefully and answer questions 11 to 14."
+    },
+    {
+      "start": 49.6,
+      "end": 55.82,
+      "text": "Good evening. I'm Geoffrey Miller from the University of Nottingham Student Union."
+    },
+    {
+      "start": 55.82,
+      "end": 61.94,
+      "text": "and in this week's free class, Carlos Garcia is going to tell us about safety around campus."
+    },
+    {
+      "start": 62.22,
+      "end": 63.24,
+      "text": "Over to you, Carlos."
+    },
+    {
+      "start": 63.66,
+      "end": 67.3,
+      "text": "Thank you, Geoffrey, and thank you all for your attendance today."
+    },
+    {
+      "start": 67.62,
+      "end": 73.04,
+      "text": "Also, I'd like to thank the student union here at the university for organising this lecture."
+    },
+    {
+      "start": 74.18,
+      "end": 78.64,
+      "text": "Well, I've been serving and protecting the city of Nottingham for over 20 years now"
+    },
+    {
+      "start": 78.64,
+      "end": 80.48,
+      "text": "as a member of the police department."
+    },
+    {
+      "start": 80.84,
+      "end": 84.36,
+      "text": "Does anyone know what type of crime is the most prevalent on campus?"
+    },
+    {
+      "start": 84.36,
+      "end": 89.6,
+      "text": "I heard someone say drugs and alcohol. That actually isn't too much of an issue."
+    },
+    {
+      "start": 90.1,
+      "end": 95.22,
+      "text": "Violence? Nope. Actually, the biggest thing we worry about here is theft."
+    },
+    {
+      "start": 95.62,
+      "end": 100.72,
+      "text": "The nature of crime on Nottingham's campus is quite different from that of the surrounding areas."
+    },
+    {
+      "start": 102.12,
+      "end": 105.92,
+      "text": "Crime rates across the East Midlands are very difficult to control."
+    },
+    {
+      "start": 106.34,
+      "end": 113.18,
+      "text": "We'd like to see the rates stay the same for this calendar year, but it has been increasing steadily over the past three years."
+    },
+    {
+      "start": 113.18,
+      "end": 119.04,
+      "text": "On campus, however, I'm happy to say that the overall crime rate has fallen this year."
+    },
+    {
+      "start": 120.22,
+      "end": 124.88,
+      "text": "You wouldn't think so if you've seen the extremely exaggerated stories in the media."
+    },
+    {
+      "start": 125.24,
+      "end": 130.22,
+      "text": "The media has done nothing but cause more concern about crime in our area."
+    },
+    {
+      "start": 131.32,
+      "end": 138.14,
+      "text": "Even the crime shows you see today are a little bit far-fetched, but at least viewers know they're not real events."
+    },
+    {
+      "start": 138.14,
+      "end": 145.86,
+      "text": "We'd really like to see more factual news articles out there so the public can have a rational sense of the safety level of our society."
+    },
+    {
+      "start": 168.14,
+      "end": 177.9,
+      "text": "Now listen and answer questions 15 to 20."
+    },
+    {
+      "start": 180.78,
+      "end": 184.84,
+      "text": "OK, let's move on to what to do when you see a crime."
+    },
+    {
+      "start": 185.12,
+      "end": 193.42,
+      "text": "Do not get involved if at all possible and do not draw too much attention to yourself by running away in a conspicuous manner."
+    },
+    {
+      "start": 193.42,
+      "end": 198.98,
+      "text": "Though most likely, and hopefully, you will not have to experience this situation"
+    },
+    {
+      "start": 198.98,
+      "end": 203.36,
+      "text": "If you are being mugged, please do not try to resist"
+    },
+    {
+      "start": 203.36,
+      "end": 207.44,
+      "text": "Instead, be compliant and seek help after the incident"
+    },
+    {
+      "start": 207.44,
+      "end": 213.62,
+      "text": "Like I said though, it is highly unlikely that you will find yourself amidst a crime"
+    },
+    {
+      "start": 213.62,
+      "end": 217.2,
+      "text": "But it is important to be prepared should it ever happen"
+    },
+    {
+      "start": 217.2,
+      "end": 222.22,
+      "text": "We find that educating students and staff on the correct precautions to take"
+    },
+    {
+      "start": 222.22,
+      "end": 224.44,
+      "text": "is the best way to increase your safety."
+    },
+    {
+      "start": 224.76,
+      "end": 227.88,
+      "text": "Just remember to be smart when you're out late at night"
+    },
+    {
+      "start": 227.88,
+      "end": 231.32,
+      "text": "and avoid any area or person that looks suspicious."
+    },
+    {
+      "start": 231.76,
+      "end": 234.68,
+      "text": "I know it sounds obvious, but I cannot stress this enough."
+    },
+    {
+      "start": 236.32,
+      "end": 241.98,
+      "text": "It's also not a bad idea to have your mobile phone with you at all times."
+    },
+    {
+      "start": 242.22,
+      "end": 242.82,
+      "text": "But be careful."
+    },
+    {
+      "start": 243.3,
+      "end": 246.54,
+      "text": "If you're chatting on your smartphone on your way home,"
+    },
+    {
+      "start": 246.74,
+      "end": 248.68,
+      "text": "you're a prime target for thieves."
+    },
+    {
+      "start": 249.22,
+      "end": 250.54,
+      "text": "I'd like to see a show of hands."
+    },
+    {
+      "start": 250.54,
+      "end": 255.5,
+      "text": "How many people have left work or the library after 10pm to go home before?"
+    },
+    {
+      "start": 257.34,
+      "end": 259.04,
+      "text": "A lot of you, right?"
+    },
+    {
+      "start": 259.34,
+      "end": 264.24,
+      "text": "If you do have to go home late at night, please don't walk home alone."
+    },
+    {
+      "start": 265.2,
+      "end": 270.72,
+      "text": "More often than not, there's someone there that will be walking the same direction as you at some point."
+    },
+    {
+      "start": 270.96,
+      "end": 273.18,
+      "text": "Walk home with a friend or co-worker."
+    },
+    {
+      "start": 273.8,
+      "end": 278.2,
+      "text": "Even if you must use your phone to call someone that's nearby to walk with you,"
+    },
+    {
+      "start": 278.2,
+      "end": 281.88,
+      "text": "It's always safer to walk home with someone."
+    },
+    {
+      "start": 283.16,
+      "end": 290.46,
+      "text": "So when you're walking home, you may feel more comfortable with some sort of self-defence, such as pepper spray."
+    },
+    {
+      "start": 291.44,
+      "end": 295.34,
+      "text": "Now, it's your call whether you want to carry something like this or not."
+    },
+    {
+      "start": 296.26,
+      "end": 303.8,
+      "text": "However, I absolutely advise against carrying a knife or any other offensive weapon."
+    },
+    {
+      "start": 303.8,
+      "end": 309.8,
+      "text": "All too often, they can be used against you if you're disarmed, putting yourself in more danger."
+    },
+    {
+      "start": 310.34,
+      "end": 317.46,
+      "text": "For all those interested, the Recreation Centre offers a free self-defence class to all students every Thursday evening."
+    },
+    {
+      "start": 317.72,
+      "end": 325.96,
+      "text": "While obviously an introductory self-defence class may not equip you to fight off villains like a regular superhero,"
+    },
+    {
+      "start": 326.28,
+      "end": 327.96,
+      "text": "it does come in handy sometimes."
+    },
+    {
+      "start": 327.96,
+      "end": 334.72,
+      "text": "After taking a self-defence class, you'll surely be more aware of possible dangers and how to deal with them."
+    },
+    {
+      "start": 335.16,
+      "end": 343.38,
+      "text": "So hopefully now you have a more complete understanding of the nature of crimes committed on your campus and how to avoid being a victim."
+    },
+    {
+      "start": 344.0,
+      "end": 348.42,
+      "text": "I know most students at the University of Nottingham are not the criminal types,"
+    },
+    {
+      "start": 348.7,
+      "end": 353.9,
+      "text": "but remember that there is no barrier like a wall or something keeping non-students out."
+    },
+    {
+      "start": 353.9,
+      "end": 358.64,
+      "text": "There's no army force securing the borders and I doubt anyone wants it that way."
+    },
+    {
+      "start": 359.96,
+      "end": 365.48,
+      "text": "The campus is generally a safe place but it's not immune to small crimes once in a while."
+    },
+    {
+      "start": 366.58,
+      "end": 369.66,
+      "text": "Alright, that's all I have to say for today. Stay safe."
+    },
+    {
+      "start": 372.64,
+      "end": 378.08,
+      "text": "That is the end of section 2. You now have half a minute to check your answers."
+    },
+    {
+      "start": 383.9,
+      "end": 409.9,
+      "text": "Now turn to section 3."
+    }
+  ]
+}

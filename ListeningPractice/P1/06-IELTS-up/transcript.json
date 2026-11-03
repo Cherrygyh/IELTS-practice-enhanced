@@ -1,0 +1,233 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "3accabe82bc5c982c09c121b18d18c2f7eecc3d174b17e1dcbc72ef7793e57af",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.48,
+      "text": "Section 1. You will hear a man booking a tourist tour. First, you have some time to look at questions 1 to 5."
+    },
+    {
+      "start": 30.0,
+      "end": 43.26,
+      "text": "You can see that there is an example that has been done for you."
+    },
+    {
+      "start": 43.72,
+      "end": 48.0,
+      "text": "On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "start": 49.5,
+      "end": 52.86,
+      "text": "Hello Mr. Smith, how can I be of assistance today?"
+    },
+    {
+      "start": 53.72,
+      "end": 56.82,
+      "text": "Good morning. I would like to book a tour to Sydney."
+    },
+    {
+      "start": 57.88,
+      "end": 59.68,
+      "text": "The man answers the question."
+    },
+    {
+      "start": 60.0,
+      "end": 64.3,
+      "text": "Tour to Sydney, so the word Sydney has been written on the top of the form."
+    },
+    {
+      "start": 64.8,
+      "end": 65.96,
+      "text": "Now we shall begin."
+    },
+    {
+      "start": 66.88,
+      "end": 71.88,
+      "text": "You should answer the questions as you listen, because you will not hear the recording a second time."
+    },
+    {
+      "start": 72.44,
+      "end": 75.62,
+      "text": "Listen carefully, and answer questions 1 to 5."
+    },
+    {
+      "start": 81.6,
+      "end": 84.96,
+      "text": "Hello Mr. Smith, how can I be of assistance today?"
+    },
+    {
+      "start": 85.68,
+      "end": 89.02,
+      "text": "Good morning. I would like to book a tour to Sydney."
+    },
+    {
+      "start": 90.0,
+      "end": 93.46,
+      "text": "I can help you with that. What would you like to see?"
+    },
+    {
+      "start": 94.12,
+      "end": 97.62,
+      "text": "As much of Sydney as possible. What are my choices?"
+    },
+    {
+      "start": 98.6,
+      "end": 105.52,
+      "text": "There are a number of choices. What type of tour would you like? A pedestrian tour, or a bus tour?"
+    },
+    {
+      "start": 105.98,
+      "end": 107.86,
+      "text": "I think I'll choose the bus tour."
+    },
+    {
+      "start": 108.42,
+      "end": 115.42,
+      "text": "There's a hop-on-hop-off bus tour that takes you around to the Harbour Bridge, the Opera House and the Queen Victoria Building."
+    },
+    {
+      "start": 115.42,
+      "end": 120.3,
+      "text": "I think it's a good option. Is there a set timetable for the tour?"
+    },
+    {
+      "start": 121.38,
+      "end": 125.18,
+      "text": "No. The buses run in a loop around the city all day."
+    },
+    {
+      "start": 125.7,
+      "end": 127.84,
+      "text": "And what hours do the buses operate?"
+    },
+    {
+      "start": 128.62,
+      "end": 132.46,
+      "text": "They run from 7 a.m. in the morning until 9 p.m. each night."
+    },
+    {
+      "start": 133.2,
+      "end": 134.24,
+      "text": "That sounds nice."
+    },
+    {
+      "start": 134.88,
+      "end": 140.58,
+      "text": "Yes. And the closest stop is just 20 meters out from here, at the front of the hotel."
+    },
+    {
+      "start": 145.42,
+      "end": 175.0,
+      "text": "Now listen and answer questions 6 to 10."
+    },
+    {
+      "start": 176.38,
+      "end": 178.36,
+      "text": "What ticket types do you have?"
+    },
+    {
+      "start": 179.3,
+      "end": 180.62,
+      "text": "We have three ticket types."
+    },
+    {
+      "start": 181.46,
+      "end": 185.1,
+      "text": "The first one is called minimal, and it is the cheapest tariff."
+    },
+    {
+      "start": 185.9,
+      "end": 189.84,
+      "text": "It costs only $15 and you can use such ticket during two hours."
+    },
+    {
+      "start": 190.6,
+      "end": 193.44,
+      "text": "Oh, I want to see as much of Sydney as possible."
+    },
+    {
+      "start": 194.16,
+      "end": 195.72,
+      "text": "Do you have full day tickets?"
+    },
+    {
+      "start": 196.5,
+      "end": 197.74,
+      "text": "Yes, sure."
+    },
+    {
+      "start": 198.28,
+      "end": 200.58,
+      "text": "The next ticket type we have is standard."
+    },
+    {
+      "start": 201.36,
+      "end": 202.88,
+      "text": "It's the most popular type."
+    },
+    {
+      "start": 202.88,
+      "end": 206.48,
+      "text": "This pass costs $30 and lasts all day"
+    },
+    {
+      "start": 206.48,
+      "end": 208.44,
+      "text": "This sounds nice"
+    },
+    {
+      "start": 208.44,
+      "end": 210.86,
+      "text": "We also have a premium ticket"
+    },
+    {
+      "start": 210.86,
+      "end": 213.12,
+      "text": "You can buy it for $55"
+    },
+    {
+      "start": 213.12,
+      "end": 215.9,
+      "text": "This pass lasts all day"
+    },
+    {
+      "start": 215.9,
+      "end": 218.72,
+      "text": "And includes free drinks and snacks during your trip"
+    },
+    {
+      "start": 218.72,
+      "end": 221.56,
+      "text": "And you will be provided with an audio guide"
+    },
+    {
+      "start": 221.56,
+      "end": 224.18,
+      "text": "I think I'll buy the premium ticket"
+    },
+    {
+      "start": 224.18,
+      "end": 225.12,
+      "text": "Great!"
+    },
+    {
+      "start": 227.32,
+      "end": 229.28,
+      "text": "That is the end of section 1"
+    },
+    {
+      "start": 229.28,
+      "end": 232.3,
+      "text": "You now have half a minute to check your answers"
+    },
+    {
+      "start": 232.3,
+      "end": 234.3,
+      "text": "."
+    }
+  ]
+}

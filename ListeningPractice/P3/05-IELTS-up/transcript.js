@@ -1,0 +1,268 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "df83ea9df85add121a96fdebe12bf90399c2fb5a4af9a81650521f899c231b90",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.7,
+      "text": "Section 3. You will hear two students discussing their new course."
+    },
+    {
+      "start": 5.24,
+      "end": 9.46,
+      "text": "First, you have some time to look at questions 21 to 23."
+    },
+    {
+      "start": 30.0,
+      "end": 46.22,
+      "text": "As you listen to the first part of the conversation, answer questions 21 to 23."
+    },
+    {
+      "start": 51.32,
+      "end": 54.56,
+      "text": "Hi Kate. How did you like the first lecture?"
+    },
+    {
+      "start": 55.2,
+      "end": 58.48,
+      "text": "Hi Julie. You mean that lecture about brand identity?"
+    },
+    {
+      "start": 59.24,
+      "end": 63.62,
+      "text": "Exactly. When our professor described how brand names are created."
+    },
+    {
+      "start": 64.1,
+      "end": 69.38,
+      "text": "As I understood, he'll teach us practical tips and techniques to create better brands."
+    },
+    {
+      "start": 69.86,
+      "end": 73.4,
+      "text": "And what about course duration? I heard it's five weeks."
+    },
+    {
+      "start": 74.0,
+      "end": 79.58,
+      "text": "No, five weeks is without the final project. The total duration is seven weeks."
+    },
+    {
+      "start": 79.66,
+      "end": 84.82,
+      "text": "Oh, I forgot about it. It's the first time I'll be doing a group project."
+    },
+    {
+      "start": 84.82,
+      "end": 87.96,
+      "text": "and I'm a bit nervous to work in a five people team."
+    },
+    {
+      "start": 88.44,
+      "end": 90.06,
+      "text": "I think it's going to be okay."
+    },
+    {
+      "start": 90.44,
+      "end": 92.9,
+      "text": "He was talking about the right marketing strategy."
+    },
+    {
+      "start": 93.44,
+      "end": 94.62,
+      "text": "Did you hear that?"
+    },
+    {
+      "start": 95.0,
+      "end": 98.32,
+      "text": "Yes, that was the most exciting part of the presentation."
+    },
+    {
+      "start": 98.98,
+      "end": 101.14,
+      "text": "The key thing is to grab people's attention."
+    },
+    {
+      "start": 101.74,
+      "end": 102.48,
+      "text": "That's true."
+    },
+    {
+      "start": 114.82,
+      "end": 139.42,
+      "text": "Now listen, and answer questions 24 to 30."
+    },
+    {
+      "start": 139.42,
+      "end": 143.84,
+      "text": "And how do you like the curriculum?"
+    },
+    {
+      "start": 144.3,
+      "end": 145.22,
+      "text": "I think it's nice."
+    },
+    {
+      "start": 145.76,
+      "end": 150.84,
+      "text": "It's great that we'll be learning marketing in detail, as I've always been interested in this subject."
+    },
+    {
+      "start": 151.38,
+      "end": 151.82,
+      "text": "Me too."
+    },
+    {
+      "start": 152.52,
+      "end": 155.8,
+      "text": "And after that, we'll be training to design custom logos."
+    },
+    {
+      "start": 156.42,
+      "end": 161.12,
+      "text": "The professor told that the curriculum has been modified, and we won't learn design this year."
+    },
+    {
+      "start": 161.48,
+      "end": 162.3,
+      "text": "What a pity."
+    },
+    {
+      "start": 162.74,
+      "end": 164.4,
+      "text": "The same with product management."
+    },
+    {
+      "start": 165.0,
+      "end": 166.04,
+      "text": "But you shouldn't worry."
+    },
+    {
+      "start": 166.32,
+      "end": 170.1,
+      "text": "They just combined these two sections into a larger one called branding."
+    },
+    {
+      "start": 170.7,
+      "end": 171.56,
+      "text": "Then it's good."
+    },
+    {
+      "start": 172.34,
+      "end": 175.64,
+      "text": "Moreover, they've added something called e-commerce this year."
+    },
+    {
+      "start": 175.92,
+      "end": 177.28,
+      "text": "It's a great alteration."
+    },
+    {
+      "start": 177.28,
+      "end": 179.48,
+      "text": "And the course is kept up to date."
+    },
+    {
+      "start": 180.02,
+      "end": 181.96,
+      "text": "Online trading is so popular now."
+    },
+    {
+      "start": 182.56,
+      "end": 184.68,
+      "text": "And after that, we'll learn advertising."
+    },
+    {
+      "start": 185.12,
+      "end": 185.5,
+      "text": "Yes."
+    },
+    {
+      "start": 185.8,
+      "end": 186.98,
+      "text": "And also analytics."
+    },
+    {
+      "start": 187.74,
+      "end": 188.1,
+      "text": "Really?"
+    },
+    {
+      "start": 188.78,
+      "end": 191.74,
+      "text": "Won't analytics be replaced with customer attraction?"
+    },
+    {
+      "start": 192.3,
+      "end": 193.58,
+      "text": "Yes, you're right."
+    },
+    {
+      "start": 193.58,
+      "end": 195.28,
+      "text": "I forgot about that."
+    },
+    {
+      "start": 195.82,
+      "end": 196.7,
+      "text": "I think that's all."
+    },
+    {
+      "start": 197.44,
+      "end": 200.82,
+      "text": "The professor also teaches a course called Business Strategies."
+    },
+    {
+      "start": 201.58,
+      "end": 204.24,
+      "text": "So, we may take his other course next year."
+    },
+    {
+      "start": 204.74,
+      "end": 206.94,
+      "text": "Dear. And where is the next lecture?"
+    },
+    {
+      "start": 207.4,
+      "end": 209.7,
+      "text": "It's in the big classroom on the ground floor."
+    },
+    {
+      "start": 210.2,
+      "end": 210.64,
+      "text": "Thanks."
+    },
+    {
+      "start": 211.08,
+      "end": 211.6,
+      "text": "You're welcome."
+    },
+    {
+      "start": 212.52,
+      "end": 214.56,
+      "text": "Don't forget to take your last week assignment."
+    },
+    {
+      "start": 215.06,
+      "end": 216.42,
+      "text": "Okay. Goodbye."
+    },
+    {
+      "start": 217.0,
+      "end": 217.36,
+      "text": "Bye."
+    },
+    {
+      "start": 219.28,
+      "end": 221.3,
+      "text": "That is the end of Section 3."
+    },
+    {
+      "start": 221.3,
+      "end": 224.18,
+      "text": "You now have half a minute to check your answers."
+    }
+  ]
+};

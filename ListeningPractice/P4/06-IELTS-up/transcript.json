@@ -1,0 +1,493 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "304bce98b7bb01a52f2270008cc086ac785e2afb73ec56341bf6d8352d0430e6",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.06,
+      "text": "Section 4. You will hear a podcast about technology and mental health."
+    },
+    {
+      "start": 5.52,
+      "end": 9.54,
+      "text": "First, you have some time to look at questions 31 to 40."
+    },
+    {
+      "start": 30.0,
+      "end": 44.54,
+      "text": "Now listen carefully and answer questions 31 to 40."
+    },
+    {
+      "start": 47.04,
+      "end": 53.22,
+      "text": "I spoke to psychologist Tomas Chamorro-Promusic about the risks he believes are posed by social media and technology."
+    },
+    {
+      "start": 54.22,
+      "end": 59.1,
+      "text": "If narcissism is fire, Facebook is gasoline."
+    },
+    {
+      "start": 59.1,
+      "end": 71.4,
+      "text": "So people wouldn't have gravitated towards Facebook or Instagram or Twitter or Snapchat if they hadn't been narcissistic in the first place."
+    },
+    {
+      "start": 71.4,
+      "end": 97.76,
+      "text": "By which I mean, you know, if they hadn't had this desire to broadcast their lives, to behave like celebrities and share personal information about themselves as if it's really interesting and also seek positive feedback from others that reinforces their kind of self-concept and self-esteem and perhaps self-centered needs."
+    },
+    {
+      "start": 97.76,
+      "end": 106.2,
+      "text": "now. It is also true that if you throw gasoline into the fire, you know, I mean, these inherent"
+    },
+    {
+      "start": 106.2,
+      "end": 111.16,
+      "text": "tendencies, narcissistic tendencies that were there in the first place will become more exaggerated."
+    },
+    {
+      "start": 111.16,
+      "end": 117.04,
+      "text": "And research has shown this. Research has shown a very simple summary of the studies is that"
+    },
+    {
+      "start": 117.04,
+      "end": 123.38,
+      "text": "the more narcissistic you are, the more time you are likely to spend on these various social"
+    },
+    {
+      "start": 123.38,
+      "end": 128.36,
+      "text": "networks but at the same time the more time you spend on these social the more narcissistic you"
+    },
+    {
+      "start": 128.36,
+      "end": 132.78,
+      "text": "become so really it's a snowballing effect exactly and the depression one is a different kind of"
+    },
+    {
+      "start": 132.78,
+      "end": 140.02,
+      "text": "phenomenon is the fact that a lot of people spend so much time following or snooping on others on"
+    },
+    {
+      "start": 140.02,
+      "end": 147.3,
+      "text": "social media and they're unaware of the fact that the people that they are seeing there are not the"
+    },
+    {
+      "start": 147.3,
+      "end": 152.48,
+      "text": "real people they know and because most people portray themselves in an unrealistically positive"
+    },
+    {
+      "start": 152.48,
+      "end": 159.56,
+      "text": "vein and Facebook and other social networks encourage the suppression of negative emotions"
+    },
+    {
+      "start": 159.56,
+      "end": 165.86,
+      "text": "and reward the presentation or display of positive emotions, it makes people miserable"
+    },
+    {
+      "start": 165.86,
+      "end": 171.24,
+      "text": "and depressed to see others as so happy because you compare yourself to others and you're"
+    },
+    {
+      "start": 171.24,
+      "end": 175.74,
+      "text": "like, why aren't I so successful, so good looking or so, you know, happy?"
+    },
+    {
+      "start": 176.58,
+      "end": 180.38,
+      "text": "Okay, so when we're talking about tech and also about the impact of technology on our"
+    },
+    {
+      "start": 180.38,
+      "end": 185.5,
+      "text": "behavior. I think something that's again garnering quite a lot of attention is the impact of screen"
+    },
+    {
+      "start": 185.5,
+      "end": 191.28,
+      "text": "time on well-being, on performance, on cognitive ability and development when we're looking at"
+    },
+    {
+      "start": 191.28,
+      "end": 197.36,
+      "text": "younger people. There was an interesting piece in Ars Technica that cited two separate studies that"
+    },
+    {
+      "start": 197.36,
+      "end": 202.9,
+      "text": "have been conducted in the U.S. The first is by Common Sense Media which looked at just under"
+    },
+    {
+      "start": 202.9,
+      "end": 208.44,
+      "text": "3,000 U.S. children aged 8 to 18 about their media habits and they found that teenagers were spending"
+    },
+    {
+      "start": 208.44,
+      "end": 213.7,
+      "text": "about nine hours a day online with media and tweens so eight to twelve year olds were using"
+    },
+    {
+      "start": 213.7,
+      "end": 219.44,
+      "text": "media for about six hours a day so this is within quite a substantial amount of time and then also"
+    },
+    {
+      "start": 219.44,
+      "end": 225.16,
+      "text": "a time in which they'd probably be better off outside playing or socializing in person with"
+    },
+    {
+      "start": 225.16,
+      "end": 230.28,
+      "text": "other people do you think that there's an impact there on for instance being able to read emotional"
+    },
+    {
+      "start": 230.28,
+      "end": 234.7,
+      "text": "cues or being able to form relationships in a way that's deep and meaningful is anything"
+    },
+    {
+      "start": 235.3,
+      "end": 237.6,
+      "text": "is there anything to suggest that that's starting to be compromised"
+    },
+    {
+      "start": 237.6,
+      "end": 239.5,
+      "text": "because of our use of screens and tech?"
+    },
+    {
+      "start": 239.8,
+      "end": 243.46,
+      "text": "So we don't have solid or reliable data on this yet,"
+    },
+    {
+      "start": 243.7,
+      "end": 247.04,
+      "text": "but at least conceptually, it would make sense."
+    },
+    {
+      "start": 247.64,
+      "end": 253.28,
+      "text": "We all come to the world with a set of really basic and rudimentary skills"
+    },
+    {
+      "start": 253.28,
+      "end": 257.72,
+      "text": "that are developed or nurtured when they are put into practice"
+    },
+    {
+      "start": 257.72,
+      "end": 262.14,
+      "text": "or when we interact with the right triggers of these skills in the environment."
+    },
+    {
+      "start": 262.14,
+      "end": 269.78,
+      "text": "So much like growing up isolated from others in a basement will lead to not having many social skills."
+    },
+    {
+      "start": 269.94,
+      "end": 278.86,
+      "text": "If you grow up in the digital world mostly and you don't have much time to practice face-to-face interaction, you probably won't develop many people skills."
+    },
+    {
+      "start": 278.86,
+      "end": 293.74,
+      "text": "The other thing that is, of course, problematic is that, you know, if people were spending six or 10 hours online reading books or getting educated, you know, you could argue at least they're developing intellectual skills or intellectual curiosity."
+    },
+    {
+      "start": 294.08,
+      "end": 295.2,
+      "text": "But that's not the case."
+    },
+    {
+      "start": 295.34,
+      "end": 302.94,
+      "text": "You know, at most, they can spend 18 minutes on a TED talk, which will give them, you know, more it's edutainment rather than education."
+    },
+    {
+      "start": 303.1,
+      "end": 307.22,
+      "text": "So it's the stuff that people do when they're online that is most problematic."
+    },
+    {
+      "start": 307.22,
+      "end": 311.04,
+      "text": "And what about things like the sensory input that we receive?"
+    },
+    {
+      "start": 311.14,
+      "end": 315.94,
+      "text": "So, for instance, if you've got very young children, age 6 to 12 months to 18 months,"
+    },
+    {
+      "start": 316.06,
+      "end": 319.62,
+      "text": "who are looking at screens instead of looking out and developing depth of field,"
+    },
+    {
+      "start": 319.86,
+      "end": 323.68,
+      "text": "what might that do for their development potentially in the longer term?"
+    },
+    {
+      "start": 324.44,
+      "end": 334.88,
+      "text": "One could argue that if, for them, adaptation to the world will be even more technologically mediated, it's OK."
+    },
+    {
+      "start": 334.88,
+      "end": 343.36,
+      "text": "You know, so it would only be a problem if you put them in a farm, ask them to hunt animals or make them, force them live in an Amish community."
+    },
+    {
+      "start": 343.74,
+      "end": 358.26,
+      "text": "So, you know, in that sense, the average five-year-old today is better equipped to interact with much of the industrialized world than a 60-year-old or 70-year-old, you know, because they can pick up any gadget and they know how it works."
+    },
+    {
+      "start": 358.26,
+      "end": 363.54,
+      "text": "So I think the main deficit is around social and emotional skills."
+    },
+    {
+      "start": 364.16,
+      "end": 370.54,
+      "text": "Connecting through people via technology is very different than having an effective face-to-face interaction."
+    },
+    {
+      "start": 371.08,
+      "end": 378.88,
+      "text": "And so until this date, for example, we haven't worked out a way in which people can reproduce via technological means."
+    },
+    {
+      "start": 379.1,
+      "end": 385.24,
+      "text": "You know, the fact that maybe we will and maybe virtual reality can generate this in the future."
+    },
+    {
+      "start": 385.24,
+      "end": 396.16,
+      "text": "But, you know, it's been pointed out many times that there are now more iPhones being sold every year, every day, not just every year, than people being born."
+    },
+    {
+      "start": 396.68,
+      "end": 399.24,
+      "text": "And this difference between these two numbers keeps increasing."
+    },
+    {
+      "start": 399.46,
+      "end": 401.38,
+      "text": "I think probably there is a causal relationship."
+    },
+    {
+      "start": 401.6,
+      "end": 409.46,
+      "text": "You know, the more time people spend on their smartphones or interacting with technology, the less time they have for physical interactions with others."
+    },
+    {
+      "start": 409.46,
+      "end": 417.64,
+      "text": "so until we work out how to do certain things online I mean offline is the way to go and most"
+    },
+    {
+      "start": 417.64,
+      "end": 423.74,
+      "text": "people now young people don't have these capabilities to develop certain skills in the"
+    },
+    {
+      "start": 423.74,
+      "end": 430.6,
+      "text": "physical or analog world. So we've heard how tech can have adverse effects on our mental state but"
+    },
+    {
+      "start": 430.6,
+      "end": 435.68,
+      "text": "how is it being used in a positive way to help us? With us in the studio today to discuss we have"
+    },
+    {
+      "start": 435.68,
+      "end": 441.46,
+      "text": "psychotherapist Dr Gillian Isaacs-Russell, author of new book Screen Relations, The Limits"
+    },
+    {
+      "start": 441.46,
+      "end": 446.58,
+      "text": "of Computer-Mediated Psychoanalysis and Psychotherapy. We also have Dr Richard Dobson,"
+    },
+    {
+      "start": 446.68,
+      "end": 451.5,
+      "text": "who's head of the bioinformatics at the NIHR Biomedical Research Centre for Mental Health"
+    },
+    {
+      "start": 451.5,
+      "end": 456.56,
+      "text": "and the tech team's own Hannah Jane Parkinson. Welcome everybody. So Gillian, may I start with"
+    },
+    {
+      "start": 456.56,
+      "end": 462.22,
+      "text": "you? So you're a practicing psychotherapist. How do you find that tech has affected your profession?"
+    },
+    {
+      "start": 462.22,
+      "end": 467.06,
+      "text": "So maybe with the advent of remote online therapy, should we start there?"
+    },
+    {
+      "start": 467.38,
+      "end": 475.18,
+      "text": "Yes, well, I actually have done quite a bit of technologically mediated treatment,"
+    },
+    {
+      "start": 475.84,
+      "end": 483.42,
+      "text": "partly because I moved from the UK in 2008 to a remote area in the Black Hills of South Dakota,"
+    },
+    {
+      "start": 483.74,
+      "end": 485.26,
+      "text": "but wanted to keep practicing."
+    },
+    {
+      "start": 485.26,
+      "end": 500.48,
+      "text": "And so I attempted to use a platform like Skype in order to see patients and thought that it was going to really help me to avoid any of the pitfalls of space, distance, time."
+    },
+    {
+      "start": 500.64,
+      "end": 502.88,
+      "text": "I could just be anywhere, anytime."
+    },
+    {
+      "start": 502.88,
+      "end": 516.5,
+      "text": "And what I discovered and what led to my research and this book was that there are some very distinct differences between working on the screen and working co-presently in the room."
+    },
+    {
+      "start": 517.24,
+      "end": 527.14,
+      "text": "So we're all familiar with this idea of traditional Jungian psychoanalysis of lying back in a room on a couch and having our dreams interpreted and being in relationship present with the psychotherapist."
+    },
+    {
+      "start": 527.14,
+      "end": 532.02,
+      "text": "But that's not the kind of therapy that we're talking about when we're talking about screen mediated therapy."
+    },
+    {
+      "start": 532.02,
+      "end": 538.94,
+      "text": "What have you seen in terms of the change and possibly the use of CBT with screen-mediated technology?"
+    },
+    {
+      "start": 539.06,
+      "end": 541.3,
+      "text": "And why is it suitable for online use?"
+    },
+    {
+      "start": 542.14,
+      "end": 553.68,
+      "text": "I think that the therapies like CBT or positive psychology, self-help, could be very appropriate for online use because they are didactic."
+    },
+    {
+      "start": 554.22,
+      "end": 556.92,
+      "text": "They aren't based in a relationship."
+    },
+    {
+      "start": 556.92,
+      "end": 564.5,
+      "text": "and the kind of talking therapies that you were referring to earlier are actually very strongly anchored in having a relationship."
+    },
+    {
+      "start": 565.12,
+      "end": 570.7,
+      "text": "So if you're actually giving instructions to someone, if you are teaching them something,"
+    },
+    {
+      "start": 570.7,
+      "end": 574.9,
+      "text": "then of course it can be communicated through a screen."
+    },
+    {
+      "start": 575.42,
+      "end": 583.32,
+      "text": "But if you are actually having to pay attention to the implicit nonverbal part of the relationship, which we must do,"
+    },
+    {
+      "start": 583.66,
+      "end": 586.26,
+      "text": "then it doesn't come across in the same way."
+    },
+    {
+      "start": 586.26,
+      "end": 591.86,
+      "text": "60% of our communication is nonverbal and implicit."
+    },
+    {
+      "start": 592.64,
+      "end": 599.62,
+      "text": "And actually, informatics researchers themselves, that is specialists in information via technology,"
+    },
+    {
+      "start": 600.08,
+      "end": 609.64,
+      "text": "are talking about the fact that these kinds of implicit communications can't be carried over a screen at the moment, two-dimensionally."
+    },
+    {
+      "start": 609.64,
+      "end": 626.82,
+      "text": "So do you think that there are risks associated with the more didactic kind of instructive practices like cognitive behavioral therapy, where the patient is getting a list of instructions? Are there risks kind of taking that approach? Can this treatment kind of mask or even potentially worse than real problems?"
+    },
+    {
+      "start": 626.82,
+      "end": 635.58,
+      "text": "I think that some of the risks may be that because we're not in the same room, we can't see the whole body."
+    },
+    {
+      "start": 635.86,
+      "end": 639.78,
+      "text": "If you've ever worked on screen, you know that it's usually from the shoulders up."
+    },
+    {
+      "start": 640.14,
+      "end": 646.18,
+      "text": "We're not able to see a lot of the intimate things that are going on with our patients."
+    },
+    {
+      "start": 646.18,
+      "end": 656.32,
+      "text": "And so that means that, for instance, if someone is struggling with an eating disorder, it's going to be very difficult to see where they are in that, which could be dangerous."
+    },
+    {
+      "start": 656.82,
+      "end": 661.62,
+      "text": "That is the end of section 4."
+    },
+    {
+      "start": 661.62,
+      "end": 664.14,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 686.82,
+      "end": 698.94,
+      "text": "You will now have 10 minutes to transfer your answers to the listening answer sheet."
+    }
+  ]
+}

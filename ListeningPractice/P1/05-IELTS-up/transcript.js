@@ -1,0 +1,303 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "68e002f8e6c66dd2029ea8bd1dae8c09cae7a7384dbe9293f263bea1800c11ce",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Section 1. You will hear a man renting an apartment over the phone."
+    },
+    {
+      "start": 6.0,
+      "end": 10.8,
+      "text": "First, you have some time to look at questions 1 to 5."
+    },
+    {
+      "start": 30.0,
+      "end": 44.8,
+      "text": "You can see that there is an example that has been done for you."
+    },
+    {
+      "start": 45.24,
+      "end": 49.52,
+      "text": "On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "start": 50.84,
+      "end": 52.88,
+      "text": "Hello, how can I help you?"
+    },
+    {
+      "start": 53.52,
+      "end": 55.84,
+      "text": "Hello, I want to rent an apartment."
+    },
+    {
+      "start": 55.84,
+      "end": 62.84,
+      "text": "I saw your advertisement about two bedroom apartment on Bridge Street."
+    },
+    {
+      "start": 62.84,
+      "end": 64.84,
+      "text": "The woman answers the phone."
+    },
+    {
+      "start": 64.84,
+      "end": 69.18,
+      "text": "Bridge Street, so the word bridge has been written on the top of the form."
+    },
+    {
+      "start": 69.18,
+      "end": 71.62,
+      "text": "Now we shall begin."
+    },
+    {
+      "start": 71.62,
+      "end": 75.64,
+      "text": "You should answer the questions as you listen, because you will not hear the recording a"
+    },
+    {
+      "start": 75.64,
+      "end": 77.34,
+      "text": "second time."
+    },
+    {
+      "start": 77.34,
+      "end": 80.64,
+      "text": "Listen carefully, and answer questions 1 to 5."
+    },
+    {
+      "start": 86.72,
+      "end": 88.94,
+      "text": "Hello, how can I help you?"
+    },
+    {
+      "start": 89.84,
+      "end": 91.86,
+      "text": "Hello, I want to rent an apartment."
+    },
+    {
+      "start": 92.74,
+      "end": 96.44,
+      "text": "I saw your advertisement about two-bedroom apartment on Bridge Street."
+    },
+    {
+      "start": 97.28,
+      "end": 99.46,
+      "text": "Bridge Street 32, that's it?"
+    },
+    {
+      "start": 99.64,
+      "end": 102.68,
+      "text": "Exactly. But I have a couple of questions."
+    },
+    {
+      "start": 103.52,
+      "end": 104.82,
+      "text": "Yes, I'm listening."
+    },
+    {
+      "start": 105.44,
+      "end": 111.92,
+      "text": "Does rent include all the utilities, such as gas, electricity, phone, etc.?"
+    },
+    {
+      "start": 111.92,
+      "end": 123.18,
+      "text": "Yes, sure. You are only responsible to pay the rent. The lease includes cost for such utilities as gas, heat, water, electricity and phone."
+    },
+    {
+      "start": 123.68,
+      "end": 125.92,
+      "text": "Great. And what about the internet?"
+    },
+    {
+      "start": 126.86,
+      "end": 136.14,
+      "text": "Unfortunately, the internet is not connected. But you shouldn't worry about that. If you wish, you can contact the local providers to set up the connection."
+    },
+    {
+      "start": 136.58,
+      "end": 140.56,
+      "text": "Okay. And what kind of public transport is near the apartment?"
+    },
+    {
+      "start": 140.56,
+      "end": 147.02,
+      "text": "It is very close to public transport. Both underground and bus station are about two blocks away."
+    },
+    {
+      "start": 147.4,
+      "end": 150.36,
+      "text": "Very good. I think I'll rent this apartment."
+    },
+    {
+      "start": 151.42,
+      "end": 154.68,
+      "text": "Very nice. Could you tell me your full name please?"
+    },
+    {
+      "start": 155.52,
+      "end": 163.98,
+      "text": "Yes. It's John Hooper. Hooper is spelled with double O. H double O. Then P E R."
+    },
+    {
+      "start": 164.76,
+      "end": 169.48,
+      "text": "Thank you John. I'm Mary Dixon and I'll be your apartment manager."
+    },
+    {
+      "start": 169.48,
+      "end": 171.08,
+      "text": "Thank you"
+    },
+    {
+      "start": 199.48,
+      "end": 204.52,
+      "text": "Now listen, and answer questions 6 to 10."
+    },
+    {
+      "start": 208.12,
+      "end": 210.84,
+      "text": "Now, we need to meet to sign a lease agreement."
+    },
+    {
+      "start": 211.84,
+      "end": 214.52,
+      "text": "Okay. What documents should I bring?"
+    },
+    {
+      "start": 214.96,
+      "end": 217.68,
+      "text": "First of all, we require proof of your identity."
+    },
+    {
+      "start": 218.18,
+      "end": 220.42,
+      "text": "Then, I can bring my driving license."
+    },
+    {
+      "start": 221.08,
+      "end": 224.2,
+      "text": "I'm sorry, but driving licenses are not accepted."
+    },
+    {
+      "start": 225.04,
+      "end": 226.16,
+      "text": "Could you bring your passport?"
+    },
+    {
+      "start": 227.28,
+      "end": 228.36,
+      "text": "Yes, sure."
+    },
+    {
+      "start": 228.36,
+      "end": 230.74,
+      "text": "and do you require a tax bill?"
+    },
+    {
+      "start": 231.78,
+      "end": 234.18,
+      "text": "No, we are not requiring any bills"
+    },
+    {
+      "start": 234.18,
+      "end": 237.76,
+      "text": "but you need to present your current employment contract."
+    },
+    {
+      "start": 238.36,
+      "end": 239.8,
+      "text": "No problem, I have it."
+    },
+    {
+      "start": 240.4,
+      "end": 241.2,
+      "text": "Anything else?"
+    },
+    {
+      "start": 241.74,
+      "end": 245.18,
+      "text": "Yes, we also need a reference from a friend or colleague"
+    },
+    {
+      "start": 245.18,
+      "end": 246.56,
+      "text": "confirming your character."
+    },
+    {
+      "start": 247.18,
+      "end": 250.36,
+      "text": "Okay, and what about a reference from an employer?"
+    },
+    {
+      "start": 250.98,
+      "end": 254.12,
+      "text": "We used to ask tenants for this reference a few years ago"
+    },
+    {
+      "start": 254.12,
+      "end": 256.42,
+      "text": "but now we don't need it anymore"
+    },
+    {
+      "start": 256.42,
+      "end": 260.28,
+      "text": "as well as your recent payslips. They are not required."
+    },
+    {
+      "start": 260.98,
+      "end": 266.44,
+      "text": "Very good. I think I have all the documents. Is it possible to meet you today?"
+    },
+    {
+      "start": 267.28,
+      "end": 270.66,
+      "text": "Yes. Is 5.30 p.m. convenient for you?"
+    },
+    {
+      "start": 271.12,
+      "end": 273.84,
+      "text": "Unfortunately, I'm busy until 6 p.m."
+    },
+    {
+      "start": 274.44,
+      "end": 276.54,
+      "text": "Then we can meet at 6.30 p.m."
+    },
+    {
+      "start": 276.96,
+      "end": 282.2,
+      "text": "Yes, 6.30 is very good for me. I'll be at your office by that time."
+    },
+    {
+      "start": 282.78,
+      "end": 286.1,
+      "text": "I think it's better to meet directly at your future apartment."
+    },
+    {
+      "start": 286.42,
+      "end": 288.26,
+      "text": "Because we'll anyway make a visit."
+    },
+    {
+      "start": 289.1,
+      "end": 291.76,
+      "text": "Oh, you're right. See you soon."
+    },
+    {
+      "start": 291.98,
+      "end": 293.96,
+      "text": "Thank you. See you soon."
+    },
+    {
+      "start": 295.98,
+      "end": 300.72,
+      "text": "That is the end of section one. You now have half a minute to check your answers."
+    }
+  ]
+};

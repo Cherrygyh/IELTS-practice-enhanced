@@ -1,0 +1,363 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "8877e8d4e2d3589e62b27c3197868e8f0cddf48fd27b0a1193964b78c9fd8171",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.72,
+      "text": "Section 3"
+    },
+    {
+      "start": 1.72,
+      "end": 8.98,
+      "text": "You will hear Tom and Danny, two students, talking with their professor about the assignment."
+    },
+    {
+      "start": 10.12,
+      "end": 14.58,
+      "text": "First, you have some time to look at questions 21 to 26."
+    },
+    {
+      "start": 30.0,
+      "end": 48.64,
+      "text": "Now listen carefully and answer questions 21 to 26."
+    },
+    {
+      "start": 51.64,
+      "end": 58.62,
+      "text": "Professor Tomlinson, may Annie and I please quickly ask you a few questions about the reflective journal assignment."
+    },
+    {
+      "start": 59.34,
+      "end": 64.04,
+      "text": "It's just that we're a bit confused as to what you want us to include and discuss."
+    },
+    {
+      "start": 64.94,
+      "end": 67.78,
+      "text": "Yes, of course. What are you having trouble with?"
+    },
+    {
+      "start": 68.68,
+      "end": 70.18,
+      "text": "Well, everything, really."
+    },
+    {
+      "start": 70.76,
+      "end": 74.76,
+      "text": "To start with, what should be included first in the reflective journal?"
+    },
+    {
+      "start": 75.38,
+      "end": 76.98,
+      "text": "Perhaps suggestions from others?"
+    },
+    {
+      "start": 77.56,
+      "end": 83.34,
+      "text": "No, no. Firstly, you should include the study goals you set yourself at the beginning of the module."
+    },
+    {
+      "start": 84.12,
+      "end": 89.14,
+      "text": "This section should have been discussed in some detail towards the beginning of the course by Professor May."
+    },
+    {
+      "start": 89.76,
+      "end": 94.58,
+      "text": "You should be able to find her suggestions on the slides she has provided the class online."
+    },
+    {
+      "start": 95.24,
+      "end": 96.62,
+      "text": "OK, thank you, Professor."
+    },
+    {
+      "start": 97.2,
+      "end": 101.54,
+      "text": "Could I also trouble you to take a brief look at my bibliography and footnotes?"
+    },
+    {
+      "start": 101.72,
+      "end": 103.9,
+      "text": "I feel like they're missing something."
+    },
+    {
+      "start": 104.46,
+      "end": 106.66,
+      "text": "Most of our friends' bibliographies are longer."
+    },
+    {
+      "start": 107.4,
+      "end": 112.16,
+      "text": "Well, looking at this, Annie, I can see that you have used a wide range of resources,"
+    },
+    {
+      "start": 112.16,
+      "end": 116.28,
+      "text": "which shows that you have made effective use of communication technology."
+    },
+    {
+      "start": 117.24,
+      "end": 121.3,
+      "text": "As far as I can tell, you need not make any changes to this,"
+    },
+    {
+      "start": 121.88,
+      "end": 124.58,
+      "text": "although you might want to double-check that your referencing"
+    },
+    {
+      "start": 124.58,
+      "end": 128.0,
+      "text": "complies with the Harvard Referencing Style regulations."
+    },
+    {
+      "start": 128.96,
+      "end": 131.28,
+      "text": "Oh, I'm very surprised you've said that."
+    },
+    {
+      "start": 131.72,
+      "end": 134.48,
+      "text": "Thank you. Now I can set my mind at ease."
+    },
+    {
+      "start": 135.22,
+      "end": 139.44,
+      "text": "Tom, you said you wanted to ask the professor about the Achievements section."
+    },
+    {
+      "start": 139.44,
+      "end": 148.32,
+      "text": "Ah yes, Professor. In the assignment guidelines, we're asked to introduce and elaborate on our biggest achievement in the past,"
+    },
+    {
+      "start": 148.94,
+      "end": 156.38,
+      "text": "saying which skills we learned in the process and how these skills can be transferred to various different future careers."
+    },
+    {
+      "start": 157.2,
+      "end": 161.56,
+      "text": "The only problem is that I don't know what my greatest achievement actually is."
+    },
+    {
+      "start": 162.2,
+      "end": 167.98,
+      "text": "I've only ever worked as a waiter in a hotel restaurant during the summer holidays from university."
+    },
+    {
+      "start": 167.98,
+      "end": 174.64,
+      "text": "If you worked as a waiter in a hotel restaurant, you're bound to have worked with other waiters as part of a team."
+    },
+    {
+      "start": 175.38,
+      "end": 179.66,
+      "text": "Would you say that during your time as a waiter, you developed any leadership skills?"
+    },
+    {
+      "start": 180.44,
+      "end": 187.74,
+      "text": "Yes, well, I suppose I was asked to become the team leader of the food and beverage department, but that's hardly an achievement."
+    },
+    {
+      "start": 188.52,
+      "end": 195.4,
+      "text": "You might not think so, but if you write that you were offered the position of the team leader, it shows a lot more about your character."
+    },
+    {
+      "start": 195.4,
+      "end": 200.88,
+      "text": "For example, that you're charismatic and work well in a high-pressure situation."
+    },
+    {
+      "start": 201.64,
+      "end": 205.24,
+      "text": "I never would have thought to write that down. Thank you."
+    },
+    {
+      "start": 205.88,
+      "end": 208.88,
+      "text": "I guess I should start listening to others more often."
+    },
+    {
+      "start": 209.7,
+      "end": 214.14,
+      "text": "Annie, do you have any more questions or are you ready to go back to the library?"
+    },
+    {
+      "start": 215.02,
+      "end": 219.62,
+      "text": "Yeah, I think I've got everything I need. Thank you very much, Professor Tomlinson."
+    },
+    {
+      "start": 219.62,
+      "end": 232.86,
+      "text": "That was really helpful. I'm actually starting to look forward to writing this now, and it should be a really useful exercise to prepare us for writing CVs and applying for jobs."
+    },
+    {
+      "start": 233.7,
+      "end": 237.78,
+      "text": "It's shocking how bad I am at identifying my strengths and weaknesses."
+    },
+    {
+      "start": 238.8,
+      "end": 244.92,
+      "text": "Professor Tomlinson has shown me that I definitely need to start displaying some self-awareness."
+    },
+    {
+      "start": 244.92,
+      "end": 248.72,
+      "text": "Yeah, Tom, you really do. You're always so modest."
+    },
+    {
+      "start": 249.4,
+      "end": 252.36,
+      "text": "Modesty is great until it comes to applying for jobs."
+    },
+    {
+      "start": 255.36,
+      "end": 261.9,
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 27 to 30."
+    },
+    {
+      "start": 274.92,
+      "end": 286.26,
+      "text": "Now listen and answer questions 27 to 30."
+    },
+    {
+      "start": 288.84,
+      "end": 296.76,
+      "text": "Oh no! I forgot to ask the professor about the section on identifying the skills gained through different activities."
+    },
+    {
+      "start": 297.4,
+      "end": 298.0,
+      "text": "Do you remember?"
+    },
+    {
+      "start": 298.0,
+      "end": 304.08,
+      "text": "when it asks you, for example, whether writing an essay develops your study skills"
+    },
+    {
+      "start": 304.08,
+      "end": 306.6,
+      "text": "or your independent learning and so on."
+    },
+    {
+      "start": 307.1,
+      "end": 310.0,
+      "text": "Oh goodness, we really should have asked him that."
+    },
+    {
+      "start": 310.68,
+      "end": 312.6,
+      "text": "I've been having trouble with it too."
+    },
+    {
+      "start": 313.28,
+      "end": 316.52,
+      "text": "It just seems like such a pointless task."
+    },
+    {
+      "start": 317.12,
+      "end": 318.76,
+      "text": "What do you reckon the answers are?"
+    },
+    {
+      "start": 319.5,
+      "end": 325.4,
+      "text": "Mmm, I think writing an essay might be a way of identifying and resolving a problem"
+    },
+    {
+      "start": 325.4,
+      "end": 330.22,
+      "text": "because you have to state the problem in the introduction and then solve it."
+    },
+    {
+      "start": 330.68,
+      "end": 333.18,
+      "text": "I'm not so sure about taking exams."
+    },
+    {
+      "start": 333.18,
+      "end": 337.76,
+      "text": "I thought they were supposed to develop lots of different skill sets."
+    },
+    {
+      "start": 338.52,
+      "end": 340.54,
+      "text": "If I really had to choose,"
+    },
+    {
+      "start": 341.2,
+      "end": 345.66,
+      "text": "I'd say that taking exams enables you to become more confident in yourself."
+    },
+    {
+      "start": 346.16,
+      "end": 346.86,
+      "text": "Do you agree?"
+    },
+    {
+      "start": 347.56,
+      "end": 349.82,
+      "text": "Maybe. I really don't know either."
+    },
+    {
+      "start": 350.56,
+      "end": 352.42,
+      "text": "What do you think about the last two?"
+    },
+    {
+      "start": 352.42,
+      "end": 355.9,
+      "text": "Making class notes and presentation notes?"
+    },
+    {
+      "start": 356.34,
+      "end": 357.98,
+      "text": "Oh, it's so difficult."
+    },
+    {
+      "start": 358.84,
+      "end": 363.5,
+      "text": "I think making class notes has to be a way of becoming a more independent learner"
+    },
+    {
+      "start": 363.5,
+      "end": 369.0,
+      "text": "because you yourself decide what the important information is and learn it."
+    },
+    {
+      "start": 369.7,
+      "end": 374.38,
+      "text": "That reminds me, I find taking presentation notes is a disaster."
+    },
+    {
+      "start": 375.44,
+      "end": 379.42,
+      "text": "The professors speak much too quickly and I write much too slowly."
+    },
+    {
+      "start": 382.42,
+      "end": 384.44,
+      "text": "That is the end of section 3."
+    },
+    {
+      "start": 385.4,
+      "end": 388.0,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 412.42,
+      "end": 421.02,
+      "text": "Now turn to section 4."
+    }
+  ]
+}

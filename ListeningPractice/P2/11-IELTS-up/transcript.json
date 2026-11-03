@@ -1,0 +1,343 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "7f802a31d1c3361cd0e86347b9d97492f275dfad227bb15eeda8025794e728ec",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.4,
+      "text": "Section 2. You will hear two students called Mark and Gina asking their tutor for advice on the extracurricular project."
+    },
+    {
+      "start": 9.82,
+      "end": 13.96,
+      "text": "First, you have some time to look at questions 11 to 14."
+    },
+    {
+      "start": 30.0,
+      "end": 47.8,
+      "text": "Now listen carefully and answer questions 11 to 14."
+    },
+    {
+      "start": 50.6,
+      "end": 53.62,
+      "text": "Hi Mark. Hi Gina. What can I help you with?"
+    },
+    {
+      "start": 53.98,
+      "end": 58.64,
+      "text": "So we were hoping you could help us with this extracurricular project."
+    },
+    {
+      "start": 58.64,
+      "end": 60.66,
+      "text": "Sure. What is the topic?"
+    },
+    {
+      "start": 61.02,
+      "end": 62.28,
+      "text": "Attending business school."
+    },
+    {
+      "start": 62.52,
+      "end": 68.46,
+      "text": "This sounds like a great idea. So you're going to explain the requirements for getting into business school?"
+    },
+    {
+      "start": 68.8,
+      "end": 79.92,
+      "text": "Not exactly. It will be more broadly about the experience, the academics, accommodation and social experience that comes with being part of the business school."
+    },
+    {
+      "start": 80.18,
+      "end": 84.28,
+      "text": "I see. So would your audience be the general public?"
+    },
+    {
+      "start": 84.84,
+      "end": 88.9,
+      "text": "Well, we would probably want more to focus on members of the institution."
+    },
+    {
+      "start": 89.44,
+      "end": 93.26,
+      "text": "We would especially like to reach individual applicants to the business school."
+    },
+    {
+      "start": 93.76,
+      "end": 98.1,
+      "text": "I see. Now, what form will this information be?"
+    },
+    {
+      "start": 98.1,
+      "end": 100.84,
+      "text": "You could give a talk to all the summer courses."
+    },
+    {
+      "start": 101.32,
+      "end": 103.54,
+      "text": "All you'd need is permission from the course director."
+    },
+    {
+      "start": 104.34,
+      "end": 107.58,
+      "text": "Or you could pass out information outside the student union."
+    },
+    {
+      "start": 108.08,
+      "end": 111.88,
+      "text": "Those are both good ideas. What about sending out pamphlets in the mail?"
+    },
+    {
+      "start": 111.88,
+      "end": 118.02,
+      "text": "Most college students never check their mail. Maybe you could make a video and show it on campus."
+    },
+    {
+      "start": 118.3,
+      "end": 120.62,
+      "text": "That's a great idea. We'll do the video."
+    },
+    {
+      "start": 121.0,
+      "end": 127.42,
+      "text": "Great. And as members of the business school, do you have an incentive to attract new students?"
+    },
+    {
+      "start": 128.04,
+      "end": 131.08,
+      "text": "If so, this idea is a great way to do that."
+    },
+    {
+      "start": 131.36,
+      "end": 137.64,
+      "text": "No, the idea actually came about because of how much students like us worry about their studies."
+    },
+    {
+      "start": 137.64,
+      "end": 142.48,
+      "text": "Yeah, when I got into business school, there were a lot of things I had not prepared for,"
+    },
+    {
+      "start": 142.84,
+      "end": 147.92,
+      "text": "so the video would cover a lot of things Mark and I wish we had known upon entering business school."
+    },
+    {
+      "start": 148.12,
+      "end": 148.44,
+      "text": "Right."
+    },
+    {
+      "start": 151.6,
+      "end": 157.34,
+      "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20."
+    },
+    {
+      "start": 167.64,
+      "end": 180.66,
+      "text": "Now listen and answer questions 15 to 20."
+    },
+    {
+      "start": 183.18,
+      "end": 185.22,
+      "text": "What would you talk about first?"
+    },
+    {
+      "start": 185.22,
+      "end": 188.96,
+      "text": "The first and probably most important section would be academics."
+    },
+    {
+      "start": 189.46,
+      "end": 194.1,
+      "text": "Good idea. So would you provide guidance on what courses to take?"
+    },
+    {
+      "start": 194.1,
+      "end": 199.2,
+      "text": "We want to focus especially on the approaches professors take, their teaching methods."
+    },
+    {
+      "start": 199.58,
+      "end": 205.12,
+      "text": "It is far different than what students are used to in high school and even in liberal arts college."
+    },
+    {
+      "start": 205.44,
+      "end": 210.18,
+      "text": "Good idea. And how long do you think you would spend explaining academics?"
+    },
+    {
+      "start": 210.78,
+      "end": 213.28,
+      "text": "We'll probably spend seven minutes on it."
+    },
+    {
+      "start": 213.54,
+      "end": 218.56,
+      "text": "We also have some ideas for talking about housing, food options and stuff like that."
+    },
+    {
+      "start": 218.64,
+      "end": 221.6,
+      "text": "We're not really sure how to tie it all together though."
+    },
+    {
+      "start": 221.6,
+      "end": 226.72,
+      "text": "I think it would be suitable to title that section accommodation. What do you think?"
+    },
+    {
+      "start": 226.9,
+      "end": 230.8,
+      "text": "That could work. We'll definitely describe the different dining options at the cafeteria"
+    },
+    {
+      "start": 230.8,
+      "end": 237.92,
+      "text": "and then walk students through flats and the gruelling process of finding one near the business school campus."
+    },
+    {
+      "start": 238.2,
+      "end": 242.56,
+      "text": "OK, so we would cover specifics on the cafeteria as well as flats."
+    },
+    {
+      "start": 242.9,
+      "end": 247.16,
+      "text": "I think those are both helpful. We could spend about six minutes on accommodation"
+    },
+    {
+      "start": 247.16,
+      "end": 250.24,
+      "text": "and be sure to touch on those specifically."
+    },
+    {
+      "start": 250.82,
+      "end": 253.84,
+      "text": "Great. Is there anything else you would talk about?"
+    },
+    {
+      "start": 254.16,
+      "end": 258.38,
+      "text": "We definitely want to go over the social aspect of attending school here."
+    },
+    {
+      "start": 258.62,
+      "end": 264.34,
+      "text": "Of course. I think it's good to have a little fun once in a while when you're working so hard in school."
+    },
+    {
+      "start": 264.34,
+      "end": 270.52,
+      "text": "I think we are going to introduce new students to the disco that so many upper-class men know and love."
+    },
+    {
+      "start": 271.04,
+      "end": 275.18,
+      "text": "Maybe we'll include a few other places too, but that's the main one."
+    },
+    {
+      "start": 275.18,
+      "end": 280.94,
+      "text": "We're also going to invite students to the international evening taking place in the first week of school"
+    },
+    {
+      "start": 280.94,
+      "end": 286.84,
+      "text": "as a great chance for our large international student population to meet a lot of other new students."
+    },
+    {
+      "start": 287.34,
+      "end": 291.02,
+      "text": "It can definitely be hard to meet people as an international student."
+    },
+    {
+      "start": 291.44,
+      "end": 293.18,
+      "text": "I think that is a great idea."
+    },
+    {
+      "start": 293.48,
+      "end": 297.66,
+      "text": "You may want to spend slightly longer on this section than the other two."
+    },
+    {
+      "start": 298.48,
+      "end": 301.12,
+      "text": "Hmm. How about eight minutes?"
+    },
+    {
+      "start": 301.12,
+      "end": 302.7,
+      "text": "That sounds reasonable."
+    },
+    {
+      "start": 302.7,
+      "end": 306.58,
+      "text": "so overall the introduction should take three minutes"
+    },
+    {
+      "start": 306.58,
+      "end": 308.88,
+      "text": "and then the conclusion should take four,"
+    },
+    {
+      "start": 309.36,
+      "end": 311.5,
+      "text": "giving us a total of 28 minutes."
+    },
+    {
+      "start": 311.86,
+      "end": 313.78,
+      "text": "I wouldn't rush your introduction."
+    },
+    {
+      "start": 314.7,
+      "end": 318.06,
+      "text": "Maybe give it between four and six minutes."
+    },
+    {
+      "start": 318.06,
+      "end": 320.88,
+      "text": "The conclusion, though, can be shorter"
+    },
+    {
+      "start": 320.88,
+      "end": 324.98,
+      "text": "since it's just a quick refresher of each of the topics."
+    },
+    {
+      "start": 325.76,
+      "end": 328.86,
+      "text": "Give that not more than two minutes."
+    },
+    {
+      "start": 329.5,
+      "end": 332.22,
+      "text": "OK, so in total, the video should take"
+    },
+    {
+      "start": 332.22,
+      "end": 337.96,
+      "text": "about the same time, just more intro and less conclusion? Precisely. All right,"
+    },
+    {
+      "start": 338.28,
+      "end": 341.64,
+      "text": "we're going to get to work on our video. Thanks for your help."
+    },
+    {
+      "start": 344.58,
+      "end": 349.66,
+      "text": "That is the end of section two. You now have half a minute to check your answers."
+    },
+    {
+      "start": 362.22,
+      "end": 381.32,
+      "text": "Now turn to section 3."
+    }
+  ]
+}

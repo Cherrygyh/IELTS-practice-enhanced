@@ -1,0 +1,313 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "93b1214a78d90672ff937f1380b3bdb65252f12bdec71e83e9fabd1a546dcdea",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.8,
+      "text": "Section 3"
+    },
+    {
+      "start": 1.8,
+      "end": 9.56,
+      "text": "You will hear a student called John talking to his classmate Danny about the details of his research project."
+    },
+    {
+      "start": 10.0,
+      "end": 14.68,
+      "text": "First, you have some time to look at questions 21 to 26."
+    },
+    {
+      "start": 30.0,
+      "end": 49.46,
+      "text": "Now, listen carefully and answer questions 21 to 26."
+    },
+    {
+      "start": 52.28,
+      "end": 55.68,
+      "text": "So, tell me about your research project, John."
+    },
+    {
+      "start": 55.68,
+      "end": 63.82,
+      "text": "I created a questionnaire for the study to determine people's opinions of the relative feasibility of earning a living in Brisbane."
+    },
+    {
+      "start": 64.36,
+      "end": 68.12,
+      "text": "Oh, cool. How is it scored? Are they all multiple choice questions?"
+    },
+    {
+      "start": 68.6,
+      "end": 72.6,
+      "text": "Well, the questions consist primarily of yes or no responses."
+    },
+    {
+      "start": 73.36,
+      "end": 76.16,
+      "text": "There are two free response questions at the end."
+    },
+    {
+      "start": 76.9,
+      "end": 80.12,
+      "text": "Participants will use a computer to fill in their answers."
+    },
+    {
+      "start": 80.7,
+      "end": 84.64,
+      "text": "That way, it is really easy to analyse the data afterward."
+    },
+    {
+      "start": 84.64,
+      "end": 90.38,
+      "text": "Great. It sounds like you have a pretty solid idea of what you should do."
+    },
+    {
+      "start": 90.72,
+      "end": 96.06,
+      "text": "Just don't forget to submit a copy of your plans to Professor Curran by the 15th."
+    },
+    {
+      "start": 96.42,
+      "end": 97.92,
+      "text": "Oh, I almost forgot."
+    },
+    {
+      "start": 98.32,
+      "end": 104.06,
+      "text": "You don't do it for the high grade or appraise, but he can review and give you feedback."
+    },
+    {
+      "start": 104.54,
+      "end": 110.74,
+      "text": "Right, that will be helpful. He has been conducting studies like this for 30 years now."
+    },
+    {
+      "start": 111.1,
+      "end": 112.8,
+      "text": "Yep. Oh, and I'm curious."
+    },
+    {
+      "start": 113.38,
+      "end": 117.52,
+      "text": "Are you going to be in the room giving subjects directions for the questionnaire?"
+    },
+    {
+      "start": 118.04,
+      "end": 122.18,
+      "text": "Well, I think the instructions will be provided by another representative"
+    },
+    {
+      "start": 122.18,
+      "end": 124.8,
+      "text": "who will not be analysing the data."
+    },
+    {
+      "start": 125.3,
+      "end": 128.92,
+      "text": "I want them to feel they can answer and be completely anonymous,"
+    },
+    {
+      "start": 129.42,
+      "end": 130.76,
+      "text": "so I will not be in the room."
+    },
+    {
+      "start": 131.22,
+      "end": 133.7,
+      "text": "Anonymity is really important for this study."
+    },
+    {
+      "start": 134.2,
+      "end": 135.68,
+      "text": "I agree. Good idea."
+    },
+    {
+      "start": 135.68,
+      "end": 142.66,
+      "text": "You should tell the representative to remind subjects to fully consider both sides of each issue."
+    },
+    {
+      "start": 143.86,
+      "end": 151.44,
+      "text": "Sometimes it's really easy to immediately check yes or no without stopping to think about it completely."
+    },
+    {
+      "start": 152.16,
+      "end": 156.66,
+      "text": "That's so true. It's like a race to finish the questionnaire first or something."
+    },
+    {
+      "start": 157.24,
+      "end": 159.6,
+      "text": "I'll make sure to include that in the instructions."
+    },
+    {
+      "start": 160.32,
+      "end": 162.6,
+      "text": "This report has to be perfect."
+    },
+    {
+      "start": 163.26,
+      "end": 164.82,
+      "text": "Wow, what's the big deal?"
+    },
+    {
+      "start": 164.82,
+      "end": 167.62,
+      "text": "I know it's part of your grades and all."
+    },
+    {
+      "start": 167.86,
+      "end": 168.56,
+      "text": "Well, it's that."
+    },
+    {
+      "start": 168.7,
+      "end": 174.02,
+      "text": "But also, a well-executed study could grab the attention of faculty in the department,"
+    },
+    {
+      "start": 174.26,
+      "end": 175.98,
+      "text": "which would be a huge deal."
+    },
+    {
+      "start": 176.46,
+      "end": 177.68,
+      "text": "So, for attention?"
+    },
+    {
+      "start": 178.22,
+      "end": 179.08,
+      "text": "No, silly."
+    },
+    {
+      "start": 179.44,
+      "end": 182.4,
+      "text": "I mean, I could really gain the respect of professors"
+    },
+    {
+      "start": 182.4,
+      "end": 186.38,
+      "text": "who may later take me on as a graduate student in their labs."
+    },
+    {
+      "start": 186.92,
+      "end": 187.86,
+      "text": "Oh, I see."
+    },
+    {
+      "start": 190.76,
+      "end": 192.9,
+      "text": "Before you hear the rest of the talk,"
+    },
+    {
+      "start": 192.9,
+      "end": 196.68,
+      "text": "you have some time to look at questions 27 to 30."
+    },
+    {
+      "start": 216.3,
+      "end": 221.36,
+      "text": "Now, listen carefully and answer questions 27 to 30."
+    },
+    {
+      "start": 222.9,
+      "end": 230.66,
+      "text": "Let me take a look at the survey. Wow, this looks great. The map of the median income"
+    },
+    {
+      "start": 230.66,
+      "end": 234.14,
+      "text": "by region is a great tool. Where did you find it?"
+    },
+    {
+      "start": 234.14,
+      "end": 239.66,
+      "text": "Well, thanks. I read a lot of sources and just noticed this one in a small psychology"
+    },
+    {
+      "start": 239.66,
+      "end": 245.02,
+      "text": "journal called Modern Psychology. It's more helpful than the photo I added, but I think"
+    },
+    {
+      "start": 245.02,
+      "end": 250.94,
+      "text": "the photo is just so interesting. It was in the newspaper last year during that huge wage"
+    },
+    {
+      "start": 250.94,
+      "end": 251.94,
+      "text": "strike."
+    },
+    {
+      "start": 251.94,
+      "end": 255.94,
+      "text": "It's great. Probably not necessary, but it looks great."
+    },
+    {
+      "start": 256.22,
+      "end": 260.42,
+      "text": "I don't understand. What is WKRX's involvement here?"
+    },
+    {
+      "start": 260.64,
+      "end": 265.92,
+      "text": "Oh, the radio station agreed to sponsor the study if I play their station in the room."
+    },
+    {
+      "start": 266.28,
+      "end": 270.72,
+      "text": "Wow, interesting. So you don't have to pay for any of this."
+    },
+    {
+      "start": 270.98,
+      "end": 271.56,
+      "text": "Exactly."
+    },
+    {
+      "start": 271.92,
+      "end": 274.08,
+      "text": "Nice. Where did you get that idea?"
+    },
+    {
+      "start": 274.08,
+      "end": 277.48,
+      "text": "Last month, at the Psychology Club Council meeting,"
+    },
+    {
+      "start": 277.94,
+      "end": 282.32,
+      "text": "someone talked about how easy it is to get sponsorship from local businesses,"
+    },
+    {
+      "start": 282.7,
+      "end": 285.38,
+      "text": "so I listened to their advice and called around."
+    },
+    {
+      "start": 285.7,
+      "end": 289.22,
+      "text": "I'll have to remember that. Well, this all looks great. Good luck."
+    },
+    {
+      "start": 292.26,
+      "end": 294.34,
+      "text": "That is the end of section three."
+    },
+    {
+      "start": 295.02,
+      "end": 297.46,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 307.48,
+      "end": 329.36,
+      "text": "Now turn to section 4."
+    }
+  ]
+};

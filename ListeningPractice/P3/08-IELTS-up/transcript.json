@@ -1,0 +1,298 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "b6eaa81e1bc945cd8be13b6bff54c495a2821ad5cf744d6de36f48970160b037",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.98,
+      "text": "Section 3. In this section, you will hear a discussion about shopping habits. First look at questions 21 to 24."
+    },
+    {
+      "start": 30.0,
+      "end": 38.82,
+      "text": "As you listen to the first part of the discussion, answer questions 21 to 24."
+    },
+    {
+      "start": 40.0,
+      "end": 45.9,
+      "text": "Ah, excuse me, I wonder if you'd mind answering a few questions. You see, I'm doing a project."
+    },
+    {
+      "start": 46.32,
+      "end": 47.44,
+      "text": "Fine, what's this on?"
+    },
+    {
+      "start": 47.76,
+      "end": 50.26,
+      "text": "Well, I'm looking at the people's shopping habits."
+    },
+    {
+      "start": 50.48,
+      "end": 50.88,
+      "text": "OK."
+    },
+    {
+      "start": 51.42,
+      "end": 53.66,
+      "text": "Can I ask you, first of all, are you a student?"
+    },
+    {
+      "start": 53.66,
+      "end": 60.92,
+      "text": "Well, I was a student here last year, but since then I've left, and I'm working in a bank now as a cashier."
+    },
+    {
+      "start": 61.62,
+      "end": 63.22,
+      "text": "I just came to see a friend."
+    },
+    {
+      "start": 64.08,
+      "end": 67.22,
+      "text": "Oh, that's OK. So how often do you go shopping?"
+    },
+    {
+      "start": 67.5,
+      "end": 70.7,
+      "text": "Oh, I buy a lot of books. Should I exclude books?"
+    },
+    {
+      "start": 71.26,
+      "end": 77.7,
+      "text": "Oh, if you leave books aside, what about shopping for all of your personal items, study things and that sort of thing?"
+    },
+    {
+      "start": 78.34,
+      "end": 81.32,
+      "text": "OK, because I go to the supermarket almost every day,"
+    },
+    {
+      "start": 81.5,
+      "end": 83.48,
+      "text": "it seems the other things I'd say."
+    },
+    {
+      "start": 83.64,
+      "end": 85.36,
+      "text": "I tend to do it every other week."
+    },
+    {
+      "start": 85.72,
+      "end": 87.68,
+      "text": "And do you spend the same amount each time?"
+    },
+    {
+      "start": 87.92,
+      "end": 88.66,
+      "text": "I guess so."
+    },
+    {
+      "start": 89.12,
+      "end": 91.58,
+      "text": "I only have about £100 a month spare,"
+    },
+    {
+      "start": 91.58,
+      "end": 94.74,
+      "text": "so I'd probably spend about £50 each time."
+    },
+    {
+      "start": 95.72,
+      "end": 97.2,
+      "text": "What sort of shops do you like best?"
+    },
+    {
+      "start": 97.44,
+      "end": 99.96,
+      "text": "The department store or the small retail outlets?"
+    },
+    {
+      "start": 100.4,
+      "end": 103.94,
+      "text": "Oh, I like big department stores, so everything's in one place."
+    },
+    {
+      "start": 103.94,
+      "end": 109.2,
+      "text": "The weather's so bad, so it's a bit miserable trudging from one little shop to another."
+    },
+    {
+      "start": 109.86,
+      "end": 112.6,
+      "text": "Great. What do you find most difficult to buy?"
+    },
+    {
+      "start": 113.0,
+      "end": 113.64,
+      "text": "What do you mean?"
+    },
+    {
+      "start": 114.2,
+      "end": 118.32,
+      "text": "Well, what do you have to really search for? What takes you a long time to find?"
+    },
+    {
+      "start": 119.04,
+      "end": 124.3,
+      "text": "Oh, jeans, definitely. You can get hold of a sweater or a CD in a moment."
+    },
+    {
+      "start": 124.8,
+      "end": 128.62,
+      "text": "But with jeans, I can spend all afternoon and still not find a pair that fits."
+    },
+    {
+      "start": 129.1,
+      "end": 132.7,
+      "text": "OK. One last question. Who do you usually shop with?"
+    },
+    {
+      "start": 132.7,
+      "end": 143.84,
+      "text": "Now? I usually go shopping on my own, but if I want to make it more of a social occasion with friends to have a coffee and things, I often go with colleagues from work, you know, in our lunch hour."
+    },
+    {
+      "start": 144.18,
+      "end": 146.78,
+      "text": "Well, thank you very much. You've been very helpful."
+    },
+    {
+      "start": 147.1,
+      "end": 147.62,
+      "text": "No problem."
+    },
+    {
+      "start": 149.9,
+      "end": 156.72,
+      "text": "Before the next part begins, you will have a chance to look at questions 25 to 30."
+    },
+    {
+      "start": 162.7,
+      "end": 176.16,
+      "text": "As you listen, answer questions 25 to 30."
+    },
+    {
+      "start": 178.44,
+      "end": 181.8,
+      "text": "Hello, Dale. How did you get on with your shopping inquiries?"
+    },
+    {
+      "start": 182.2,
+      "end": 186.38,
+      "text": "Well, I got 50 people to answer questions and the results were quite interesting."
+    },
+    {
+      "start": 186.84,
+      "end": 188.22,
+      "text": "OK, let's have a look."
+    },
+    {
+      "start": 188.22,
+      "end": 194.4,
+      "text": "Well, those were handouts, and here you can see that the majority of people I interviewed said they went shopping once a week."
+    },
+    {
+      "start": 194.96,
+      "end": 196.7,
+      "text": "Most often, that was the weekend."
+    },
+    {
+      "start": 196.94,
+      "end": 197.32,
+      "text": "Right."
+    },
+    {
+      "start": 197.94,
+      "end": 205.4,
+      "text": "For those people who spend enormous amounts of money, if you see this chart, you can see that half the people spend £45 a month,"
+    },
+    {
+      "start": 206.42,
+      "end": 214.18,
+      "text": "and while 15% of people spend more than that, an average of £75, the rest spend relatively small amounts."
+    },
+    {
+      "start": 214.58,
+      "end": 217.46,
+      "text": "Even the regular shoppers spend no more than £20 a month."
+    },
+    {
+      "start": 217.96,
+      "end": 218.9,
+      "text": "Window shoppers?"
+    },
+    {
+      "start": 219.36,
+      "end": 223.54,
+      "text": "Yes, I asked them what kinds of shops they prefer, and the response was unanimous."
+    },
+    {
+      "start": 224.64,
+      "end": 228.62,
+      "text": "Everyone went for department stores. I think that's what young people today want."
+    },
+    {
+      "start": 229.06,
+      "end": 232.92,
+      "text": "That's understandable, and that's a useful statistic, I think."
+    },
+    {
+      "start": 233.06,
+      "end": 236.48,
+      "text": "I also talked to them about the things they found most difficult to buy."
+    },
+    {
+      "start": 237.0,
+      "end": 241.54,
+      "text": "I thought the answer was going to be something like books or study materials, but it's always clothes."
+    },
+    {
+      "start": 242.06,
+      "end": 243.98,
+      "text": "They have problems with things related to hobbies."
+    },
+    {
+      "start": 243.98,
+      "end": 248.82,
+      "text": "As far as sportswear is concerned, they complain about the lack of shops that sell it."
+    },
+    {
+      "start": 249.5,
+      "end": 254.46,
+      "text": "Not many had trouble buying sweaters and things like that, but shoes and trousers were really problematic."
+    },
+    {
+      "start": 254.84,
+      "end": 257.82,
+      "text": "Was that, again, because there just isn't enough variety?"
+    },
+    {
+      "start": 258.48,
+      "end": 263.9,
+      "text": "Yes, they say everywhere they just come across the same styles, so they just give up after a while."
+    },
+    {
+      "start": 264.14,
+      "end": 265.62,
+      "text": "I know what they mean."
+    },
+    {
+      "start": 266.12,
+      "end": 268.58,
+      "text": "Lastly, I asked them whom they want to shop with."
+    },
+    {
+      "start": 268.58,
+      "end": 274.88,
+      "text": "That is the end of section 3."
+    },
+    {
+      "start": 275.84,
+      "end": 279.08,
+      "text": "You will now have half a minute to check your answers."
+    }
+  ]
+}

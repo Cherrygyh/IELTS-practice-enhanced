@@ -1,0 +1,183 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "5b23cd7b65c33db9cc490c54a6fd3f4d3dd0f23e450a1f610a2f5a94688e9a38",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.84,
+      "text": "Section 4. You will hear a lecture about the Great Wall of China. First, you have some time to look at questions 31 to 35."
+    },
+    {
+      "start": 30.0,
+      "end": 46.24,
+      "text": "Now listen carefully, and answer questions 31 to 35."
+    },
+    {
+      "start": 49.24,
+      "end": 53.9,
+      "text": "Perhaps the most recognizable symbol of China and its long and vivid history,"
+    },
+    {
+      "start": 54.26,
+      "end": 59.26,
+      "text": "the Great Wall of China is one of the most extensive construction projects ever completed."
+    },
+    {
+      "start": 60.0,
+      "end": 75.84,
+      "text": "somewhat ironically though the one monument that china built to keep foreigners out is actually now the biggest tourist attraction in the country despite the initial purpose the great wall never effectively prevented invaders from entering china"
+    },
+    {
+      "start": 75.84,
+      "end": 95.84,
+      "text": "it came to function more as a psychological barrier between chinese civilization and the world and remains a powerful symbol of the country's enduring strength though the beginning of the great wall of china can be traced to the third century b c many of the fortifications included in the wall date from hundreds of years earlier"
+    },
+    {
+      "start": 95.84,
+      "end": 111.84,
+      "text": "when china was divided into a number of individual kingdoms during the so-called warring states period around two hundred and twenty b c chen the first emperor of a unified china ordered that earlier fortifications between states be removed"
+    },
+    {
+      "start": 111.84,
+      "end": 126.96,
+      "text": "and a number of existing walls along the northern border be joined into a single system that would extend for more than ten thousand li and protect china against attacks from the north a li is about one-third of a mile and that's where the monument's name came from"
+    },
+    {
+      "start": 126.96,
+      "end": 144.46,
+      "text": "the original name for the great wall is long wall of ten thousand li or simply the long wall though the wall is quite inspiring it was never called the great wall in chinese and only foreign mistranslation with romantic overtones referred to it as great or big wall"
+    },
+    {
+      "start": 144.46,
+      "end": 156.26,
+      "text": "with the death of ch'in and the fall of his dynasty much of the great wall fell into disrepair much later a series of frontier tribes seized control in northern china"
+    },
+    {
+      "start": 156.26,
+      "end": 167.38,
+      "text": "the most powerful of these was the northern wei dynasty which repaired and extended the existing wall in three hundred and ninety a d to defend against attacks from other tribes"
+    },
+    {
+      "start": 167.38,
+      "end": 178.94,
+      "text": "despite its long history the great wall of china as it exists to-day was constructed mainly during the mighty ming dynasty from thirteen sixty eight to sixteen forty four"
+    },
+    {
+      "start": 178.94,
+      "end": 190.34,
+      "text": "under the strong hand of the ming rulers chinese culture flourished and the period saw an immense amount of construction in addition to the great wall including bridges temples and pagodas"
+    },
+    {
+      "start": 190.34,
+      "end": 201.6,
+      "text": "In earlier centuries, the wall held little importance for the Mongols as a military fortification, and mostly served to protect caravans traveling along the profitable trade routes."
+    },
+    {
+      "start": 201.6,
+      "end": 207.14,
+      "text": "But during the Ming Dynasty, the Great Wall was considered vital to the defense of the country."
+    },
+    {
+      "start": 220.34,
+      "end": 244.56,
+      "text": "Now listen carefully, and answer questions 36 to 40."
+    },
+    {
+      "start": 244.56,
+      "end": 250.38,
+      "text": "Before the use of bricks, the Great Wall was mainly built from stones, wood, and rammed earth."
+    },
+    {
+      "start": 250.9,
+      "end": 256.18,
+      "text": "However, during the Ming Dynasty, bricks were heavily used in many areas of the wall."
+    },
+    {
+      "start": 256.7,
+      "end": 263.16,
+      "text": "The size and weight of the bricks made them easier to work with than earth and stone, so construction quickened."
+    },
+    {
+      "start": 263.62,
+      "end": 267.74,
+      "text": "Additionally, bricks could bear more weight and endure better than earth and wood."
+    },
+    {
+      "start": 267.86,
+      "end": 274.34,
+      "text": "But many western sections of the wall are constructed from mud, and thus are more susceptible to erosion."
+    },
+    {
+      "start": 275.38,
+      "end": 278.9,
+      "text": "That's why in many locations the Great Wall is in disrepair."
+    },
+    {
+      "start": 279.56,
+      "end": 285.78,
+      "text": "A report by the State Administration of Cultural Heritage states that almost fifth of the wall has totally vanished."
+    },
+    {
+      "start": 286.42,
+      "end": 292.1,
+      "text": "In places, the height of the wall has been reduced from more than 5 meters to less than 2 meters."
+    },
+    {
+      "start": 292.4,
+      "end": 300.1,
+      "text": "And more than 60 kilometers of the wall in Gansu province may disappear in the next 20 years due to frequent sandstorms."
+    },
+    {
+      "start": 300.1,
+      "end": 305.96,
+      "text": "storms. However, the state does its best to preserve and extensively renovate the Chinese"
+    },
+    {
+      "start": 305.96,
+      "end": 311.8,
+      "text": "Wall, which makes a considerable figure upon the terrestrial globe. Due to its imposing sizes,"
+    },
+    {
+      "start": 312.18,
+      "end": 318.4,
+      "text": "the wall is often believed to be visible from the moon. But it's only a rumor. The width of the"
+    },
+    {
+      "start": 318.4,
+      "end": 324.34,
+      "text": "Great Wall, viewed from the moon, is about the same as that of a human hair, viewed from two"
+    },
+    {
+      "start": 324.34,
+      "end": 332.16,
+      "text": "miles away. In other words, to see the wall from the moon would require superhuman eyesight. Today,"
+    },
+    {
+      "start": 332.54,
+      "end": 339.54,
+      "text": "the monument attracts thousands of national and foreign tourists every day. In 1987, UNESCO"
+    },
+    {
+      "start": 339.54,
+      "end": 346.52,
+      "text": "designated the Great Wall a World Heritage Site, and now the Great Wall is generally recognized as"
+    },
+    {
+      "start": 346.52,
+      "end": 349.86,
+      "text": "one of the most impressive architectural feats in history."
+    },
+    {
+      "start": 349.86,
+      "end": 357.26,
+      "text": "That is the end of section 4. You now have half a minute to check your answers."
+    },
+    {
+      "start": 379.86,
+      "end": 392.26,
+      "text": "You will now have 10 minutes to transfer your answers to the listening answer sheet."
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "bcf966af0ab0fa390036054364a7bb6b0ce7f88e0fd6dd1dd9100c51646950ad",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.92,
+      "text": "Section 4. You'll hear a talk on the subject of the urban landscape."
+    },
+    {
+      "start": 6.08,
+      "end": 10.18,
+      "text": "First, you have some time to look at questions 31 to 40."
+    },
+    {
+      "start": 30.0,
+      "end": 54.22,
+      "text": "Now listen carefully and answer questions 31 to 40."
+    },
+    {
+      "start": 57.14,
+      "end": 58.76,
+      "text": "Good day, ladies and gentlemen."
+    },
+    {
+      "start": 58.76,
+      "end": 62.98,
+      "text": "I have been asked today to talk to you about the urban landscape."
+    },
+    {
+      "start": 64.06,
+      "end": 67.24,
+      "text": "There are two major areas that I will focus on in my talk."
+    },
+    {
+      "start": 67.98,
+      "end": 71.68,
+      "text": "How vegetation can have a significant effect on urban climate"
+    },
+    {
+      "start": 71.68,
+      "end": 75.88,
+      "text": "and how we can better plan our cities using trees"
+    },
+    {
+      "start": 75.88,
+      "end": 79.1,
+      "text": "to provide a more comfortable environment for us to live in."
+    },
+    {
+      "start": 80.42,
+      "end": 83.2,
+      "text": "Trees can have a significant impact on our cities."
+    },
+    {
+      "start": 84.04,
+      "end": 87.56,
+      "text": "They can make a city as a whole a bit less windy"
+    },
+    {
+      "start": 87.56,
+      "end": 90.42,
+      "text": "or a bit more windy, if that's what you want."
+    },
+    {
+      "start": 91.08,
+      "end": 95.66,
+      "text": "They can make it a bit cooler if it's a hot summer day in an Australian city"
+    },
+    {
+      "start": 95.66,
+      "end": 100.6,
+      "text": "or they can make it a bit more humid if it's a dry inland city."
+    },
+    {
+      "start": 101.6,
+      "end": 106.14,
+      "text": "On the local scale, that is in particular areas within the city,"
+    },
+    {
+      "start": 106.96,
+      "end": 113.44,
+      "text": "trees can make the local area more shady, cooler, more humid and much less windy."
+    },
+    {
+      "start": 113.44,
+      "end": 123.5,
+      "text": "In fact, trees and planting of various kinds can be used to make city streets actually less dangerous in particular areas."
+    },
+    {
+      "start": 124.62,
+      "end": 126.88,
+      "text": "How do trees do all that, you ask?"
+    },
+    {
+      "start": 128.46,
+      "end": 137.88,
+      "text": "Well, the main difference between a tree and a building is a tree has got an internal mechanism to keep the temperature regulated."
+    },
+    {
+      "start": 137.88,
+      "end": 148.02,
+      "text": "It evaporates water through its leaves, and that means that the temperature of the leaves is never very far from our own body temperature."
+    },
+    {
+      "start": 149.5,
+      "end": 156.4,
+      "text": "The temperature of a building's surface on a hot sunny day can easily be 20 degrees more than our temperature."
+    },
+    {
+      "start": 157.58,
+      "end": 162.84,
+      "text": "Trees, on the other hand, remain cooler than buildings because they sweat."
+    },
+    {
+      "start": 162.84,
+      "end": 171.66,
+      "text": "This means that they can humidify the air and cool it, a property which can be exploited to improve the local climate."
+    },
+    {
+      "start": 176.88,
+      "end": 180.18,
+      "text": "Trees can also help break the force of winds."
+    },
+    {
+      "start": 181.32,
+      "end": 190.38,
+      "text": "The reason that high buildings make it windier at ground level is that as the wind goes higher and higher, it goes faster and faster."
+    },
+    {
+      "start": 190.38,
+      "end": 194.58,
+      "text": "When the wind hits the building, it has to go somewhere."
+    },
+    {
+      "start": 195.32,
+      "end": 199.54,
+      "text": "Some of it goes over the top and some goes around the sides of the building,"
+    },
+    {
+      "start": 200.22,
+      "end": 203.46,
+      "text": "forcing those high-level winds down to ground level."
+    },
+    {
+      "start": 204.18,
+      "end": 206.56,
+      "text": "That doesn't happen when you have trees."
+    },
+    {
+      "start": 207.62,
+      "end": 211.32,
+      "text": "Trees filter the wind and considerably reduce it,"
+    },
+    {
+      "start": 211.84,
+      "end": 216.86,
+      "text": "preventing those very large strong gusts that you so often find around tall buildings."
+    },
+    {
+      "start": 216.86,
+      "end": 224.66,
+      "text": "Another problem in built-up areas is that traffic noise is intensified by tall buildings."
+    },
+    {
+      "start": 225.7,
+      "end": 231.3,
+      "text": "By planting a belt of trees at the side of the road, you can make things a little quieter,"
+    },
+    {
+      "start": 232.04,
+      "end": 235.1,
+      "text": "but much of the vehicle noise still goes through the trees."
+    },
+    {
+      "start": 236.36,
+      "end": 244.02,
+      "text": "Trees can also help reduce the amount of noise in the surroundings, although the effect is not as large as people like to think."
+    },
+    {
+      "start": 244.02,
+      "end": 250.22,
+      "text": "Low frequency noise in particular just goes through the trees as though they aren't there"
+    },
+    {
+      "start": 250.22,
+      "end": 254.86,
+      "text": "Although trees can significantly improve the local climate"
+    },
+    {
+      "start": 254.86,
+      "end": 257.92,
+      "text": "they do however take up a lot of space"
+    },
+    {
+      "start": 257.92,
+      "end": 263.6,
+      "text": "There are root systems to consider and branches blocking windows and so on"
+    },
+    {
+      "start": 263.6,
+      "end": 268.26,
+      "text": "It may therefore be difficult to fit trees into the local landscape"
+    },
+    {
+      "start": 268.26,
+      "end": 273.48,
+      "text": "There is not a great deal you can do if you have what we call a street canyon"
+    },
+    {
+      "start": 273.48,
+      "end": 277.92,
+      "text": "a whole set of high-rises enclosed in a narrow street."
+    },
+    {
+      "start": 279.32,
+      "end": 281.24,
+      "text": "Trees need water to grow."
+    },
+    {
+      "start": 282.0,
+      "end": 284.12,
+      "text": "They also need some sunlight to grow,"
+    },
+    {
+      "start": 284.6,
+      "end": 286.44,
+      "text": "and you need room to put them."
+    },
+    {
+      "start": 287.48,
+      "end": 291.2,
+      "text": "If you have the chance of knocking buildings down and replacing them,"
+    },
+    {
+      "start": 291.7,
+      "end": 294.84,
+      "text": "then suddenly you can start looking at different ways"
+    },
+    {
+      "start": 294.84,
+      "end": 298.1,
+      "text": "to design the streets and to introduce tree planting."
+    },
+    {
+      "start": 298.1,
+      "end": 303.78,
+      "text": "That is the end of section 4."
+    },
+    {
+      "start": 304.56,
+      "end": 307.52,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 328.1,
+      "end": 340.0,
+      "text": "That is the end of the listening test."
+    },
+    {
+      "start": 342.52,
+      "end": 350.06,
+      "text": "In the IELTS test, you would now have 10 minutes to transfer your answers to the listening answer sheet."
+    }
+  ]
+}

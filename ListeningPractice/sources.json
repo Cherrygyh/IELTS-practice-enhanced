@@ -1,0 +1,1044 @@
+{
+  "sourceIndex": "https://ielts-up.com/listening/ielts-listening-practice.html",
+  "downloadedOn": "2026-10-24",
+  "tests": 10,
+  "sections": 40,
+  "questions": 400,
+  "entries": [
+    {
+      "test": 5,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-5.1.html",
+      "audio": "https://ielts-up.com/listening/5.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/05-IELTS-up/05-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "32",
+        "electricity",
+        "Internet",
+        "bus",
+        "Hooper",
+        "B",
+        "D",
+        "E",
+        "C",
+        "B"
+      ],
+      "answerGroups": [
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "audioBytes": 12136490,
+      "audioSha256": "68e002f8e6c66dd2029ea8bd1dae8c09cae7a7384dbe9293f263bea1800c11ce"
+    },
+    {
+      "test": 5,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-5.2.html",
+      "audio": "https://ielts-up.com/listening/5.2.mp3",
+      "images": [],
+      "path": "ListeningPractice/P2/05-IELTS-up/05-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "24 / twenty-four",
+        "18 / eighteen",
+        "5 / five",
+        "19 / nineteen",
+        "Family ticket",
+        "107",
+        "online",
+        "confirmation email / confirmation e-mail",
+        "by telephone",
+        "in person"
+      ],
+      "answerGroups": [],
+      "audioBytes": 8488751,
+      "audioSha256": "29c9599481cef9ccf0d9459a60c1616206b07a5aa338b5e708fdbf84ca6183ff"
+    },
+    {
+      "test": 5,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-5.3.html",
+      "audio": "https://ielts-up.com/listening/5.3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/05-IELTS-up/05-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "seven weeks",
+        "five people",
+        "grab people's attention",
+        "A",
+        "D",
+        "E",
+        "F",
+        "H",
+        "ground floor",
+        "assignment"
+      ],
+      "answerGroups": [
+        [
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      ],
+      "audioBytes": 8992392,
+      "audioSha256": "df83ea9df85add121a96fdebe12bf90399c2fb5a4af9a81650521f899c231b90"
+    },
+    {
+      "test": 5,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-5.4.html",
+      "audio": "https://ielts-up.com/listening/5.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/05-IELTS-up/05-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "A",
+        "B",
+        "C",
+        "C",
+        "C",
+        "rammed earth",
+        "susceptible to erosion",
+        "frequent sandstorms",
+        "eyesight",
+        "architectural feats"
+      ],
+      "answerGroups": [],
+      "audioBytes": 15710041,
+      "audioSha256": "5b23cd7b65c33db9cc490c54a6fd3f4d3dd0f23e450a1f610a2f5a94688e9a38"
+    },
+    {
+      "test": 6,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-6.1.html",
+      "audio": "https://ielts-up.com/listening/l1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/06-IELTS-up/06-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "bus tour",
+        "Building",
+        "9 / nine",
+        "20 / twenty",
+        "hotel",
+        "15 / fifteen",
+        "2 / two",
+        "standard",
+        "55 / fifty-five",
+        "audioguide / audio-guide"
+      ],
+      "answerGroups": [],
+      "audioBytes": 9394678,
+      "audioSha256": "3accabe82bc5c982c09c121b18d18c2f7eecc3d174b17e1dcbc72ef7793e57af"
+    },
+    {
+      "test": 6,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-6.2.html",
+      "audio": "https://ielts-up.com/listening/l2.mp3",
+      "images": [],
+      "path": "ListeningPractice/P2/06-IELTS-up/06-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "A",
+        "C",
+        "F",
+        "H",
+        "I",
+        "muscle building",
+        "fat loss",
+        "healthy body",
+        "relaxation",
+        "interval trainings"
+      ],
+      "answerGroups": [
+        [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      ],
+      "audioBytes": 10683037,
+      "audioSha256": "2169654a36c8552308273eca3d02b23b663c18584004620224859601522f8758"
+    },
+    {
+      "test": 6,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-6.3.html",
+      "audio": "https://ielts-up.com/listening/l3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/06-IELTS-up/06-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "B",
+        "C",
+        "C",
+        "B",
+        "A",
+        "A",
+        "C",
+        "B",
+        "memory",
+        "learnt sensation"
+      ],
+      "answerGroups": [],
+      "audioBytes": 22497698,
+      "audioSha256": "b3793aa4892585ce2c83c28482768fa403e5882eb3c1f78fe68676cbd0043363"
+    },
+    {
+      "test": 6,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-6.4.html",
+      "audio": "https://ielts-up.com/listening/l4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/06-IELTS-up/06-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "gasoline",
+        "self-esteem",
+        "narcissistic",
+        "C",
+        "A",
+        "C",
+        "co-presently",
+        "didactic",
+        "implicit",
+        "intimate"
+      ],
+      "answerGroups": [],
+      "audioBytes": 27972963,
+      "audioSha256": "304bce98b7bb01a52f2270008cc086ac785e2afb73ec56341bf6d8352d0430e6"
+    },
+    {
+      "test": 7,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-7.1.html",
+      "audio": "https://ielts-up.com/listening/7.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/07-IELTS-up/07-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Shopping",
+        "Guided tours",
+        "More than 12",
+        "Notice board",
+        "13th February",
+        "Tower of London",
+        "Bristol",
+        "American museum",
+        "student newspaper",
+        "Yentob"
+      ],
+      "answerGroups": [],
+      "audioBytes": 10391680,
+      "audioSha256": "ce328beba71c827a6c9cb5acb619cfa0358166b980dc818bacfdb395b1037f19"
+    },
+    {
+      "test": 7,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-7.2.html",
+      "audio": "https://ielts-up.com/listening/7.2.mp3",
+      "images": [
+        "https://ielts-up.com/images/industry.png",
+        "https://ielts-up.com/images/l72-1.png",
+        "https://ielts-up.com/images/l72-2.png",
+        "https://ielts-up.com/images/l72-3.png",
+        "https://ielts-up.com/images/l72-4.png",
+        "https://ielts-up.com/images/office.jpg",
+        "https://ielts-up.com/images/road.png",
+        "https://ielts-up.com/images/stables.jpg"
+      ],
+      "path": "ListeningPractice/P2/07-IELTS-up/07-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Coal, firewood",
+        "Local craftsmen",
+        "160",
+        "Woodside",
+        "Ticket office",
+        "Gift shop",
+        "Workshop",
+        "Showroom",
+        "Cafe",
+        "Cottages"
+      ],
+      "answerGroups": [],
+      "audioBytes": 5790190,
+      "audioSha256": "2d9635aa543bb958434c58acb2b1462e649fbc0f77809d0127d507a1f4703216"
+    },
+    {
+      "test": 7,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-7.3.html",
+      "audio": "https://ielts-up.com/listening/7.3.mp3",
+      "images": [
+        "https://ielts-up.com/images/l73.png"
+      ],
+      "path": "ListeningPractice/P3/07-IELTS-up/07-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "A",
+        "C",
+        "E",
+        "B",
+        "G",
+        "F",
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "answerGroups": [],
+      "audioBytes": 6486928,
+      "audioSha256": "803ea7e67f1b824ec9f2ee9ffbf745459f130a9864543568502bda4a664ce43c"
+    },
+    {
+      "test": 7,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-7.4.html",
+      "audio": "https://ielts-up.com/listening/7.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/07-IELTS-up/07-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Cities",
+        "Windy",
+        "Humid",
+        "Shady",
+        "Dangerous",
+        "Leaves",
+        "Ground",
+        "Filter",
+        "Low",
+        "Room"
+      ],
+      "answerGroups": [],
+      "audioBytes": 5681103,
+      "audioSha256": "bcf966af0ab0fa390036054364a7bb6b0ce7f88e0fd6dd1dd9100c51646950ad"
+    },
+    {
+      "test": 8,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-8.1.html",
+      "audio": "https://ielts-up.com/listening/8.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/08-IELTS-up/08-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Keiko",
+        "JO6337",
+        "Advanced English studies",
+        "5 months",
+        "About 4 months",
+        "B, D",
+        "Seafood",
+        "Tennis",
+        "Take the train",
+        "This afternoon"
+      ],
+      "answerGroups": [],
+      "audioBytes": 5367220,
+      "audioSha256": "16330c824888599876e8483c42e1fe08c3d7646e358615baa54343f88b2edf45"
+    },
+    {
+      "test": 8,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-8.2.html",
+      "audio": "https://ielts-up.com/listening/8.2.mp3",
+      "images": [],
+      "path": "ListeningPractice/P2/08-IELTS-up/08-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "90 days",
+        "30 pounds",
+        "Confirm your nationality",
+        "Page 13",
+        "Currency form",
+        "Tourist export form",
+        "BM276",
+        "International student card",
+        "12",
+        "Yen, Australian dollar"
+      ],
+      "answerGroups": [],
+      "audioBytes": 4964307,
+      "audioSha256": "7f518c9f3dd181990381b70e0315ff3e0802e42a26cd82a17796f5febb25c988"
+    },
+    {
+      "test": 8,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-8.3.html",
+      "audio": "https://ielts-up.com/listening/8.3.mp3",
+      "images": [
+        "https://ielts-up.com/images/l83-1.png",
+        "https://ielts-up.com/images/l83-2.png",
+        "https://ielts-up.com/images/l83-3.png",
+        "https://ielts-up.com/images/l83.png"
+      ],
+      "path": "ListeningPractice/P3/08-IELTS-up/08-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Cashier",
+        "50 pounds",
+        "Big department stores",
+        "Jeans",
+        "45 pounds",
+        "75 pounds",
+        "20 pounds",
+        "D",
+        "E",
+        "F"
+      ],
+      "answerGroups": [
+        [
+          28,
+          29,
+          30
+        ]
+      ],
+      "audioBytes": 4762433,
+      "audioSha256": "b6eaa81e1bc945cd8be13b6bff54c495a2821ad5cf744d6de36f48970160b037"
+    },
+    {
+      "test": 8,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-8.4.html",
+      "audio": "https://ielts-up.com/listening/8.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/08-IELTS-up/08-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "B",
+        "B",
+        "A",
+        "C",
+        "D",
+        "C",
+        "D",
+        "A",
+        "A",
+        "A"
+      ],
+      "answerGroups": [],
+      "audioBytes": 5492190,
+      "audioSha256": "0b96b74b328b39ce416676683146720fbd1306601af0caad892dc8f7e4f9d68a"
+    },
+    {
+      "test": 9,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-9.1.html",
+      "audio": "https://ielts-up.com/listening/9.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/09-IELTS-up/09-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Three times / three",
+        "Amazing weather",
+        "Town Hall",
+        "Variety",
+        "Plane",
+        "Over forty",
+        "Mid-range",
+        "Tourism",
+        "Computer programmer",
+        "Good value"
+      ],
+      "answerGroups": [],
+      "audioBytes": 9745778,
+      "audioSha256": "43ab4f57d060753682d8a819e2d0f8251917a5f5c8e35e3647961b6752d54c7b"
+    },
+    {
+      "test": 9,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-9.2.html",
+      "audio": "https://ielts-up.com/listening/9.2.mp3",
+      "images": [
+        "https://ielts-up.com/images/9.2.png"
+      ],
+      "path": "ListeningPractice/P2/09-IELTS-up/09-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "B",
+        "A",
+        "E",
+        "C",
+        "D",
+        "E",
+        "G",
+        "C",
+        "D",
+        "A"
+      ],
+      "answerGroups": [],
+      "audioBytes": 9122648,
+      "audioSha256": "6259d8e8c80a1176ee7207680edc7ff574221842178187cf6519910cbe8a418f"
+    },
+    {
+      "test": 9,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-9.3.html",
+      "audio": "https://ielts-up.com/listening/9.3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/09-IELTS-up/09-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "C",
+        "B",
+        "A",
+        "Interview",
+        "Format",
+        "2 copies",
+        "May 11",
+        "Change",
+        "Note",
+        "Procedure"
+      ],
+      "answerGroups": [],
+      "audioBytes": 8522668,
+      "audioSha256": "feb61d87301e15f93be499ad48bcebd5702cdd992d1b51d6dae219195afa355d"
+    },
+    {
+      "test": 9,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-9.4.html",
+      "audio": "https://ielts-up.com/listening/9.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/09-IELTS-up/09-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Distance",
+        "Sound",
+        "Smell",
+        "Flexibility",
+        "Reaction",
+        "Languages",
+        "Newspaper",
+        "Environment",
+        "Swimming pool",
+        "National park"
+      ],
+      "answerGroups": [],
+      "audioBytes": 11270539,
+      "audioSha256": "01dd1e3fdcb97ef1e309b7a37c191758a15d91bcc062771e9aa7308e76195d0e"
+    },
+    {
+      "test": 10,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-10.1.html",
+      "audio": "https://ielts-up.com/listening/10.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/10-IELTS-up/10-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Elsinore",
+        "077896245",
+        "Waiter",
+        "Baseball coach",
+        "Rescue diver",
+        "Diving experience",
+        "October",
+        "Saturday mornings",
+        "6 (o'clock)",
+        "Radio"
+      ],
+      "answerGroups": [],
+      "audioBytes": 9639822,
+      "audioSha256": "51d1e998dad21792b8b38c65b9f863d5b07d9edfd458a298d1e6e39197db20d1"
+    },
+    {
+      "test": 10,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-10.2.html",
+      "audio": "https://ielts-up.com/listening/10.2.mp3",
+      "images": [],
+      "path": "ListeningPractice/P2/10-IELTS-up/10-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "B",
+        "C",
+        "B",
+        "A",
+        "C",
+        "A",
+        "B",
+        "B",
+        "A",
+        "A"
+      ],
+      "answerGroups": [],
+      "audioBytes": 9876229,
+      "audioSha256": "6194428cce742b6f77258530cfb9c59f3688031c5129ed603819d0d458579839"
+    },
+    {
+      "test": 10,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-10.3.html",
+      "audio": "https://ielts-up.com/listening/10.3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/10-IELTS-up/10-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "C",
+        "A",
+        "B",
+        "D",
+        "F",
+        "G",
+        "E",
+        "C",
+        "A",
+        "B"
+      ],
+      "answerGroups": [],
+      "audioBytes": 5646782,
+      "audioSha256": "50ebe2b9ccf89bc57071774dc76d782cbe5f9f2589fc99e769d9f59d1bc8c1d0"
+    },
+    {
+      "test": 10,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-10.4.html",
+      "audio": "https://ielts-up.com/listening/10.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/10-IELTS-up/10-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Important",
+        "A gift",
+        "Last",
+        "Well-organised",
+        "Paying attention",
+        "Sheet of paper",
+        "Entire/Full",
+        "One or two",
+        "Time",
+        "Read"
+      ],
+      "answerGroups": [],
+      "audioBytes": 8202302,
+      "audioSha256": "c3d7190b715a71554e297693bdee185bb04acca91d22d8f173e2dea54a5dd65e"
+    },
+    {
+      "test": 11,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-11.1.html",
+      "audio": "https://ielts-up.com/listening/11.1new.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/11-IELTS-up/11-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Grieg",
+        "March 15th",
+        "Ellendale",
+        "W5 2AT",
+        "0",
+        "8 months",
+        "1",
+        "Back door",
+        "G4168770",
+        "Silver-colored cloth"
+      ],
+      "answerGroups": [],
+      "audioBytes": 15908616,
+      "audioSha256": "90c0e2a164078248657f39a6035d8538dcce66cf49e705291e1522d7ceb690dd"
+    },
+    {
+      "test": 11,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-11.2.html",
+      "audio": "https://ielts-up.com/listening/11.2.mp3",
+      "images": [],
+      "path": "ListeningPractice/P2/11-IELTS-up/11-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "C",
+        "B",
+        "B",
+        "A",
+        "Teaching methods",
+        "Accomodation",
+        "Flats",
+        "Disco",
+        "International Evening",
+        "Two minutes"
+      ],
+      "answerGroups": [],
+      "audioBytes": 15315131,
+      "audioSha256": "7f802a31d1c3361cd0e86347b9d97492f275dfad227bb15eeda8025794e728ec"
+    },
+    {
+      "test": 11,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-11.3.html",
+      "audio": "https://ielts-up.com/listening/11.3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/11-IELTS-up/11-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "C",
+        "A",
+        "B",
+        "A",
+        "C",
+        "A",
+        "E",
+        "D",
+        "A",
+        "B"
+      ],
+      "answerGroups": [],
+      "audioBytes": 13193989,
+      "audioSha256": "93b1214a78d90672ff937f1380b3bdb65252f12bdec71e83e9fabd1a546dcdea"
+    },
+    {
+      "test": 11,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-11.4.html",
+      "audio": "https://ielts-up.com/listening/11.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/11-IELTS-up/11-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "C",
+        "C",
+        "B",
+        "B",
+        "C",
+        "Market",
+        "Interviews",
+        "Useless",
+        "Photographs",
+        "Crime"
+      ],
+      "answerGroups": [],
+      "audioBytes": 14328748,
+      "audioSha256": "a7adaa760187c2c59bb792aad7865a4b644dd17cee4754b360bb252adf71c1e4"
+    },
+    {
+      "test": 12,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-12.1.html",
+      "audio": "https://ielts-up.com/listening/12.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/12-IELTS-up/12-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "80",
+        "Garage",
+        "Supermarket",
+        "Petrol",
+        "Heater",
+        "Toaster",
+        "Kitchen",
+        "1 June",
+        "Friday evening",
+        "Exam"
+      ],
+      "answerGroups": [],
+      "audioBytes": 9664949,
+      "audioSha256": "3d85fce5b19ee4adc0bfcca3222faf2ac72ee1c16242a054172d36f0e55c7447"
+    },
+    {
+      "test": 12,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-12.2.html",
+      "audio": "https://ielts-up.com/listening/12.2.mp3",
+      "images": [],
+      "path": "ListeningPractice/P2/12-IELTS-up/12-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Money",
+        "School",
+        "E",
+        "C",
+        "F",
+        "A",
+        "A",
+        "A",
+        "B",
+        "A"
+      ],
+      "answerGroups": [],
+      "audioBytes": 14580551,
+      "audioSha256": "b8fd9b8f5cbfe691bec88a9c12ed5093f602edee0fdd6a266900926bf6bcee20"
+    },
+    {
+      "test": 12,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-12.3.html",
+      "audio": "https://ielts-up.com/listening/12.3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/12-IELTS-up/12-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Student Loans",
+        "Finance Office",
+        "Smoking",
+        "Supermarket",
+        "Natural Medicine",
+        "Careers Office",
+        "Email attachment",
+        "5 November",
+        "Data analysis",
+        "Presentation"
+      ],
+      "answerGroups": [],
+      "audioBytes": 8666685,
+      "audioSha256": "29269a52633d5bd83bd2433cd79a74dc0c448dc345a046b9805827605d9174ce"
+    },
+    {
+      "test": 12,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-12.4.html",
+      "audio": "https://ielts-up.com/listening/12.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/12-IELTS-up/12-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Law",
+        "Cigar",
+        "Footprint",
+        "Light",
+        "Grass",
+        "Nature",
+        "Air-conditioning",
+        "Lungs",
+        "Clubroom",
+        "City"
+      ],
+      "answerGroups": [],
+      "audioBytes": 8310285,
+      "audioSha256": "4abb2645bb44fe463271d3c557fb785e424b5171160d44873fd64198c7269666"
+    },
+    {
+      "test": 13,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-13.1.html",
+      "audio": "https://ielts-up.com/listening/13.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/13-IELTS-up/13-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "19",
+        "40 minutes",
+        "Balcony",
+        "Tennis courts",
+        "Fish dishes",
+        "Piano",
+        "Helicopter",
+        "Cretan garden",
+        "Fireworks",
+        "Cable car"
+      ],
+      "answerGroups": [],
+      "audioBytes": 3675992,
+      "audioSha256": "e46520ce16ae9138626c89a98213450b1b80e62ea6cde652a12d30cddb8b68d5"
+    },
+    {
+      "test": 13,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-13.2.html",
+      "audio": "https://ielts-up.com/listening/13.2.mp3",
+      "images": [],
+      "path": "ListeningPractice/P2/13-IELTS-up/13-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "B",
+        "C",
+        "B",
+        "A",
+        "A",
+        "C",
+        "Popular",
+        "Taste",
+        "Feedback",
+        "Speed"
+      ],
+      "answerGroups": [
+        [
+          15,
+          16
+        ]
+      ],
+      "audioBytes": 3163028,
+      "audioSha256": "6448ef28aa3134807a6c21bab84afc2ab052070c69d35a233e79d4d22af941e9"
+    },
+    {
+      "test": 13,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-13.3.html",
+      "audio": "https://ielts-up.com/listening/13.3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/13-IELTS-up/13-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "B",
+        "C",
+        "B",
+        "C",
+        "B",
+        "A",
+        "A",
+        "D",
+        "B",
+        "E"
+      ],
+      "answerGroups": [],
+      "audioBytes": 3417259,
+      "audioSha256": "8877e8d4e2d3589e62b27c3197868e8f0cddf48fd27b0a1193964b78c9fd8171"
+    },
+    {
+      "test": 13,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-13.4.html",
+      "audio": "https://ielts-up.com/listening/13.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/13-IELTS-up/13-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "Genetic",
+        "Observation",
+        "Tools",
+        "Open",
+        "Stone",
+        "Symbols",
+        "River",
+        "Density",
+        "B",
+        "C"
+      ],
+      "answerGroups": [
+        [
+          39,
+          40
+        ]
+      ],
+      "audioBytes": 3376744,
+      "audioSha256": "cee089de1a3f567c7d0aad42a5e944e8657819fd6a5d27e8aad57edca4f30502"
+    },
+    {
+      "test": 14,
+      "part": 1,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-14.1.html",
+      "audio": "https://ielts-up.com/listening/14.1.mp3",
+      "images": [],
+      "path": "ListeningPractice/P1/14-IELTS-up/14-IELTS-up-Part-1.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "July",
+        "Three days",
+        "Test driving",
+        "Camera",
+        "110",
+        "Edgeworth",
+        "Summer",
+        "City centre",
+        "Directions",
+        "Enquiring online"
+      ],
+      "answerGroups": [],
+      "audioBytes": 11352192,
+      "audioSha256": "31f86e3fd3651203c9dbbf77f3cd78524d4eca9a054b6a77462467c7ba85e6fd"
+    },
+    {
+      "test": 14,
+      "part": 2,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-14.2.html",
+      "audio": "https://ielts-up.com/listening/14.2.mp3",
+      "images": [
+        "https://ielts-up.com/images/listening14.2.png"
+      ],
+      "path": "ListeningPractice/P2/14-IELTS-up/14-IELTS-up-Part-2.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "C",
+        "A",
+        "B",
+        "C",
+        "A",
+        "F",
+        "H",
+        "A",
+        "D",
+        "C"
+      ],
+      "answerGroups": [],
+      "audioBytes": 3334657,
+      "audioSha256": "8ef8bf733e3a48a6a943f7054289ffed8937ade836d03b5f37aea302c911681f"
+    },
+    {
+      "test": 14,
+      "part": 3,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-14.3.html",
+      "audio": "https://ielts-up.com/listening/14.3.mp3",
+      "images": [],
+      "path": "ListeningPractice/P3/14-IELTS-up/14-IELTS-up-Part-3.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "A",
+        "B",
+        "F",
+        "G",
+        "D",
+        "A",
+        "C",
+        "B",
+        "E",
+        "F"
+      ],
+      "answerGroups": [
+        [
+          23,
+          24,
+          25
+        ]
+      ],
+      "audioBytes": 3868645,
+      "audioSha256": "841bab16bd987a71642b54f359da4ff6992c2553269671161c76706583b09cd5"
+    },
+    {
+      "test": 14,
+      "part": 4,
+      "source": "https://ielts-up.com/listening/ielts-listening-sample-14.4.html",
+      "audio": "https://ielts-up.com/listening/14.4.mp3",
+      "images": [],
+      "path": "ListeningPractice/P4/14-IELTS-up/14-IELTS-up-Part-4.html",
+      "questions": 10,
+      "sourceAnswers": [
+        "C",
+        "D",
+        "Parents",
+        "Versions",
+        "Country",
+        "Transport",
+        "Social",
+        "Funding",
+        "Competitions",
+        "Professional"
+      ],
+      "answerGroups": [
+        [
+          31,
+          32
+        ]
+      ],
+      "audioBytes": 4019592,
+      "audioSha256": "2943325aa62ee48f6c4b3cbece9f992bea85e87eb274fcb2e4202dbbda15c959"
+    }
+  ],
+  "notes": [
+    "Original HTML snapshots retained under _sources as .html.txt.",
+    "Question text and diagrams retained; answers are entered in the adjacent numbered answer sheet.",
+    "Slash-separated variants and optional parenthetical words are accepted. Multi-answer groups accept any order without duplicate credit.",
+    "Test 11 P2: both source spelling Accomodation and standard spelling Accommodation are accepted."
+  ]
+}

@@ -1,0 +1,333 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "6448ef28aa3134807a6c21bab84afc2ab052070c69d35a233e79d4d22af941e9",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.42,
+      "text": "Section 2"
+    },
+    {
+      "start": 2.42,
+      "end": 7.9,
+      "text": "You will hear part of a radio programme about online exchange business."
+    },
+    {
+      "start": 8.92,
+      "end": 13.04,
+      "text": "First, you have some time to look at questions 11 to 14."
+    },
+    {
+      "start": 30.0,
+      "end": 49.56,
+      "text": "Now listen carefully and answer questions 11 to 14."
+    },
+    {
+      "start": 49.56,
+      "end": 58.96,
+      "text": "Barter Online UK is a young, up-and-coming website in the United Kingdom"
+    },
+    {
+      "start": 58.96,
+      "end": 62.62,
+      "text": "where users can buy new and used goods."
+    },
+    {
+      "start": 63.28,
+      "end": 65.62,
+      "text": "However, instead of paying with money,"
+    },
+    {
+      "start": 66.2,
+      "end": 71.18,
+      "text": "registered users instead exchange their purchase for an item of similar value."
+    },
+    {
+      "start": 71.9,
+      "end": 74.54,
+      "text": "This part is perhaps the most complicated,"
+    },
+    {
+      "start": 74.54,
+      "end": 80.5,
+      "text": "as the registered users themselves must mutually decide on an appropriate value,"
+    },
+    {
+      "start": 81.14,
+      "end": 85.44,
+      "text": "with value either being the recommended retail price, RRP,"
+    },
+    {
+      "start": 86.44,
+      "end": 89.76,
+      "text": "or simply how much they believe the item to be worth."
+    },
+    {
+      "start": 91.26,
+      "end": 96.54,
+      "text": "The website has been founded by a group of four friends in the north of England."
+    },
+    {
+      "start": 97.64,
+      "end": 101.44,
+      "text": "Originally, they exchanged their belongings among family members."
+    },
+    {
+      "start": 101.44,
+      "end": 108.22,
+      "text": "They frequently found themselves swapping their belongings when they no longer had any use for them"
+    },
+    {
+      "start": 108.22,
+      "end": 116.92,
+      "text": "They live by the motto, one person's trash is another person's treasure, and hate to throw things away"
+    },
+    {
+      "start": 116.92,
+      "end": 124.12,
+      "text": "As more and more people caught wind of the idea and wanted to participate in the exchanges"
+    },
+    {
+      "start": 124.12,
+      "end": 132.08,
+      "text": "the group decided that the idea had the potential to become a successful business venture and so it did."
+    },
+    {
+      "start": 133.52,
+      "end": 139.8,
+      "text": "Barter Online UK is a start-up online business which took three months to set up"
+    },
+    {
+      "start": 139.8,
+      "end": 143.2,
+      "text": "and has now been running for around half a year."
+    },
+    {
+      "start": 144.44,
+      "end": 147.06,
+      "text": "Despite only being founded a short time ago,"
+    },
+    {
+      "start": 147.06,
+      "end": 152.7,
+      "text": "the website has already garnered about 1,500 registered users"
+    },
+    {
+      "start": 152.7,
+      "end": 157.92,
+      "text": "with 500 more than expected, a huge achievement for the founders."
+    },
+    {
+      "start": 159.28,
+      "end": 163.5,
+      "text": "Some of the users are registered in the United Kingdom and Canada"
+    },
+    {
+      "start": 163.5,
+      "end": 166.34,
+      "text": "with the majority from the Republic of Ireland."
+    },
+    {
+      "start": 167.16,
+      "end": 172.8,
+      "text": "In order to become a registered member, users must first fill in their personal details"
+    },
+    {
+      "start": 172.8,
+      "end": 175.86,
+      "text": "followed by their credit or debit card details"
+    },
+    {
+      "start": 175.86,
+      "end": 179.96,
+      "text": "which will be used to take payment of a monthly fee of £5."
+    },
+    {
+      "start": 179.96,
+      "end": 187.86,
+      "text": "As long as this fee is paid, users will be able to perform an unlimited number of online exchanges."
+    },
+    {
+      "start": 209.96,
+      "end": 220.6,
+      "text": "Now listen and answer questions 15 to 20."
+    },
+    {
+      "start": 223.32,
+      "end": 229.78,
+      "text": "A multitude of items are sold on the website, such as textbooks, soft toys and tools."
+    },
+    {
+      "start": 230.54,
+      "end": 235.66,
+      "text": "However, books for children and computer games are by far selected most."
+    },
+    {
+      "start": 235.66,
+      "end": 240.6,
+      "text": "the exchange process itself is not as complicated as it might seem."
+    },
+    {
+      "start": 241.64,
+      "end": 244.98,
+      "text": "Users can enter their preferences for what they would like to receive"
+    },
+    {
+      "start": 244.98,
+      "end": 249.02,
+      "text": "and also explicitly state what they would like to give away"
+    },
+    {
+      "start": 249.02,
+      "end": 253.24,
+      "text": "and the website will automatically pair up suitable users."
+    },
+    {
+      "start": 254.44,
+      "end": 257.36,
+      "text": "If, however, a user doesn't want to give anything away"
+    },
+    {
+      "start": 257.36,
+      "end": 259.56,
+      "text": "but would simply like to buy something,"
+    },
+    {
+      "start": 260.12,
+      "end": 264.34,
+      "text": "Barter Online UK does support a secure online payment system"
+    },
+    {
+      "start": 264.34,
+      "end": 268.04,
+      "text": "where users can perform a normal monetary transaction."
+    },
+    {
+      "start": 269.28,
+      "end": 274.98,
+      "text": "Despite this, the founding group strongly discourages the use of the online payment system,"
+    },
+    {
+      "start": 275.72,
+      "end": 279.9,
+      "text": "clearly stating that this goes against the intended ethos of the company."
+    },
+    {
+      "start": 281.54,
+      "end": 283.9,
+      "text": "Although bartering is an age-old process,"
+    },
+    {
+      "start": 284.46,
+      "end": 289.92,
+      "text": "many of the website's users are unsure how to decide which of their own items to exchange."
+    },
+    {
+      "start": 290.7,
+      "end": 293.98,
+      "text": "It often helps to order items by popularity,"
+    },
+    {
+      "start": 294.34,
+      "end": 296.4,
+      "text": "using the filter button provided."
+    },
+    {
+      "start": 297.64,
+      "end": 302.16,
+      "text": "This will tell the website to find out popular items for users' convenience."
+    },
+    {
+      "start": 303.5,
+      "end": 305.64,
+      "text": "To this, the founding members say,"
+    },
+    {
+      "start": 306.06,
+      "end": 308.44,
+      "text": "just put everything you don't want on there."
+    },
+    {
+      "start": 309.2,
+      "end": 311.14,
+      "text": "Different people have different tastes,"
+    },
+    {
+      "start": 311.58,
+      "end": 313.86,
+      "text": "and you never know what they might be looking for."
+    },
+    {
+      "start": 314.52,
+      "end": 317.34,
+      "text": "In order to aid registered users in their exchanges"
+    },
+    {
+      "start": 317.34,
+      "end": 319.56,
+      "text": "and to provide them with assurance,"
+    },
+    {
+      "start": 319.56,
+      "end": 322.54,
+      "text": "the founders recently added a new feature"
+    },
+    {
+      "start": 322.54,
+      "end": 325.18,
+      "text": "whereby on completion of an exchange,"
+    },
+    {
+      "start": 325.68,
+      "end": 328.8,
+      "text": "users will be encouraged to provide each other with feedback."
+    },
+    {
+      "start": 329.98,
+      "end": 334.3,
+      "text": "This feedback will include criteria such as the quality of the item"
+    },
+    {
+      "start": 334.3,
+      "end": 336.44,
+      "text": "as compared with how it was advertised,"
+    },
+    {
+      "start": 337.36,
+      "end": 339.4,
+      "text": "the ease of communication with the seller,"
+    },
+    {
+      "start": 340.42,
+      "end": 343.34,
+      "text": "the speed at which the item was delivered and so on."
+    },
+    {
+      "start": 344.5,
+      "end": 346.74,
+      "text": "The friends believe that using this method,"
+    },
+    {
+      "start": 346.74,
+      "end": 351.46,
+      "text": "users will have a more transparent and trustworthy bartering experience."
+    },
+    {
+      "start": 352.54,
+      "end": 356.72,
+      "text": "That is the end of section 2."
+    },
+    {
+      "start": 357.36,
+      "end": 360.08,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 382.54,
+      "end": 389.86,
+      "text": "Now turn to section 3."
+    }
+  ]
+};

@@ -1,0 +1,333 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "cee089de1a3f567c7d0aad42a5e944e8657819fd6a5d27e8aad57edca4f30502",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.04,
+      "text": "Section 4"
+    },
+    {
+      "start": 2.04,
+      "end": 7.04,
+      "text": "You will hear a talk on the research of the behaviour of chimpanzees."
+    },
+    {
+      "start": 8.16,
+      "end": 13.36,
+      "text": "First, you have some time to look at questions 31 to 40."
+    },
+    {
+      "start": 30.0,
+      "end": 59.98,
+      "text": "Thank you."
+    },
+    {
+      "start": 60.0,
+      "end": 65.3,
+      "text": "Welcome back to my series of short lectures on apes."
+    },
+    {
+      "start": 66.2,
+      "end": 73.62,
+      "text": "Today we will examine recent and historical breakthroughs on the behaviour of chimpanzees, otherwise known as chimps."
+    },
+    {
+      "start": 74.54,
+      "end": 80.86,
+      "text": "The word chimpanzee is an umbrella term for two different species of apes in the genus Pan,"
+    },
+    {
+      "start": 81.4,
+      "end": 86.84,
+      "text": "which are the common chimpanzee or pan troglodytes, found in western central Africa,"
+    },
+    {
+      "start": 86.84,
+      "end": 91.28,
+      "text": "and the bonobo, or panpaniscus,"
+    },
+    {
+      "start": 91.86,
+      "end": 94.94,
+      "text": "which are found in the forests of the Democratic Republic of the Congo."
+    },
+    {
+      "start": 96.64,
+      "end": 99.28,
+      "text": "Chimpanzees belong to the hominidae family,"
+    },
+    {
+      "start": 99.76,
+      "end": 103.1,
+      "text": "together with gorillas, orangutans and indeed humans."
+    },
+    {
+      "start": 104.24,
+      "end": 107.28,
+      "text": "Current research tells us that the chimps broke away"
+    },
+    {
+      "start": 107.28,
+      "end": 109.54,
+      "text": "from the human branch of the hominidae family"
+    },
+    {
+      "start": 109.54,
+      "end": 112.16,
+      "text": "approximately 6 million years ago"
+    },
+    {
+      "start": 112.16,
+      "end": 116.02,
+      "text": "and remain the closest living relative to humans to this day."
+    },
+    {
+      "start": 116.84,
+      "end": 122.5,
+      "text": "More modern researchers into chimpanzees have centred on their behavioural characteristics"
+    },
+    {
+      "start": 122.5,
+      "end": 126.54,
+      "text": "once all biological and genetic factors have been ruled out."
+    },
+    {
+      "start": 128.0,
+      "end": 133.02,
+      "text": "In this way, scientists have unearthed an unfathomable amount of similarities"
+    },
+    {
+      "start": 133.02,
+      "end": 135.9,
+      "text": "between human and chimpanzee behaviour."
+    },
+    {
+      "start": 136.74,
+      "end": 141.74,
+      "text": "Although much of this research has taken place through observation of captive chimps,"
+    },
+    {
+      "start": 141.74,
+      "end": 147.54,
+      "text": "the results are widely seen as an authoritative reflection of chimps living in the wild."
+    },
+    {
+      "start": 149.32,
+      "end": 154.86,
+      "text": "Chimps live in large so-called communities comprised of many male and female members"
+    },
+    {
+      "start": 154.86,
+      "end": 160.32,
+      "text": "with the social hierarchy determined by an individual chimp's position and influence."
+    },
+    {
+      "start": 162.08,
+      "end": 168.52,
+      "text": "Through such research, scientists have found that chimps learn and adapt through observation of others' behaviour."
+    },
+    {
+      "start": 168.52,
+      "end": 176.0,
+      "text": "Once in power, the alpha male is often seen to alter its body language in order to retain power."
+    },
+    {
+      "start": 176.92,
+      "end": 180.74,
+      "text": "For example, he might puff himself up in order to intimidate others,"
+    },
+    {
+      "start": 181.5,
+      "end": 187.72,
+      "text": "while lower-ranking chimps are noted to behave more submissively and holding out their hands while grunting."
+    },
+    {
+      "start": 189.46,
+      "end": 196.52,
+      "text": "Female chimpanzees also have a distinct social hierarchy, with high social standing inherited by children."
+    },
+    {
+      "start": 196.52,
+      "end": 206.62,
+      "text": "It is not unheard of for dominant females within a community to unite and overthrow the alpha male, backing another in his place."
+    },
+    {
+      "start": 208.66,
+      "end": 221.88,
+      "text": "James Diamond, in his book The Third Chimpanzee, suggests that chimps should now be reclassified in the genus Homo instead of Pan, and there are many arguments still in favour of this."
+    },
+    {
+      "start": 221.88,
+      "end": 229.48,
+      "text": "Male common chimpanzees are on average 1.7 metres in height, weighing 70 kilograms,"
+    },
+    {
+      "start": 230.2,
+      "end": 232.92,
+      "text": "with their female counterparts being somewhat smaller."
+    },
+    {
+      "start": 234.24,
+      "end": 240.02,
+      "text": "By comparison, the bonobo is slightly shorter and lighter, but with longer arms and legs."
+    },
+    {
+      "start": 240.84,
+      "end": 246.28,
+      "text": "However, both species walk on all fours and climb trees with great ease."
+    },
+    {
+      "start": 247.46,
+      "end": 251.46,
+      "text": "Jane Goodall made a groundbreaking discovery in 1960."
+    },
+    {
+      "start": 251.88,
+      "end": 255.14,
+      "text": "when she observed the use of tools among chimpanzees,"
+    },
+    {
+      "start": 255.72,
+      "end": 258.34,
+      "text": "including digging for termites with large sticks."
+    },
+    {
+      "start": 259.34,
+      "end": 264.08,
+      "text": "A recent study claimed to reveal that common chimpanzees in Senegal"
+    },
+    {
+      "start": 264.08,
+      "end": 268.08,
+      "text": "have been using spears sharpened with their teeth to hunt."
+    },
+    {
+      "start": 268.98,
+      "end": 271.62,
+      "text": "However, these reports remain unsubstantiated."
+    },
+    {
+      "start": 273.02,
+      "end": 276.12,
+      "text": "Researchers have witnessed such tools, namely rocks,"
+    },
+    {
+      "start": 276.12,
+      "end": 279.06,
+      "text": "being used by chimps to open coconut shells,"
+    },
+    {
+      "start": 279.64,
+      "end": 281.72,
+      "text": "and indeed crushing nuts with stone hammers."
+    },
+    {
+      "start": 281.88,
+      "end": 289.1,
+      "text": "As scientific technology has developed, so too has our knowledge of the sheer extent of the chimps' intelligence."
+    },
+    {
+      "start": 290.24,
+      "end": 295.26,
+      "text": "Research has now shown that chimps have the capability to learn and use symbols"
+    },
+    {
+      "start": 295.26,
+      "end": 301.9,
+      "text": "and understand aspects of the human language, including syntax as well as numerical sequences."
+    },
+    {
+      "start": 302.9,
+      "end": 310.76,
+      "text": "As I mentioned earlier, the umbrella term chimpanzee is comprised of the common chimpanzee and the bonobo."
+    },
+    {
+      "start": 311.88,
+      "end": 315.1,
+      "text": "These two subspecies are divided along the Congo River,"
+    },
+    {
+      "start": 315.76,
+      "end": 317.88,
+      "text": "with the common chimps living on one side"
+    },
+    {
+      "start": 317.88,
+      "end": 321.06,
+      "text": "and the bonobos living on the opposite side of the river."
+    },
+    {
+      "start": 322.38,
+      "end": 324.22,
+      "text": "Over the past few decades,"
+    },
+    {
+      "start": 324.68,
+      "end": 329.18,
+      "text": "both of these subspecies have witnessed an alarming decrease in population density,"
+    },
+    {
+      "start": 329.18,
+      "end": 332.6,
+      "text": "with animal activists now working harder than ever"
+    },
+    {
+      "start": 332.6,
+      "end": 336.28,
+      "text": "to protect those remaining and encourage procreation."
+    },
+    {
+      "start": 336.28,
+      "end": 344.7,
+      "text": "In addition, next week's episode will focus more closely"
+    },
+    {
+      "start": 344.7,
+      "end": 348.7,
+      "text": "on how chimpanzees in captivity are able to learn things"
+    },
+    {
+      "start": 348.7,
+      "end": 350.92,
+      "text": "through imitating the behaviour of humans"
+    },
+    {
+      "start": 350.92,
+      "end": 356.16,
+      "text": "as well as how chimpanzees' behaviours have developed over many generations"
+    },
+    {
+      "start": 356.16,
+      "end": 360.32,
+      "text": "Thank you very much for attending this evening's lecture"
+    },
+    {
+      "start": 360.32,
+      "end": 363.26,
+      "text": "I hope you found it intellectually stimulating"
+    },
+    {
+      "start": 363.26,
+      "end": 366.08,
+      "text": "and I look forward to seeing you again next week"
+    },
+    {
+      "start": 366.08,
+      "end": 367.12,
+      "text": "Good night."
+    },
+    {
+      "start": 396.08,
+      "end": 408.94,
+      "text": "That is the end of the listening test."
+    },
+    {
+      "start": 409.56,
+      "end": 416.08,
+      "text": "In the IELTS test, you will now have 10 minutes to transfer your answers to the answer sheet."
+    }
+  ]
+};

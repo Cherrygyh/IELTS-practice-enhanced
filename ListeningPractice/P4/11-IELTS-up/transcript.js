@@ -1,0 +1,313 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "a7adaa760187c2c59bb792aad7865a4b644dd17cee4754b360bb252adf71c1e4",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.06,
+      "text": "Section 4. You will hear the beginning of a lecture about the Pleasanton Town Market."
+    },
+    {
+      "start": 6.78,
+      "end": 11.1,
+      "text": "First, you have some time to look at questions 31 to 40."
+    },
+    {
+      "start": 30.0,
+      "end": 59.98,
+      "text": "Thank you."
+    },
+    {
+      "start": 60.0,
+      "end": 67.84,
+      "text": "In the last few lectures, we've been covering the social and political pressures that influenced the rise of the Rebellion of 1679."
+    },
+    {
+      "start": 68.8,
+      "end": 72.74,
+      "text": "Today, I would like to focus on the Pleasanton Town Market."
+    },
+    {
+      "start": 73.34,
+      "end": 76.0,
+      "text": "Now, why are we talking all about some market?"
+    },
+    {
+      "start": 76.58,
+      "end": 80.96,
+      "text": "It's not like it was the first market ever, or even a particularly large market."
+    },
+    {
+      "start": 81.38,
+      "end": 87.72,
+      "text": "The Pleasanton Town Market is important because it is often mentioned in the literature found in the library."
+    },
+    {
+      "start": 87.72,
+      "end": 93.68,
+      "text": "If you have ever been there, you have probably seen all of the handcrafted items sold there now."
+    },
+    {
+      "start": 94.12,
+      "end": 97.18,
+      "text": "But what was originally bought and sold in the town market?"
+    },
+    {
+      "start": 98.06,
+      "end": 103.32,
+      "text": "In the beginning, the market sold products such as meats, furs and simple tools."
+    },
+    {
+      "start": 103.66,
+      "end": 107.6,
+      "text": "Over time, though, it became known as the place to find quality livestock."
+    },
+    {
+      "start": 108.16,
+      "end": 113.28,
+      "text": "People came from all over the world to find the biggest and best cows, pigs and chickens."
+    },
+    {
+      "start": 113.28,
+      "end": 120.86,
+      "text": "In fact, the profits from the town market became the saviour of a plummeting economy during a time of much turmoil."
+    },
+    {
+      "start": 121.48,
+      "end": 128.04,
+      "text": "Not to be confused with the Reconstruction era, a period of rapid development came about in the 1660s"
+    },
+    {
+      "start": 128.04,
+      "end": 135.36,
+      "text": "as a result of the market's vendors contributing their profits to building up much-needed public facilities and defence,"
+    },
+    {
+      "start": 135.9,
+      "end": 139.26,
+      "text": "which would later make a huge impact on the outcome of the war."
+    },
+    {
+      "start": 139.26,
+      "end": 144.4,
+      "text": "For many years the market flourished and began to draw in large tourism crowds"
+    },
+    {
+      "start": 144.4,
+      "end": 147.0,
+      "text": "in addition to the throngs of livestock customers."
+    },
+    {
+      "start": 147.88,
+      "end": 150.74,
+      "text": "However, as revolutions in farming came about,"
+    },
+    {
+      "start": 151.2,
+      "end": 153.86,
+      "text": "more people moved to farms far from the city centre."
+    },
+    {
+      "start": 154.32,
+      "end": 159.36,
+      "text": "Customers grew more and more reluctant to travel all the way to the town centre for their meats,"
+    },
+    {
+      "start": 159.78,
+      "end": 164.46,
+      "text": "when they could easily choose to buy from local farmers near them for a fraction of the price."
+    },
+    {
+      "start": 164.72,
+      "end": 168.96,
+      "text": "With such a fall in the profits of the town's major profit generator,"
+    },
+    {
+      "start": 169.26,
+      "end": 171.52,
+      "text": "Some quality town planning was needed."
+    },
+    {
+      "start": 171.98,
+      "end": 178.86,
+      "text": "In the mayoral election of 1668, a young man of little fame just barely claimed the popular vote,"
+    },
+    {
+      "start": 179.24,
+      "end": 182.44,
+      "text": "none other than the now legendary John C. Wiley."
+    },
+    {
+      "start": 183.18,
+      "end": 188.62,
+      "text": "Wiley's first decision as mayor of Pleasanton was to deal with the quickly failing town market."
+    },
+    {
+      "start": 189.18,
+      "end": 194.58,
+      "text": "The building with the large clock was a landmark that had symbolized growth in Pleasanton for a generation."
+    },
+    {
+      "start": 194.58,
+      "end": 199.38,
+      "text": "Wiley decided to use the notoriety of the town market to set an example."
+    },
+    {
+      "start": 199.88,
+      "end": 202.08,
+      "text": "During the historical Rotterdam Rebellion,"
+    },
+    {
+      "start": 202.54,
+      "end": 207.18,
+      "text": "Wiley gave all those involved lifetime prison sentences in the very same building."
+    },
+    {
+      "start": 207.78,
+      "end": 210.2,
+      "text": "It stayed a prison for about 50 more years"
+    },
+    {
+      "start": 210.2,
+      "end": 213.76,
+      "text": "until they transported all remaining prisoners to other facilities"
+    },
+    {
+      "start": 213.76,
+      "end": 216.52,
+      "text": "and turned it into the historical monument today."
+    },
+    {
+      "start": 216.52,
+      "end": 225.12,
+      "text": "Now that you know the basics of the history of the Pleasanton Town Market,"
+    },
+    {
+      "start": 225.68,
+      "end": 227.98,
+      "text": "I will introduce your next group project."
+    },
+    {
+      "start": 228.58,
+      "end": 232.78,
+      "text": "I want you to make a short film based on the real historical events"
+    },
+    {
+      "start": 232.78,
+      "end": 236.02,
+      "text": "that occurred in Pleasanton before and during the uprising."
+    },
+    {
+      "start": 236.78,
+      "end": 240.62,
+      "text": "I will give you some class time to look through the library's reference section,"
+    },
+    {
+      "start": 240.62,
+      "end": 245.26,
+      "text": "but you will be responsible for conducting further research outside of class."
+    },
+    {
+      "start": 245.26,
+      "end": 249.0,
+      "text": "I suggest starting by looking for information on the market itself."
+    },
+    {
+      "start": 249.56,
+      "end": 251.2,
+      "text": "You'll find plenty of information."
+    },
+    {
+      "start": 251.66,
+      "end": 255.74,
+      "text": "In fact, some students complain that there is actually too much information on it."
+    },
+    {
+      "start": 256.56,
+      "end": 261.96,
+      "text": "On your own time, you could find family members of old war veterans to conduct interviews."
+    },
+    {
+      "start": 262.58,
+      "end": 267.12,
+      "text": "Sometimes they provide wonderful insight that you wouldn't find in proper history books."
+    },
+    {
+      "start": 267.62,
+      "end": 271.62,
+      "text": "But be careful, an interview that is riddled with bias is useless."
+    },
+    {
+      "start": 271.62,
+      "end": 277.82,
+      "text": "I myself have some very old photographs here that you are welcome to take a look at for some inspiration"
+    },
+    {
+      "start": 277.82,
+      "end": 281.96,
+      "text": "I'm lucky enough to own this one of Jim Wiley himself"
+    },
+    {
+      "start": 281.96,
+      "end": 287.46,
+      "text": "Very interesting to see, but does not provide enough information to add much to your film"
+    },
+    {
+      "start": 287.46,
+      "end": 292.1,
+      "text": "Feel free to take this film into whatever direction you choose"
+    },
+    {
+      "start": 292.1,
+      "end": 295.72,
+      "text": "You could even do a crime thriller based on real outlaws"
+    },
+    {
+      "start": 295.72,
+      "end": 301.62,
+      "text": "All you would have to do is look through the newspaper archives in the crime section during that time period"
+    },
+    {
+      "start": 301.62,
+      "end": 304.1,
+      "text": "Try to get as much detail as you can"
+    },
+    {
+      "start": 304.1,
+      "end": 307.24,
+      "text": "But you may end up having to draw your own conclusions"
+    },
+    {
+      "start": 307.24,
+      "end": 309.88,
+      "text": "Okay, that's enough from me"
+    },
+    {
+      "start": 309.88,
+      "end": 311.62,
+      "text": "So let's go on to..."
+    },
+    {
+      "start": 311.62,
+      "end": 316.4,
+      "text": "That is the end of section 4"
+    },
+    {
+      "start": 316.4,
+      "end": 319.24,
+      "text": "You now have half a minute to check your answers"
+    },
+    {
+      "start": 325.72,
+      "end": 355.7,
+      "text": "Thank you."
+    },
+    {
+      "start": 355.72,
+      "end": 357.72,
+      "text": "your answers to an answer sheet."
+    }
+  ]
+};

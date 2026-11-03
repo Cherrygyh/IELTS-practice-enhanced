@@ -1,0 +1,278 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "7f518c9f3dd181990381b70e0315ff3e0802e42a26cd82a17796f5febb25c988",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.62,
+      "text": "Section 2. You are going to hear a talk given by a tour guide about travel to Esnir."
+    },
+    {
+      "start": 8.34,
+      "end": 11.48,
+      "text": "First look at questions 11 to 14."
+    },
+    {
+      "start": 11.48,
+      "end": 32.22,
+      "text": "As you listen to the first part of the talk, answer questions 11 to 14."
+    },
+    {
+      "start": 33.68,
+      "end": 40.84,
+      "text": "Hello everyone. As you know, this agency has specialised in tours and independent travel to Esnia for over 20 years."
+    },
+    {
+      "start": 40.84,
+      "end": 46.14,
+      "text": "It's a magnificent place to visit, but it's not always as easy or as comfortable as it might be."
+    },
+    {
+      "start": 46.84,
+      "end": 50.14,
+      "text": "So this tour is designed to help you handle the bureaucratic hassles"
+    },
+    {
+      "start": 50.14,
+      "end": 54.86,
+      "text": "and give you time and energy to enjoy the beauty of this breathtaking country."
+    },
+    {
+      "start": 55.74,
+      "end": 57.6,
+      "text": "The first hassle is visas."
+    },
+    {
+      "start": 58.26,
+      "end": 61.88,
+      "text": "Nowadays, Esnian visas are needed by almost all nationalities."
+    },
+    {
+      "start": 62.16,
+      "end": 66.36,
+      "text": "The normal visa lasts for just 90 days, but a renewal is possible."
+    },
+    {
+      "start": 66.98,
+      "end": 69.5,
+      "text": "It is worth leaving yourself plenty of time when applying."
+    },
+    {
+      "start": 69.5,
+      "end": 72.66,
+      "text": "or I suggest from experience two months."
+    },
+    {
+      "start": 73.28,
+      "end": 74.1,
+      "text": "That should do it."
+    },
+    {
+      "start": 74.92,
+      "end": 77.98,
+      "text": "The latest confirmed price is £30 but it should be noted"
+    },
+    {
+      "start": 77.98,
+      "end": 82.08,
+      "text": "and a lot of our regular travellers tell us that the price may change without notice"
+    },
+    {
+      "start": 82.08,
+      "end": 83.76,
+      "text": "and hold up visa processing."
+    },
+    {
+      "start": 84.64,
+      "end": 88.36,
+      "text": "So ring up the Esnian embassy and check the price before sending out forms."
+    },
+    {
+      "start": 89.1,
+      "end": 93.1,
+      "text": "Now for those of you who are intending to take Esnia as part of a longer tour"
+    },
+    {
+      "start": 93.1,
+      "end": 95.38,
+      "text": "and want to wait till you get to another country"
+    },
+    {
+      "start": 95.38,
+      "end": 104.82,
+      "text": "Do remember that some Esnian consulates in neighbouring countries require you to provide a letter from your own embassy, just to confirm your nationality."
+    },
+    {
+      "start": 105.8,
+      "end": 110.66,
+      "text": "You can find a list of major embassies throughout the world in the Student Handbook on page 13."
+    },
+    {
+      "start": 111.34,
+      "end": 118.66,
+      "text": "Oh, and one more thing. Check whether you need a multiple-entry visa if you're leaving and re-entering Esnia on your tour."
+    },
+    {
+      "start": 118.66,
+      "end": 126.62,
+      "text": "Before the talk continues, you will have a chance to look at questions 15 to 20."
+    },
+    {
+      "start": 148.66,
+      "end": 163.04,
+      "text": "As you listen, complete the summary and answer questions 15 to 20."
+    },
+    {
+      "start": 164.9,
+      "end": 167.68,
+      "text": "Now, some miscellaneous general advice."
+    },
+    {
+      "start": 168.24,
+      "end": 173.88,
+      "text": "Firstly, if you're rich enough to bring in over $1,000 in cash or traveller's checks to Esnia,"
+    },
+    {
+      "start": 174.24,
+      "end": 176.12,
+      "text": "you need to fill in the currency form."
+    },
+    {
+      "start": 176.64,
+      "end": 177.52,
+      "text": "Don't forget this."
+    },
+    {
+      "start": 177.52,
+      "end": 179.52,
+      "text": "you could get into trouble if you do."
+    },
+    {
+      "start": 180.76,
+      "end": 183.94,
+      "text": "You must declare all of your items and more expensive items,"
+    },
+    {
+      "start": 184.32,
+      "end": 187.2,
+      "text": "such as video cameras, on a tourist export form,"
+    },
+    {
+      "start": 187.46,
+      "end": 189.3,
+      "text": "which you can arrange to carry in advance."
+    },
+    {
+      "start": 189.74,
+      "end": 191.22,
+      "text": "Regarding health regulations,"
+    },
+    {
+      "start": 191.72,
+      "end": 195.8,
+      "text": "although Esnia is becoming a generally healthier country with every passing year,"
+    },
+    {
+      "start": 196.44,
+      "end": 199.96,
+      "text": "neighbouring countries remain cautious with regards to health standards there,"
+    },
+    {
+      "start": 200.38,
+      "end": 203.28,
+      "text": "and therefore it is worthwhile carrying a health certificate."
+    },
+    {
+      "start": 204.02,
+      "end": 206.7,
+      "text": "The one you need is the BM276."
+    },
+    {
+      "start": 207.36,
+      "end": 212.6,
+      "text": "Now all of you here are students and there will be plenty of concessions for young people travelling in Esnia."
+    },
+    {
+      "start": 213.12,
+      "end": 219.72,
+      "text": "The Esnian Transport Authority, for example, issues a special youth fare card which you can get in any railway station."
+    },
+    {
+      "start": 220.82,
+      "end": 222.72,
+      "text": "Just show your international student card."
+    },
+    {
+      "start": 223.46,
+      "end": 225.8,
+      "text": "Information about getting this is in the handbook."
+    },
+    {
+      "start": 226.3,
+      "end": 227.7,
+      "text": "And give two passport photos."
+    },
+    {
+      "start": 227.88,
+      "end": 235.34,
+      "text": "And by the way, because there is so much bureaucracy in Esnia, we advise you to take at least 12 passport photos with you."
+    },
+    {
+      "start": 235.9,
+      "end": 237.78,
+      "text": "They're not always easy to get done there."
+    },
+    {
+      "start": 239.06,
+      "end": 241.34,
+      "text": "Finally, a bit more about currency."
+    },
+    {
+      "start": 242.1,
+      "end": 245.72,
+      "text": "Pounds won't get you very far in Esnia these days, so they're no good."
+    },
+    {
+      "start": 246.28,
+      "end": 249.48,
+      "text": "We advise people to carry either yen or Australian dollars."
+    },
+    {
+      "start": 250.3,
+      "end": 253.98,
+      "text": "US dollars are starting to cause difficulties because of political disputes."
+    },
+    {
+      "start": 254.76,
+      "end": 259.46,
+      "text": "Another surprise is that credit cards are virtually useless because of fraud scandals."
+    },
+    {
+      "start": 260.06,
+      "end": 264.18,
+      "text": "Do carry traveller's checks, but we advise medium denominations."
+    },
+    {
+      "start": 264.92,
+      "end": 270.36,
+      "text": "Large denominations increase the likelihood of theft, and small ones increase commission charges."
+    },
+    {
+      "start": 271.08,
+      "end": 275.68,
+      "text": "Now, as I mentioned earlier, this student handbook has a wealth of information."
+    },
+    {
+      "start": 279.22,
+      "end": 281.6,
+      "text": "That is the end of section 2."
+    },
+    {
+      "start": 282.36,
+      "end": 285.48,
+      "text": "You will now have half a minute to check your answers."
+    }
+  ]
+}

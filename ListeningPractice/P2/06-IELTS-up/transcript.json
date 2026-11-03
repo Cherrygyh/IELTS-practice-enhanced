@@ -1,0 +1,188 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "2169654a36c8552308273eca3d02b23b663c18584004620224859601522f8758",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "text": "Section 2. You will hear the information about tickets to one of the Royal Palaces in London."
+    },
+    {
+      "start": 7.0,
+      "end": 12.0,
+      "text": "First, you have some time to look at questions 11 to 16."
+    },
+    {
+      "start": 30.0,
+      "end": 46.4,
+      "text": "As you listen to the first part of the talk, answer questions 11 to 15."
+    },
+    {
+      "start": 49.08,
+      "end": 55.1,
+      "text": "So you've finally decided to start a fitness program and are now on the lookout for the perfect gym to join."
+    },
+    {
+      "start": 55.84,
+      "end": 59.92,
+      "text": "Fitnessland is an ideal gym for both group trainings and individual workout."
+    },
+    {
+      "start": 60.82,
+      "end": 65.88,
+      "text": "We offer you a variety of sports facilities, which will make your training effective and pleasant."
+    },
+    {
+      "start": 66.74,
+      "end": 69.02,
+      "text": "One of the most famous are our yoga classes."
+    },
+    {
+      "start": 69.52,
+      "end": 75.78,
+      "text": "We have seven different yoga programs, including Yogalates, Yoga Nidra and Hatha Yoga."
+    },
+    {
+      "start": 76.56,
+      "end": 83.2,
+      "text": "We also want to open pilot section soon, which will combine relaxation techniques and keep fit exercises."
+    },
+    {
+      "start": 83.2,
+      "end": 89.38,
+      "text": "For those people who seek cardio and fat burn workouts, we offer a lot of active classes."
+    },
+    {
+      "start": 90.26,
+      "end": 94.74,
+      "text": "For instance, if you love dancing, you can go to our step dance classes."
+    },
+    {
+      "start": 95.5,
+      "end": 102.28,
+      "text": "These classes are famous for their intensive rhythm, and include many elements from dancing classes and aerobics classes."
+    },
+    {
+      "start": 102.84,
+      "end": 108.66,
+      "text": "At the moment we don't have aerobics or belly dance programs, so step dance can be a good alternative."
+    },
+    {
+      "start": 108.66,
+      "end": 113.48,
+      "text": "We also offer great barbell workouts for people who want to build muscle."
+    },
+    {
+      "start": 114.46,
+      "end": 119.86,
+      "text": "These classes use very effective strength training strategy and are very helpful for both men and women."
+    },
+    {
+      "start": 121.0,
+      "end": 127.64,
+      "text": "There is also a kickboxing room in our gym, where you can find all essential facilities to practice kickboxing yourself."
+    },
+    {
+      "start": 128.54,
+      "end": 131.56,
+      "text": "And group programs are likely to open in the next season."
+    },
+    {
+      "start": 131.56,
+      "end": 139.46,
+      "text": "But Zumba fitness programs and stretching workouts are already running, so be quick to take part in these wonderful activities."
+    },
+    {
+      "start": 161.56,
+      "end": 173.46,
+      "text": "Now listen, and answer questions 16 to 20."
+    },
+    {
+      "start": 175.96,
+      "end": 180.74,
+      "text": "And now I'd like to present you the timetable of fitness programs for the coming week."
+    },
+    {
+      "start": 181.44,
+      "end": 184.26,
+      "text": "Monday is dedicated to muscle building activities."
+    },
+    {
+      "start": 185.12,
+      "end": 191.86,
+      "text": "You'll begin the weekly program with a full body training split, meaning you'll train all major body parts in each workout."
+    },
+    {
+      "start": 193.02,
+      "end": 199.38,
+      "text": "Such fitness classes are designed by famous bodybuilders and sport professionals, who are passionate for training others."
+    },
+    {
+      "start": 200.18,
+      "end": 203.16,
+      "text": "On Tuesday we offer a variety of fat loss activities."
+    },
+    {
+      "start": 204.2,
+      "end": 207.82,
+      "text": "These are high intensity classes that require a lot of physical effort."
+    },
+    {
+      "start": 208.14,
+      "end": 211.66,
+      "text": "So we recommend to drink much water during such classes."
+    },
+    {
+      "start": 211.66,
+      "end": 215.34,
+      "text": "We also have something called healthy body activities."
+    },
+    {
+      "start": 216.14,
+      "end": 217.86,
+      "text": "These activities run on Wednesday."
+    },
+    {
+      "start": 219.02,
+      "end": 226.16,
+      "text": "During these programs, you'll do keep fit exercises in a moderate rhythm, alternating upper body and lower body workouts."
+    },
+    {
+      "start": 227.06,
+      "end": 229.66,
+      "text": "The next day come relaxation activities."
+    },
+    {
+      "start": 230.6,
+      "end": 237.84,
+      "text": "These activities are developed for physical, mental and spiritual practice, and include different kinds of yoga and pilots."
+    },
+    {
+      "start": 238.62,
+      "end": 243.48,
+      "text": "Friday is the last day of the week with group activities, in particular interval trainings."
+    },
+    {
+      "start": 244.44,
+      "end": 251.64,
+      "text": "Such programs involve series of low to high intensity exercise workouts, interspersed with rest or relief periods."
+    },
+    {
+      "start": 252.3,
+      "end": 255.72,
+      "text": "We hope that you'll find your ideal activities in this timetable."
+    },
+    {
+      "start": 256.16,
+      "end": 259.92,
+      "text": "But don't forget that you can train individually any day of the week."
+    },
+    {
+      "start": 261.36,
+      "end": 266.16,
+      "text": "That is the end of section 2. You now have half a minute to check your answers."
+    }
+  ]
+}

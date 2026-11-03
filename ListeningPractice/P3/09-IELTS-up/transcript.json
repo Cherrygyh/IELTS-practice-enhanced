@@ -1,0 +1,328 @@
+{
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "feb61d87301e15f93be499ad48bcebd5702cdd992d1b51d6dae219195afa355d",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.9,
+      "text": "Section 3. You will hear two students called Jane and Mark talking to their tutor about the project assignments for their senior thesis."
+    },
+    {
+      "start": 12.28,
+      "end": 17.26,
+      "text": "First, you have some time to look at questions 21 to 23."
+    },
+    {
+      "start": 30.0,
+      "end": 51.96,
+      "text": "Now, listen carefully and answer questions 21 to 23."
+    },
+    {
+      "start": 54.96,
+      "end": 59.48,
+      "text": "So, you were both given your project assignments for your senior thesis today."
+    },
+    {
+      "start": 59.92,
+      "end": 60.2,
+      "text": "Right?"
+    },
+    {
+      "start": 60.54,
+      "end": 64.0,
+      "text": "Yes, and we already have to submit our topics next week."
+    },
+    {
+      "start": 64.52,
+      "end": 66.8,
+      "text": "But how could they give us a grade this soon?"
+    },
+    {
+      "start": 67.4,
+      "end": 70.96,
+      "text": "No, next week's due date will not be counted towards your final grade."
+    },
+    {
+      "start": 71.48,
+      "end": 74.78,
+      "text": "The teachers are just going to read your topic and give you feedback."
+    },
+    {
+      "start": 75.6,
+      "end": 80.2,
+      "text": "Oh, I see. So first we should come up with our topics, and then what?"
+    },
+    {
+      "start": 80.32,
+      "end": 85.96,
+      "text": "Well, once you know what you want to study, you need to think about how you'll study it."
+    },
+    {
+      "start": 85.96,
+      "end": 88.64,
+      "text": "You need to decide on your research methods."
+    },
+    {
+      "start": 89.14,
+      "end": 91.1,
+      "text": "The methods will be the main part of your paper."
+    },
+    {
+      "start": 91.78,
+      "end": 93.24,
+      "text": "What about the results section?"
+    },
+    {
+      "start": 93.94,
+      "end": 96.52,
+      "text": "Well, I can give you feedback on that,"
+    },
+    {
+      "start": 96.96,
+      "end": 99.22,
+      "text": "but you will be the one carrying out an experiment"
+    },
+    {
+      "start": 99.22,
+      "end": 103.22,
+      "text": "and thus will have to produce the results on your own."
+    },
+    {
+      "start": 103.7,
+      "end": 107.24,
+      "text": "What I would like to do today is practice writing research papers"
+    },
+    {
+      "start": 107.24,
+      "end": 109.6,
+      "text": "before you even begin your report."
+    },
+    {
+      "start": 110.04,
+      "end": 113.36,
+      "text": "I'll give you samples of old data from past experience"
+    },
+    {
+      "start": 113.36,
+      "end": 117.44,
+      "text": "and you can practice writing results and drawing conclusions."
+    },
+    {
+      "start": 118.06,
+      "end": 119.76,
+      "text": "I think that would be really helpful."
+    },
+    {
+      "start": 120.58,
+      "end": 125.58,
+      "text": "Yeah, it sounds like a lot of extra work, but I'm sure it would make an actual project easier."
+    },
+    {
+      "start": 125.94,
+      "end": 128.48,
+      "text": "You're exactly right. So let's get started."
+    },
+    {
+      "start": 129.12,
+      "end": 132.78,
+      "text": "First, let's try this simple experiment on fruit flies."
+    },
+    {
+      "start": 133.34,
+      "end": 139.4,
+      "text": "Read the information and then take 25 minutes to summarise a results and conclusion section."
+    },
+    {
+      "start": 139.4,
+      "end": 143.18,
+      "text": "That's really important. Pay attention to the time limit."
+    },
+    {
+      "start": 143.36,
+      "end": 146.44,
+      "text": "OK. Does it still have to be 6,000 words?"
+    },
+    {
+      "start": 146.94,
+      "end": 148.3,
+      "text": "No, don't worry about that."
+    },
+    {
+      "start": 148.74,
+      "end": 150.02,
+      "text": "What if we get off topic?"
+    },
+    {
+      "start": 150.6,
+      "end": 152.02,
+      "text": "I wouldn't worry too much."
+    },
+    {
+      "start": 152.34,
+      "end": 157.46,
+      "text": "You'll have so much information to write about that it should be easy to stay on topic."
+    },
+    {
+      "start": 160.68,
+      "end": 167.06,
+      "text": "Before you hear the rest of the talk, you have some time to look at questions 24 to 30."
+    },
+    {
+      "start": 173.36,
+      "end": 191.34,
+      "text": "Now listen carefully and answer questions 24 to 30."
+    },
+    {
+      "start": 194.1,
+      "end": 196.14,
+      "text": "But what about other sources?"
+    },
+    {
+      "start": 196.8,
+      "end": 200.76,
+      "text": "Well, for this assignment, you can use the one from your textbook."
+    },
+    {
+      "start": 200.76,
+      "end": 206.16,
+      "text": "In your actual paper, you should find old experiments that support your topic."
+    },
+    {
+      "start": 207.14,
+      "end": 209.36,
+      "text": "So, do we need to find different types of sources?"
+    },
+    {
+      "start": 210.02,
+      "end": 214.52,
+      "text": "For instance, should I be conducting lots of interviews to use in my paper?"
+    },
+    {
+      "start": 215.34,
+      "end": 219.54,
+      "text": "No, there's no need to conduct lots of interviews or anything like that."
+    },
+    {
+      "start": 220.06,
+      "end": 221.66,
+      "text": "OK, I'm ready to get started."
+    },
+    {
+      "start": 222.4,
+      "end": 226.04,
+      "text": "I'm still a little confused, though, on how we should format our paper."
+    },
+    {
+      "start": 226.04,
+      "end": 233.02,
+      "text": "Don't worry about it for now, but on your final paper, make sure to pay attention to the format."
+    },
+    {
+      "start": 234.04,
+      "end": 236.34,
+      "text": "It should follow the guidelines exactly."
+    },
+    {
+      "start": 236.96,
+      "end": 241.6,
+      "text": "Oh man, I'm starting to understand why they give us all semester to do this."
+    },
+    {
+      "start": 242.04,
+      "end": 245.3,
+      "text": "Are there any other small details like that that we should know about?"
+    },
+    {
+      "start": 245.9,
+      "end": 246.86,
+      "text": "Not a whole lot."
+    },
+    {
+      "start": 247.4,
+      "end": 253.24,
+      "text": "Make sure you provide two copies, one for your teacher of course, but one for yourself as well."
+    },
+    {
+      "start": 253.24,
+      "end": 256.1,
+      "text": "And of course, you know the due date, right?"
+    },
+    {
+      "start": 256.66,
+      "end": 258.56,
+      "text": "It's April the 11th, right?"
+    },
+    {
+      "start": 258.88,
+      "end": 262.44,
+      "text": "What? No, it's May 11th, right?"
+    },
+    {
+      "start": 262.88,
+      "end": 266.96,
+      "text": "Yes, the due date is May 11. Write it down."
+    },
+    {
+      "start": 267.5,
+      "end": 272.5,
+      "text": "Oh wow, yeah, I need to note it. Also, I'm having trouble finding information on my topic."
+    },
+    {
+      "start": 272.76,
+      "end": 274.96,
+      "text": "What if I can't find enough good sources?"
+    },
+    {
+      "start": 275.34,
+      "end": 280.66,
+      "text": "It's all right to change your topic. Just make sure to do it before the beginning of April."
+    },
+    {
+      "start": 281.14,
+      "end": 283.96,
+      "text": "Oh, really? Wow, I'm definitely going to change it then."
+    },
+    {
+      "start": 284.42,
+      "end": 289.28,
+      "text": "Just make sure to write a note to your teacher, letting him or her know."
+    },
+    {
+      "start": 289.78,
+      "end": 294.18,
+      "text": "OK, so getting back to writing this sample paper, where do we start?"
+    },
+    {
+      "start": 294.52,
+      "end": 297.04,
+      "text": "Should I just explain the experiment and what happened?"
+    },
+    {
+      "start": 297.04,
+      "end": 301.9,
+      "text": "Well, you need to start with your hypothesis, what you think will happen,"
+    },
+    {
+      "start": 302.4,
+      "end": 304.08,
+      "text": "and then describe your procedure."
+    },
+    {
+      "start": 305.04,
+      "end": 307.78,
+      "text": "Then you can write up the results and your conclusions."
+    },
+    {
+      "start": 307.78,
+      "end": 312.54,
+      "text": "Oh boy, I don't know if I can handle any more instructions."
+    },
+    {
+      "start": 337.78,
+      "end": 353.22,
+      "text": "Now turn to section 4."
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "3d85fce5b19ee4adc0bfcca3222faf2ac72ee1c16242a054172d36f0e55c7447",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "You will hear a number of different recordings and you will have to answer questions on what you hear."
+    },
+    {
+      "start": 7.04,
+      "end": 13.34,
+      "text": "There will be time for you to read the instructions and questions and you will have a chance to check your work."
+    },
+    {
+      "start": 13.92,
+      "end": 16.36,
+      "text": "All the recordings will be played once only."
+    },
+    {
+      "start": 17.04,
+      "end": 18.9,
+      "text": "The test is in four sections."
+    },
+    {
+      "start": 19.92,
+      "end": 25.58,
+      "text": "At the end of the test, you will be given ten minutes to transfer your answers to an answer sheet."
+    },
+    {
+      "start": 25.58,
+      "end": 30.62,
+      "text": "Now turn to section 1"
+    },
+    {
+      "start": 30.62,
+      "end": 32.26,
+      "text": "Section 1"
+    },
+    {
+      "start": 32.26,
+      "end": 36.06,
+      "text": "You will hear a conversation between Peter and Jim"
+    },
+    {
+      "start": 36.06,
+      "end": 39.26,
+      "text": "talking about some details for their shared accommodation"
+    },
+    {
+      "start": 39.26,
+      "end": 43.46,
+      "text": "First, you have some time to look at questions 1 to 4"
+    },
+    {
+      "start": 55.58,
+      "end": 72.3,
+      "text": "You will see that there is an example which has been done for you."
+    },
+    {
+      "start": 73.12,
+      "end": 78.02,
+      "text": "On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "start": 81.02,
+      "end": 82.46,
+      "text": "Hey Jim, it's Peter."
+    },
+    {
+      "start": 82.76,
+      "end": 84.1,
+      "text": "Oh hey Peter, what's up?"
+    },
+    {
+      "start": 84.1,
+      "end": 88.7,
+      "text": "I thought I'd call so we could hammer out the details for next year's lease."
+    },
+    {
+      "start": 91.76,
+      "end": 96.74,
+      "text": "Peter says that he wants to hammer out the details for next year's lease with Jim."
+    },
+    {
+      "start": 97.5,
+      "end": 100.62,
+      "text": "So, lease has been written in the space."
+    },
+    {
+      "start": 101.28,
+      "end": 102.3,
+      "text": "Now we shall begin."
+    },
+    {
+      "start": 102.3,
+      "end": 104.76,
+      "text": "You should answer the questions as you listen,"
+    },
+    {
+      "start": 105.34,
+      "end": 108.16,
+      "text": "because you will not hear the recording a second time."
+    },
+    {
+      "start": 109.26,
+      "end": 112.38,
+      "text": "Listen carefully and answer questions one to four."
+    },
+    {
+      "start": 114.1,
+      "end": 116.84,
+      "text": "Hey Jim, it's Peter."
+    },
+    {
+      "start": 117.16,
+      "end": 118.46,
+      "text": "Oh hey Peter, what's up?"
+    },
+    {
+      "start": 118.76,
+      "end": 123.08,
+      "text": "I thought I'd call so we could hammer out the details for next year's lease."
+    },
+    {
+      "start": 123.28,
+      "end": 124.16,
+      "text": "That's a good idea."
+    },
+    {
+      "start": 124.82,
+      "end": 127.78,
+      "text": "Did we ever decide on how to split the total rent?"
+    },
+    {
+      "start": 128.3,
+      "end": 134.2,
+      "text": "Well I was thinking since my room is bigger, I probably should pay a little more."
+    },
+    {
+      "start": 134.2,
+      "end": 140.56,
+      "text": "So I could pay £110 and you could pay £80. Does that sound okay?"
+    },
+    {
+      "start": 141.02,
+      "end": 145.52,
+      "text": "Considering that my old apartment cost me £100 for a smaller room,"
+    },
+    {
+      "start": 145.76,
+      "end": 147.36,
+      "text": "I'm definitely alright with that."
+    },
+    {
+      "start": 147.86,
+      "end": 152.3,
+      "text": "Hey, I was looking at a map of the area and can't seem to find a bus stop near it."
+    },
+    {
+      "start": 152.68,
+      "end": 154.8,
+      "text": "Do you know where we would catch the bus?"
+    },
+    {
+      "start": 155.26,
+      "end": 158.3,
+      "text": "Well, the bus is actually pretty far from us,"
+    },
+    {
+      "start": 158.54,
+      "end": 161.76,
+      "text": "but we have that garage that we can park our cars in."
+    },
+    {
+      "start": 162.48,
+      "end": 163.48,
+      "text": "Wow, that's great."
+    },
+    {
+      "start": 163.9,
+      "end": 167.62,
+      "text": "Convenient parking is hard to find, so we're lucky we have that."
+    },
+    {
+      "start": 167.62,
+      "end": 174.0,
+      "text": "OK, so we have a whole lot of things we'll need to buy when we move in. How do you want to split that up?"
+    },
+    {
+      "start": 174.42,
+      "end": 177.76,
+      "text": "I was wondering, do you still work at the supermarket?"
+    },
+    {
+      "start": 178.36,
+      "end": 180.32,
+      "text": "Yep, every Tuesday and Saturday."
+    },
+    {
+      "start": 180.98,
+      "end": 185.8,
+      "text": "Would you be able to buy things from there if I sent you a shopping list?"
+    },
+    {
+      "start": 186.3,
+      "end": 187.46,
+      "text": "Sure, I can do that."
+    },
+    {
+      "start": 187.9,
+      "end": 193.7,
+      "text": "Great, then I can take care of whatever else we need that you wouldn't get at a supermarket."
+    },
+    {
+      "start": 193.7,
+      "end": 200.0,
+      "text": "it. If you want, I'll pick you up from work that day and we can go to the apartment together."
+    },
+    {
+      "start": 200.52,
+      "end": 205.9,
+      "text": "That would be great, thanks. No problem. That way we can split the cost of petrol."
+    },
+    {
+      "start": 206.56,
+      "end": 212.34,
+      "text": "Works for me. It's so expensive these days, isn't it? It's downright obscene."
+    },
+    {
+      "start": 215.1,
+      "end": 220.8,
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10."
+    },
+    {
+      "start": 223.7,
+      "end": 243.62,
+      "text": "Now listen and answer questions 5 to 10."
+    },
+    {
+      "start": 246.36,
+      "end": 249.28,
+      "text": "So let's figure out what appliances we need."
+    },
+    {
+      "start": 249.46,
+      "end": 250.54,
+      "text": "Do we have a microwave?"
+    },
+    {
+      "start": 251.14,
+      "end": 253.48,
+      "text": "Yes, the landlord's providing that for us."
+    },
+    {
+      "start": 253.7,
+      "end": 256.76,
+      "text": "Hey, do you still have that space heater, though?"
+    },
+    {
+      "start": 256.9,
+      "end": 260.76,
+      "text": "We need one for the kitchen since it's not connected to the central heating."
+    },
+    {
+      "start": 261.06,
+      "end": 262.78,
+      "text": "Oh, right. I'll bring that. Anything else?"
+    },
+    {
+      "start": 263.26,
+      "end": 267.36,
+      "text": "Well, I have some dining room and living room furniture I can bring,"
+    },
+    {
+      "start": 267.58,
+      "end": 270.68,
+      "text": "so that should take care of most of the big stuff."
+    },
+    {
+      "start": 271.16,
+      "end": 274.3,
+      "text": "You know what we do need, though? Could you bring a toaster?"
+    },
+    {
+      "start": 274.76,
+      "end": 278.0,
+      "text": "I actually don't have one. It doesn't come with the microwave."
+    },
+    {
+      "start": 278.88,
+      "end": 281.98,
+      "text": "No, the landlord is only supplying the microwave."
+    },
+    {
+      "start": 282.82,
+      "end": 284.9,
+      "text": "It would really help if you could bring one."
+    },
+    {
+      "start": 285.26,
+      "end": 286.9,
+      "text": "OK, I'll pick one up at the store."
+    },
+    {
+      "start": 287.32,
+      "end": 290.86,
+      "text": "You know, I also have this cool antique rotary phone"
+    },
+    {
+      "start": 290.86,
+      "end": 293.1,
+      "text": "that would be a cool addition to the apartment,"
+    },
+    {
+      "start": 293.76,
+      "end": 295.9,
+      "text": "sort of as decoration and utility."
+    },
+    {
+      "start": 296.58,
+      "end": 297.26,
+      "text": "Oh, cool."
+    },
+    {
+      "start": 297.26,
+      "end": 300.96,
+      "text": "The only thing is, we'd have to put it in the kitchen"
+    },
+    {
+      "start": 300.96,
+      "end": 303.14,
+      "text": "unless you want it in your room."
+    },
+    {
+      "start": 303.56,
+      "end": 304.92,
+      "text": "Why not put it in the living room?"
+    },
+    {
+      "start": 305.62,
+      "end": 308.54,
+      "text": "The living room's too loud to have a phone conversation."
+    },
+    {
+      "start": 309.06,
+      "end": 311.04,
+      "text": "The noise sort of carries,"
+    },
+    {
+      "start": 311.04,
+      "end": 315.28,
+      "text": "so if one person is trying to watch TV or have friends over,"
+    },
+    {
+      "start": 315.46,
+      "end": 318.06,
+      "text": "the person on the phone won't be able to hear."
+    },
+    {
+      "start": 319.06,
+      "end": 322.04,
+      "text": "Hmm. Okay, well I guess kitchen it is then."
+    },
+    {
+      "start": 322.92,
+      "end": 324.62,
+      "text": "Any other big things we need?"
+    },
+    {
+      "start": 325.02,
+      "end": 326.42,
+      "text": "That seems like everything."
+    },
+    {
+      "start": 327.24,
+      "end": 328.56,
+      "text": "That's all I can think of."
+    },
+    {
+      "start": 329.12,
+      "end": 331.42,
+      "text": "And of course, move in is..."
+    },
+    {
+      "start": 331.42,
+      "end": 332.34,
+      "text": "June the 1st."
+    },
+    {
+      "start": 332.8,
+      "end": 336.48,
+      "text": "I can't wait. We'll be able to watch the big game in our new apartment."
+    },
+    {
+      "start": 336.8,
+      "end": 337.74,
+      "text": "It's going to be awesome."
+    },
+    {
+      "start": 338.26,
+      "end": 344.34,
+      "text": "Yeah, we can move in in the morning and then Friday night we can sit back and cheer on Liverpool."
+    },
+    {
+      "start": 344.86,
+      "end": 349.58,
+      "text": "I have an exam in the morning, but we'll be done around 11am and can move in after."
+    },
+    {
+      "start": 350.66,
+      "end": 355.1,
+      "text": "Wait, Liverpool? You're joking, right? I thought you were a Manchester United fan."
+    },
+    {
+      "start": 355.4,
+      "end": 359.58,
+      "text": "Man U, no way. Liverpool, all the way."
+    },
+    {
+      "start": 359.58,
+      "end": 362.94,
+      "text": "Oh no, I don't know if I can live with a Liverpool fan."
+    },
+    {
+      "start": 362.94,
+      "end": 370.62,
+      "text": "That is the end of section 1. You now have half a minute to check your answers."
+    },
+    {
+      "start": 392.94,
+      "end": 402.4,
+      "text": "Now turn to section 2."
+    }
+  ]
+};

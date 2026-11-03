@@ -1,0 +1,358 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "841bab16bd987a71642b54f359da4ff6992c2553269671161c76706583b09cd5",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.64,
+      "text": "Section 3. You will hear Jim and Jane, two students, talking about their professor's lecture."
+    },
+    {
+      "start": 9.66,
+      "end": 14.6,
+      "text": "First, you have some time to look at questions 21 to 25."
+    },
+    {
+      "start": 30.0,
+      "end": 50.56,
+      "text": "Now listen carefully and answer questions 21 to 25."
+    },
+    {
+      "start": 53.56,
+      "end": 57.02,
+      "text": "Jane, what did you think of Professor Morgan's lecture?"
+    },
+    {
+      "start": 57.02,
+      "end": 66.6,
+      "text": "I don't know about you, but I find it incredibly difficult to believe that light influences the environment as much as he says."
+    },
+    {
+      "start": 67.28,
+      "end": 74.66,
+      "text": "I've never seen any journal articles, websites or anything that verifies his arguments. It's stupid."
+    },
+    {
+      "start": 75.32,
+      "end": 82.86,
+      "text": "On the contrary, I've seen a great deal of research supporting his argument from a wide range of renowned scientists."
+    },
+    {
+      "start": 82.86,
+      "end": 89.08,
+      "text": "Have you looked at the recommended textbook listed on the course outline given to us at the beginning of the semester?"
+    },
+    {
+      "start": 89.94,
+      "end": 94.62,
+      "text": "All the information is in there. Perhaps you've just been looking in the wrong places."
+    },
+    {
+      "start": 95.48,
+      "end": 104.24,
+      "text": "I never look at the course outlines. I have so many loose sheets of paper I tend to lose anything I'm given by the end of the day."
+    },
+    {
+      "start": 104.62,
+      "end": 108.12,
+      "text": "What's the textbook they recommend and where can I get it from?"
+    },
+    {
+      "start": 108.12,
+      "end": 112.92,
+      "text": "I should probably go buy it soon. I'm already behind in the course."
+    },
+    {
+      "start": 113.58,
+      "end": 118.64,
+      "text": "Yeah, you definitely should buy it. And our grades are more important this year."
+    },
+    {
+      "start": 119.58,
+      "end": 122.74,
+      "text": "It's called The Influence of Light on the Environment."
+    },
+    {
+      "start": 123.86,
+      "end": 126.64,
+      "text": "You should be able to find it in the bookshop on campus."
+    },
+    {
+      "start": 127.64,
+      "end": 130.06,
+      "text": "If not, they'll order it within two weeks."
+    },
+    {
+      "start": 131.08,
+      "end": 134.8,
+      "text": "In the meantime, you should read up on Ken Simpson's work."
+    },
+    {
+      "start": 135.7,
+      "end": 139.02,
+      "text": "He argues that in order to protect natural habitats,"
+    },
+    {
+      "start": 139.62,
+      "end": 143.24,
+      "text": "governments should endeavour to turn off lights in cities at night."
+    },
+    {
+      "start": 144.1,
+      "end": 145.56,
+      "text": "Well, that's controversial."
+    },
+    {
+      "start": 146.06,
+      "end": 149.52,
+      "text": "I doubt any government would be willing to do that any time soon."
+    },
+    {
+      "start": 150.44,
+      "end": 154.48,
+      "text": "I imagine roads would become quite dangerous without street lighting."
+    },
+    {
+      "start": 154.78,
+      "end": 161.04,
+      "text": "For this issue, Dave Kepler suggests they could just replace the existing lights"
+    },
+    {
+      "start": 161.04,
+      "end": 163.92,
+      "text": "with more environmentally friendly bulbs."
+    },
+    {
+      "start": 164.8,
+      "end": 167.26,
+      "text": "They could even install solar-powered lights."
+    },
+    {
+      "start": 167.78,
+      "end": 172.34,
+      "text": "That way, roads will be more eco-friendly while maintaining safety."
+    },
+    {
+      "start": 173.26,
+      "end": 177.3,
+      "text": "Although I guess they wouldn't be particularly effective in colder countries,"
+    },
+    {
+      "start": 177.86,
+      "end": 179.26,
+      "text": "especially during the winter."
+    },
+    {
+      "start": 180.08,
+      "end": 182.12,
+      "text": "That's quite a good idea, actually."
+    },
+    {
+      "start": 182.74,
+      "end": 186.42,
+      "text": "The price of solar power is supposed to be on par with electricity"
+    },
+    {
+      "start": 186.42,
+      "end": 190.78,
+      "text": "within the next few decades, and it was on the news this morning."
+    },
+    {
+      "start": 191.6,
+      "end": 194.7,
+      "text": "I've also heard that, according to Sharon Gray,"
+    },
+    {
+      "start": 194.8,
+      "end": 200.52,
+      "text": "In countries with more sunlight, insect-eating animals tend to be smaller in size,"
+    },
+    {
+      "start": 201.36,
+      "end": 206.74,
+      "text": "since there are fewer insects and the remaining insects produced a smaller number of eggs."
+    },
+    {
+      "start": 207.16,
+      "end": 212.88,
+      "text": "Yeah, I think I read somewhere that sunlight also has a negative effect on the quality of water,"
+    },
+    {
+      "start": 213.5,
+      "end": 215.38,
+      "text": "but I'm not sure I believe it."
+    },
+    {
+      "start": 216.1,
+      "end": 219.98,
+      "text": "In many hot countries, particularly developing countries,"
+    },
+    {
+      "start": 219.98,
+      "end": 224.92,
+      "text": "there is a lot of water pollution caused by factories rather than sunlight."
+    },
+    {
+      "start": 225.98,
+      "end": 229.46,
+      "text": "Nevertheless, Maria Jackson says that in direct sunlight,"
+    },
+    {
+      "start": 229.86,
+      "end": 232.56,
+      "text": "the surface of the water becomes more translucent."
+    },
+    {
+      "start": 233.64,
+      "end": 237.98,
+      "text": "Therefore, it affects the amount of sunlight that aquatic insects can absorb."
+    },
+    {
+      "start": 239.3,
+      "end": 242.82,
+      "text": "Not much research has been undertaken to prove Jackson's theory,"
+    },
+    {
+      "start": 243.16,
+      "end": 245.98,
+      "text": "but it seems to have been widely accepted anyway."
+    },
+    {
+      "start": 246.24,
+      "end": 249.82,
+      "text": "I've never heard of that. I'll have to look it up on Google."
+    },
+    {
+      "start": 249.98,
+      "end": 260.5,
+      "text": "The only other theory I've studied is Barbara Swallow's study on how declined insect population adversely affects the frog population."
+    },
+    {
+      "start": 261.42,
+      "end": 265.52,
+      "text": "Not that I'm complaining. I hate insects, especially spiders."
+    },
+    {
+      "start": 266.34,
+      "end": 272.4,
+      "text": "You have arachnophobia? I never would have guessed. Didn't your brother have a pet black widow spider?"
+    },
+    {
+      "start": 272.4,
+      "end": 281.3,
+      "text": "Yes, he did, and I hated it. It escaped from its cage once, and we never found it. I had nightmares for months."
+    },
+    {
+      "start": 302.4,
+      "end": 315.18,
+      "text": "Now listen and answer questions 26 to 30."
+    },
+    {
+      "start": 318.24,
+      "end": 322.52,
+      "text": "OK, now I'm getting goosebumps. Let's change the subject."
+    },
+    {
+      "start": 323.52,
+      "end": 326.58,
+      "text": "What's your stance on natural and artificial light?"
+    },
+    {
+      "start": 327.24,
+      "end": 331.18,
+      "text": "Honestly, I'm not sure it makes much difference which one you use."
+    },
+    {
+      "start": 331.18,
+      "end": 333.96,
+      "text": "Species will die out either way."
+    },
+    {
+      "start": 334.58,
+      "end": 342.4,
+      "text": "I think the real argument we should consider is global warming and protection or replacement of finite fuels."
+    },
+    {
+      "start": 343.42,
+      "end": 348.5,
+      "text": "Solar power provides us with an incredible opportunity to replace electricity,"
+    },
+    {
+      "start": 349.22,
+      "end": 353.92,
+      "text": "and governments should definitely increase spending on research in this field."
+    },
+    {
+      "start": 353.92,
+      "end": 364.52,
+      "text": "The theories discussed in our lectures, like Simpsons and Greys, are so vague and lack proof, so I don't understand why we even study them."
+    },
+    {
+      "start": 365.18,
+      "end": 373.26,
+      "text": "I see what you mean. I don't like learning unsupported theories for exams, and I'd rather spend my time learning something else."
+    },
+    {
+      "start": 373.26,
+      "end": 381.6,
+      "text": "For example, I'd be much more interested in studying the animals in safari parks than researching migratory birds,"
+    },
+    {
+      "start": 382.06,
+      "end": 386.12,
+      "text": "particularly the effect of tourists on the quality of life of animals."
+    },
+    {
+      "start": 386.9,
+      "end": 391.62,
+      "text": "As we know, every year thousands of visitors will drive in their own vehicles"
+    },
+    {
+      "start": 391.62,
+      "end": 397.52,
+      "text": "or ride in vehicles provided by the facility to observe freely roaming animals."
+    },
+    {
+      "start": 397.92,
+      "end": 400.32,
+      "text": "Yeah, that would be really interesting."
+    },
+    {
+      "start": 400.32,
+      "end": 405.32,
+      "text": "especially those animals living in more tropical countries like Borneo."
+    },
+    {
+      "start": 406.2,
+      "end": 415.1,
+      "text": "Following on from that, I want to study how bringing animals over from foreign countries to put in our zoos affects their life expectancy."
+    },
+    {
+      "start": 416.26,
+      "end": 420.5,
+      "text": "For example, do you remember when China sent pandas to Edinburgh Zoo?"
+    },
+    {
+      "start": 420.92,
+      "end": 425.86,
+      "text": "Apparently, one of the pandas became depressed, but it was never explained why."
+    },
+    {
+      "start": 425.86,
+      "end": 436.92,
+      "text": "To me, obviously, you can't take an animal out of its natural habitat and put it in a cage on the other side of the world. It just doesn't work."
+    },
+    {
+      "start": 439.52,
+      "end": 445.28,
+      "text": "That is the end of section 3. You now have half a minute to check your answers."
+    },
+    {
+      "start": 455.86,
+      "end": 477.42,
+      "text": "Now turn to section 4."
+    }
+  ]
+};

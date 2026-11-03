@@ -1,0 +1,1033 @@
+// Browse Preferences and View Management Utilities
+// Extracted from main.js to modularize browse view logic
+
+(function (global) {
+    'use strict';
+
+    let browsePreferencesCache = null;
+    let browsePreferencesReady = null;
+    let browsePreferencesHydrated = false;
+    let browsePreferenceWriteQueue = Promise.resolve();
+    let browsePreferenceWriteSequence = 0;
+    const ownBrowsePreferenceOperationIds = new Set();
+    let browsePreferenceCommitListenerBound = false;
+    const pendingBrowsePreferenceWrites = [];
+    let browseAnchorProjection = null;
+    let browseAnchorProjectionRevision = 0;
+    let browseAnchorPersistenceDebt = null;
+    let currentBrowseScrollElement = null;
+    let removeBrowseScrollListener = null;
+    let pendingBrowseAutoScroll = null;
+    let browsePreferenceUiInitialized = false;
+    let pendingBrowseScrollSnapshot = null;
+
+    // --- Helper Functions ---
+
+    function debounce(fn, wait) {
+        let timer = null;
+        return function debounced(...args) {
+            if (timer) {
+                clearTimeout(timer);
+            }
+            timer = setTimeout(() => {
+                timer = null;
+                fn.apply(this, args);
+            }, wait);
+        };
+    }
+
+    function escapeCssIdentifier(value) {
+        if (typeof value !== 'string') {
+            return '';
+        }
+        if (global.CSS && typeof global.CSS.escape === 'function') {
+            return global.CSS.escape(value);
+        }
+        return value.replace(/[^a-zA-Z0-9_-]/g, '\\$&');
+    }
+
+    // --- Normalization Functions ---
+
+    function normalizeCategoryKey(category) {
+        if (!category || typeof category !== 'string') {
+            return 'all';
+        }
+        const trimmed = category.trim();
+        if (!trimmed) {
+            return 'all';
+        }
+        const match = trimmed.match(/^(P\d)$/i);
+        if (match) {
+            return match[1].toUpperCase();
+        }
+        // 处理 "Part 1", "Part 2" 等格式
+        const partMatch = trimmed.match(/^Part\s+([1-4])$/i);
+        if (partMatch) {
+            return 'P' + partMatch[1];
+        }
+        const embedded = trimmed.match(/\b(P[1-4])\b/i);
+        if (embedded) {
+            return embedded[1].toUpperCase();
+        }
+        return trimmed;
+    }
+
+    function normalizeExamType(type) {
+        if (!type || typeof type !== 'string') {
+            return 'all';
+        }
+        const lower = type.toLowerCase();
+        if (lower === 'reading' || lower === 'listening') {
+            return lower;
+        }
+        if (lower.includes('阅读')) {
+            return 'reading';
+        }
+        if (lower.includes('听力')) {
+            return 'listening';
+        }
+        return 'all';
+    }
+
+    function buildBrowseFilterKey(category, type) {
+        return `${normalizeCategoryKey(category)}|${normalizeExamType(type)}`;
+    }
+
+    // --- Preference Management ---
+
+    function getDefaultBrowsePreferences() {
+        return {
+            scrollPositions: {},
+            listAnchors: {},
+            autoScrollEnabled: true,
+            lastFilter: null
+        };
+    }
+
+    function normalizeBrowsePreferencesSnapshot(parsed) {
+        const next = Object.assign({}, getDefaultBrowsePreferences(), parsed || {});
+        if (!next.scrollPositions || typeof next.scrollPositions !== 'object') {
+            next.scrollPositions = {};
+        }
+        next.listAnchors = mergeBrowseAnchors({}, next.listAnchors);
+        return next;
+    }
+
+    function bindBrowsePreferenceCommitListener() {
+        if (browsePreferenceCommitListenerBound) {
+            return;
+        }
+        const backups = global.AppData && global.AppData.backups;
+        if (!backups || typeof backups.onDataCommitted !== 'function') {
+            return;
+        }
+        browsePreferenceCommitListenerBound = true;
+        backups.onDataCommitted((event) => {
+            const targets = Array.isArray(event && event.targets) ? event.targets : [];
+            if (!targets.some((target) => target && target.logicalKey === 'preferences.values')) {
+                return;
+            }
+            const operationId = event && event.receipt && event.receipt.operationId
+                ? String(event.receipt.operationId)
+                : (event && event.operationId ? String(event.operationId) : '');
+            if (operationId && ownBrowsePreferenceOperationIds.delete(operationId)) {
+                return;
+            }
+            // Backup restores and legacy preference writers may commit outside
+            // this queue. Force the next queued partial write to merge against
+            // the new durable baseline instead of resurrecting stale cache.
+            browsePreferencesHydrated = false;
+        });
+    }
+
+    function mergeBrowseAnchors(currentAnchors = {}, updates) {
+        const next = Object.assign({}, currentAnchors);
+        if (!updates || typeof updates !== 'object') {
+            return next;
+        }
+
+        for (const [key, value] of Object.entries(updates)) {
+            if (typeof key !== 'string' || !key) {
+                continue;
+            }
+            if (value === null) {
+                delete next[key];
+                continue;
+            }
+            if (!value || typeof value !== 'object') {
+                continue;
+            }
+
+            const normalized = {};
+            if (typeof value.examId === 'string' && value.examId.trim()) {
+                normalized.examId = value.examId.trim();
+            }
+            if (typeof value.title === 'string' && value.title.trim()) {
+                normalized.title = value.title.trim();
+            }
+            if (Number.isFinite(value.scrollTop) && value.scrollTop >= 0) {
+                normalized.scrollTop = Math.round(value.scrollTop);
+            }
+            const ts = Number(value.timestamp);
+            normalized.timestamp = Number.isFinite(ts) && ts > 0 ? Math.round(ts) : Date.now();
+
+            if (!normalized.examId && !normalized.title && typeof normalized.scrollTop !== 'number') {
+                delete next[key];
+                continue;
+            }
+
+            next[key] = normalized;
+        }
+
+        return next;
+    }
+
+    function loadBrowsePreferencesFromStorage() {
+        bindBrowsePreferenceCommitListener();
+        if (!browsePreferencesReady) {
+            browsePreferencesReady = Promise.resolve().then(async () => {
+                if (!global.AppData || !global.AppData.preferences) return;
+                await global.AppData.ready;
+                const parsed = await global.AppData.preferences.getBrowse();
+                browsePreferencesCache = normalizeBrowsePreferencesSnapshot(parsed);
+                browsePreferencesHydrated = true;
+            }).catch((error) => console.warn('[BrowsePreferences] 无法读取浏览偏好，使用默认值', error));
+        }
+        try {
+            return normalizeBrowsePreferencesSnapshot(browsePreferencesCache);
+        } catch (error) {
+            console.warn('[BrowsePreferences] 无法读取浏览偏好，使用默认值', error);
+            return getDefaultBrowsePreferences();
+        }
+    }
+
+    function getBrowseViewPreferences() {
+        if (!browsePreferencesCache) {
+            browsePreferencesCache = loadBrowsePreferencesFromStorage();
+        }
+        if (!browseAnchorProjection) {
+            return browsePreferencesCache;
+        }
+        return Object.assign({}, browsePreferencesCache, {
+            // Anchors are a derived live projection. Keep the accepted
+            // generation visible while its durable write is still pending or
+            // has failed; user-authored preferences remain committed-cache
+            // values until their existing write contract completes.
+            listAnchors: mergeBrowseAnchors({}, browseAnchorProjection.anchors)
+        });
+    }
+
+    async function whenBrowseViewPreferencesReady() {
+        loadBrowsePreferencesFromStorage();
+        if (browsePreferencesReady) {
+            await browsePreferencesReady;
+        }
+        return getBrowseViewPreferences();
+    }
+
+    function mergeBrowsePreferences(current, partial = {}, options = {}) {
+        const replaceListAnchors = options.replaceListAnchors === true;
+        return Object.assign({}, current, partial, {
+            scrollPositions: Object.assign({}, current.scrollPositions, partial.scrollPositions || {}),
+            listAnchors: replaceListAnchors
+                ? mergeBrowseAnchors({}, partial.listAnchors)
+                : mergeBrowseAnchors(current.listAnchors, partial.listAnchors),
+            autoScrollEnabled: Object.prototype.hasOwnProperty.call(partial, 'autoScrollEnabled')
+                ? !!partial.autoScrollEnabled
+                : current.autoScrollEnabled,
+            lastFilter: Object.prototype.hasOwnProperty.call(partial, 'lastFilter')
+                ? (partial.lastFilter || null)
+                : current.lastFilter
+        });
+    }
+
+    function removePendingBrowsePreferenceWrite(request) {
+        const index = pendingBrowsePreferenceWrites.indexOf(request);
+        if (index >= 0) {
+            pendingBrowsePreferenceWrites.splice(index, 1);
+        }
+    }
+
+    function enqueueBrowsePreferenceWrite(partial = {}, options = {}) {
+        bindBrowsePreferenceCommitListener();
+        const request = {
+            partial: Object.assign({}, partial),
+            replaceListAnchors: options.replaceListAnchors === true,
+            anchorRevision: Number.isFinite(Number(options.anchorRevision))
+                ? Number(options.anchorRevision)
+                : null,
+            operationId: `browse-preference-${Date.now()}-${++browsePreferenceWriteSequence}`
+        };
+        pendingBrowsePreferenceWrites.push(request);
+        const preview = pendingBrowsePreferenceWrites.reduce(
+            (current, pending) => mergeBrowsePreferences(
+                current,
+                pending.partial,
+                pending
+            ),
+            getBrowseViewPreferences()
+        );
+
+        if (!global.AppData || !global.AppData.preferences) {
+            removePendingBrowsePreferenceWrite(request);
+            if (request.anchorRevision != null
+                && browseAnchorPersistenceDebt
+                && browseAnchorPersistenceDebt.revision === request.anchorRevision) {
+                browseAnchorPersistenceDebt.status = 'failed';
+            }
+            console.warn('[BrowsePreferences] AppData.preferences 不可用，偏好未保存');
+            return { preview, outcome: Promise.resolve(false) };
+        }
+
+        const outcome = browsePreferenceWriteQueue.then(async () => {
+            await global.AppData.ready;
+            if (browsePreferencesReady) await browsePreferencesReady;
+            // A lazy bundle may be queued before AppData is exposed. Hydrate
+            // that first queued write before merging it with the default
+            // preview; once the accepted baseline is loaded, subsequent
+            // writes must stay on this queue and must not start an unrelated
+            // preference read that can block the caller's flush barrier.
+            if (!browsePreferencesHydrated) {
+                const persisted = await global.AppData.preferences.getBrowse();
+                browsePreferencesCache = normalizeBrowsePreferencesSnapshot(persisted);
+                browsePreferencesHydrated = true;
+            }
+            const next = mergeBrowsePreferences(
+                getBrowseViewPreferences(),
+                request.partial,
+                request
+            );
+            // AppData merges patches against the latest durable preferences.
+            // Sending the whole cached snapshot can overwrite a sort/favorite
+            // change committed while this write waits in AppData's queue.
+            // Keep merged nested values, but only for fields this request owns.
+            const patch = Object.fromEntries(
+                Object.keys(request.partial).map((key) => [key, next[key]])
+            );
+            ownBrowsePreferenceOperationIds.add(request.operationId);
+            try {
+                await global.AppData.preferences.patchBrowse(patch, { operationId: request.operationId });
+            } catch (error) {
+                ownBrowsePreferenceOperationIds.delete(request.operationId);
+                throw error;
+            }
+            browsePreferencesCache = next;
+            if (request.anchorRevision != null
+                && browseAnchorPersistenceDebt
+                && browseAnchorPersistenceDebt.revision === request.anchorRevision) {
+                browseAnchorPersistenceDebt = null;
+            }
+            return true;
+        }).catch((error) => {
+            if (request.anchorRevision != null
+                && browseAnchorPersistenceDebt
+                && browseAnchorPersistenceDebt.revision === request.anchorRevision) {
+                browseAnchorPersistenceDebt.status = 'failed';
+            }
+            console.warn('[BrowsePreferences] 保存浏览偏好失败，保留上次已提交值', error);
+            return false;
+        }).finally(() => {
+            removePendingBrowsePreferenceWrite(request);
+        });
+        browsePreferenceWriteQueue = outcome.then(() => undefined);
+        return { preview, outcome };
+    }
+
+    function saveBrowseViewPreferences(partial = {}) {
+        return enqueueBrowsePreferenceWrite(partial).preview;
+    }
+
+    function flushBrowsePreferenceWrites() {
+        return browsePreferenceWriteQueue.then(() => getBrowseViewPreferences());
+    }
+
+    function persistBrowseFilter(category, type) {
+        const normalizedCategory = normalizeCategoryKey(category);
+        const normalizedType = normalizeExamType(type);
+        saveBrowseViewPreferences({
+            lastFilter: { category: normalizedCategory, type: normalizedType }
+        });
+    }
+
+    function getPersistedBrowseFilter() {
+        const prefs = getBrowseViewPreferences();
+        if (!prefs.lastFilter) {
+            return null;
+        }
+        return {
+            category: normalizeCategoryKey(prefs.lastFilter.category),
+            type: normalizeExamType(prefs.lastFilter.type)
+        };
+    }
+
+    // --- Scroll Management ---
+
+    function captureBrowseScrollSnapshot(category, type, scrollTop) {
+        const normalizedCategory = normalizeCategoryKey(category);
+        const normalizedType = normalizeExamType(type);
+        const sanitizedScrollTop = Math.max(0, Math.round(scrollTop || 0));
+        pendingBrowseScrollSnapshot = {
+            category: normalizedCategory,
+            type: normalizedType,
+            scrollTop: sanitizedScrollTop
+        };
+        return pendingBrowseScrollSnapshot;
+    }
+
+    function persistBrowseScrollSnapshot(snapshot) {
+        if (!snapshot) {
+            return;
+        }
+        const key = buildBrowseFilterKey(snapshot.category, snapshot.type);
+        saveBrowseViewPreferences({
+            scrollPositions: { [key]: snapshot.scrollTop }
+        });
+    }
+
+    function flushPendingBrowseScrollPosition() {
+        persistBrowseScrollSnapshot(pendingBrowseScrollSnapshot);
+    }
+
+    function recordBrowseScrollPosition(category, type, scrollTop) {
+        const snapshot = captureBrowseScrollSnapshot(category, type, scrollTop);
+        persistBrowseScrollSnapshot(snapshot);
+    }
+
+    function restoreBrowseScrollPosition(scrollEl, category, type) {
+        const prefs = getBrowseViewPreferences();
+        const key = buildBrowseFilterKey(category, type);
+        const stored = prefs.scrollPositions[key];
+        if (typeof stored === 'number' && stored >= 0) {
+            scrollEl.scrollTop = stored;
+            return true;
+        }
+        return false;
+    }
+
+    function ensureBrowseScrollListener(scrollEl) {
+        if (!scrollEl) {
+            return;
+        }
+        if (currentBrowseScrollElement === scrollEl) {
+            return;
+        }
+        if (typeof removeBrowseScrollListener === 'function') {
+            removeBrowseScrollListener();
+            removeBrowseScrollListener = null;
+        }
+
+        const persist = debounce(() => {
+            flushPendingBrowseScrollPosition();
+        }, 150);
+
+        const handleScroll = () => {
+            const category = global.getCurrentCategory ? global.getCurrentCategory() : 'all';
+            const type = global.getCurrentExamType ? global.getCurrentExamType() : 'all';
+            captureBrowseScrollSnapshot(category, type, scrollEl.scrollTop);
+            persist();
+        };
+
+        const initialCategory = global.getCurrentCategory ? global.getCurrentCategory() : 'all';
+        const initialType = global.getCurrentExamType ? global.getCurrentExamType() : 'all';
+        captureBrowseScrollSnapshot(initialCategory, initialType, scrollEl.scrollTop);
+
+        scrollEl.addEventListener('scroll', handleScroll, { passive: true });
+        currentBrowseScrollElement = scrollEl;
+        removeBrowseScrollListener = () => {
+            try { scrollEl.removeEventListener('scroll', handleScroll); } catch (_) { }
+            currentBrowseScrollElement = null;
+            flushPendingBrowseScrollPosition();
+        };
+    }
+
+    // --- Auto Scroll Logic ---
+
+    function requestBrowseAutoScroll(category, type, source = 'category-card') {
+        pendingBrowseAutoScroll = {
+            category: normalizeCategoryKey(category),
+            type: normalizeExamType(type),
+            source,
+            timestamp: Date.now()
+        };
+    }
+
+    function clearPendingBrowseAutoScroll() {
+        pendingBrowseAutoScroll = null;
+    }
+
+    function consumeBrowseAutoScroll(category, type) {
+        if (!pendingBrowseAutoScroll) {
+            return null;
+        }
+        const now = Date.now();
+        if (now - pendingBrowseAutoScroll.timestamp > 5000) {
+            pendingBrowseAutoScroll = null;
+            return null;
+        }
+        const normalizedCategory = normalizeCategoryKey(category);
+        const normalizedType = normalizeExamType(type);
+        const categoryMatch = pendingBrowseAutoScroll.category === normalizedCategory;
+        const typeMatch = pendingBrowseAutoScroll.type === 'all'
+            || pendingBrowseAutoScroll.type === normalizedType;
+        if (categoryMatch && typeMatch) {
+            const context = pendingBrowseAutoScroll;
+            pendingBrowseAutoScroll = null;
+            return context;
+        }
+        return null;
+    }
+
+    // --- Data Helpers ---
+
+    function deriveRecordTimestamp(record) {
+        if (!record || typeof record !== 'object') {
+            return Number.NaN;
+        }
+        const candidates = [];
+        if (record.date) candidates.push(record.date);
+        if (record.endTime) candidates.push(record.endTime);
+        if (record.completedAt) candidates.push(record.completedAt);
+        if (record.timestamp) candidates.push(record.timestamp);
+        if (record.startTime) candidates.push(record.startTime);
+        const realData = record.realData || {};
+        if (realData.completedAt) candidates.push(realData.completedAt);
+        if (realData.endTime) candidates.push(realData.endTime);
+        if (realData.date) candidates.push(realData.date);
+
+        for (const value of candidates) {
+            if (value == null) {
+                continue;
+            }
+            if (typeof value === 'number') {
+                if (Number.isFinite(value)) {
+                    return value;
+                }
+                continue;
+            }
+            const parsed = Date.parse(value);
+            if (!Number.isNaN(parsed)) {
+                return parsed;
+            }
+        }
+        return Number.NaN;
+    }
+
+    function resolveRecordExamInfo(record, examIndex) {
+        if (!record || typeof record !== 'object') {
+            return null;
+        }
+        const metadata = record.metadata || {};
+        const examId = record.examId || metadata.examId || metadata.originalExamId || null;
+        let category = normalizeCategoryKey(record.category || record.examCategory || metadata.category);
+        let type = normalizeExamType(record.type || record.examType || metadata.examType);
+        let title = record.title || record.examTitle || metadata.examTitle || metadata.title || null;
+
+        if ((!category || category === 'all' || category === 'Unknown') && title) {
+            const embedded = normalizeCategoryKey(title);
+            if (embedded !== 'all') {
+                category = embedded;
+            }
+        }
+
+        if (type === 'all') {
+            const sourceText = [
+                record.type,
+                record.examType,
+                metadata.type,
+                metadata.examType,
+                record.source,
+                metadata.source,
+                record.practiceType,
+                metadata.practiceType
+            ].filter(Boolean).join(' ');
+            const inferredType = normalizeExamType(sourceText);
+            if (inferredType !== 'all') {
+                type = inferredType;
+            }
+        }
+
+        if (category === 'all' || category === 'Unknown' || !title || type === 'all') {
+            const list = Array.isArray(examIndex) ? examIndex : [];
+            let entry = null;
+            if (examId) {
+                entry = list.find((exam) => exam && exam.id === examId);
+            }
+            if (!entry && title) {
+                entry = list.find((exam) => exam && exam.title === title);
+            }
+            if (entry) {
+                if ((category === 'all' || category === 'Unknown') && entry.category) {
+                    category = normalizeCategoryKey(entry.category);
+                }
+                if (type === 'all' && entry.type) {
+                    type = normalizeExamType(entry.type);
+                }
+                if (!title && entry.title) {
+                    title = entry.title;
+                }
+            }
+        }
+
+        if (!examId && !title) {
+            return null;
+        }
+
+        return {
+            examId,
+            category,
+            type,
+            title: title || examId
+        };
+    }
+
+    function findLastPracticeExamEntry(exams, records, examIndex, category, type) {
+        const normalizedCategory = normalizeCategoryKey(category);
+        const normalizedType = normalizeExamType(type);
+        const recordSnapshot = Array.isArray(records) ? records : [];
+        if (recordSnapshot.length === 0) {
+            return null;
+        }
+
+        const indexSnapshot = Array.isArray(examIndex) ? examIndex : [];
+        let latest = null;
+        let latestTimestamp = Number.NEGATIVE_INFINITY;
+
+        recordSnapshot.forEach((record) => {
+            const info = resolveRecordExamInfo(record, indexSnapshot);
+            if (!info) {
+                return;
+            }
+            if (normalizedCategory !== 'all' && info.category !== normalizedCategory) {
+                return;
+            }
+            if (normalizedType !== 'all' && info.type !== normalizedType) {
+                return;
+            }
+            const timestamp = deriveRecordTimestamp(record);
+            if (!Number.isFinite(timestamp)) {
+                return;
+            }
+            if (timestamp > latestTimestamp) {
+                latestTimestamp = timestamp;
+                latest = info;
+            }
+        });
+
+        if (!latest) {
+            return null;
+        }
+
+        const list = Array.isArray(exams) ? exams : [];
+        const index = list.findIndex((exam) => {
+            if (!exam) {
+                return false;
+            }
+            if (latest.examId && exam.id === latest.examId) {
+                return true;
+            }
+            if (latest.title && exam.title === latest.title) {
+                return true;
+            }
+            return false;
+        });
+
+        if (index === -1) {
+            return null;
+        }
+
+        return { index, exam: list[index] };
+    }
+
+    function findExamEntryByAnchor(exams, anchor) {
+        if (!anchor || typeof anchor !== 'object') {
+            return null;
+        }
+        const list = Array.isArray(exams) ? exams : [];
+        let index = -1;
+        if (anchor.examId) {
+            index = list.findIndex((exam) => exam && exam.id === anchor.examId);
+        }
+        if (index === -1 && anchor.title) {
+            index = list.findIndex((exam) => exam && exam.title === anchor.title);
+        }
+        if (index === -1) {
+            return null;
+        }
+        return { index, exam: list[index] };
+    }
+
+    function getBrowseListAnchor(category, type) {
+        const prefs = getBrowseViewPreferences();
+        const key = buildBrowseFilterKey(category, type);
+        const anchor = prefs.listAnchors && prefs.listAnchors[key];
+        if (!anchor || typeof anchor !== 'object') {
+            return null;
+        }
+        const result = {};
+        if (typeof anchor.examId === 'string' && anchor.examId.trim()) {
+            result.examId = anchor.examId.trim();
+        }
+        if (typeof anchor.title === 'string' && anchor.title.trim()) {
+            result.title = anchor.title.trim();
+        }
+        if (Number.isFinite(anchor.timestamp) && anchor.timestamp > 0) {
+            result.timestamp = Math.round(anchor.timestamp);
+        }
+        if (!result.examId && !result.title) {
+            return null;
+        }
+        return result;
+    }
+
+    function scrollExamListToEntry(scrollEl, entry) {
+        if (!scrollEl || !entry || entry.index == null || entry.index < 0) {
+            return false;
+        }
+        const exam = entry.exam || {};
+        let selector = null;
+        if (exam.id) {
+            selector = `[data-exam-id="${escapeCssIdentifier(exam.id)}"]`;
+        }
+
+        let element = selector ? scrollEl.querySelector(selector) : null;
+        if (!element) {
+            const items = scrollEl.querySelectorAll('.exam-item');
+            element = Array.from(items).find((item) => {
+                const titleNode = item.querySelector('h4');
+                return titleNode && titleNode.textContent && exam.title && titleNode.textContent.trim() === exam.title.trim();
+            }) || null;
+        }
+
+        if (!element) {
+            return false;
+        }
+
+        const targetTop = element.offsetTop - (scrollEl.clientHeight / 2) + (element.offsetHeight / 2);
+        scrollEl.scrollTop = Math.max(0, targetTop);
+        return true;
+    }
+
+    // --- UI Logic ---
+
+    function updateBrowsePreferenceIndicator(enabled) {
+        const trigger = document.getElementById('browse-title-trigger');
+        if (!trigger) {
+            return;
+        }
+        const isEnabled = !!enabled;
+        trigger.classList.toggle('active', isEnabled);
+        trigger.setAttribute('aria-pressed', isEnabled ? 'true' : 'false');
+        trigger.setAttribute('title', isEnabled ? '列表位置记录：已开启' : '列表位置记录：已关闭');
+    }
+
+    function setBrowseTitle(text) {
+        const titleEl = document.getElementById('browse-title');
+        if (titleEl) {
+            titleEl.textContent = text;
+        }
+    }
+
+    function formatBrowseTitle(category = 'all', type = 'all') {
+        const normalizedCategory = normalizeCategoryKey(category);
+        const normalizedType = normalizeExamType(type);
+        if (normalizedCategory === 'all' && normalizedType === 'all') {
+            return '题库浏览';
+        }
+
+        const parts = [];
+        if (normalizedCategory !== 'all') {
+            parts.push(normalizedCategory);
+        }
+        if (normalizedType !== 'all') {
+            parts.push(normalizedType === 'reading' ? '阅读' : '听力');
+        }
+        parts.push('题库浏览');
+        return parts.join(' ');
+    }
+
+    async function setupBrowsePreferenceUI() {
+        const trigger = document.getElementById('browse-title-trigger');
+        const panel = document.getElementById('browse-preference-panel');
+        const checkbox = document.getElementById('browse-remember-position');
+
+        if (!trigger || !panel || !checkbox) {
+            return;
+        }
+
+        const prefs = await whenBrowseViewPreferencesReady();
+        checkbox.checked = !!prefs.autoScrollEnabled;
+        updateBrowsePreferenceIndicator(prefs.autoScrollEnabled);
+
+        if (browsePreferenceUiInitialized) {
+            return;
+        }
+
+        browsePreferenceUiInitialized = true;
+
+        const closePanel = () => {
+            if (panel) {
+                panel.hidden = true;
+            }
+            trigger.setAttribute('aria-expanded', 'false');
+        };
+
+        const applyAutoScrollPreference = (enabled, showMessage = false) => {
+            const next = saveBrowseViewPreferences({ autoScrollEnabled: !!enabled });
+            checkbox.checked = !!next.autoScrollEnabled;
+            updateBrowsePreferenceIndicator(next.autoScrollEnabled);
+            if (showMessage && typeof global.showMessage === 'function') {
+                const message = next.autoScrollEnabled
+                    ? '已开启列表位置记录，将自动恢复到上次答题的位置'
+                    : '已关闭列表位置记录';
+                global.showMessage(message, 'info');
+            }
+            closePanel();
+        };
+
+        // 兼容原始交互：📚 按钮直接作为开关入口
+        trigger.addEventListener('click', (event) => {
+            event.preventDefault();
+            applyAutoScrollPreference(!checkbox.checked, true);
+        });
+
+        trigger.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                applyAutoScrollPreference(!checkbox.checked, true);
+            }
+        });
+
+        document.addEventListener('click', (event) => {
+            if (panel.hidden) {
+                return;
+            }
+            if (event.target === trigger || trigger.contains(event.target)) {
+                return;
+            }
+            if (panel.contains(event.target)) {
+                return;
+            }
+            closePanel();
+        });
+
+        checkbox.addEventListener('change', (event) => {
+            applyAutoScrollPreference(!!event.target.checked, true);
+        });
+    }
+
+    async function handlePostExamListRender(exams, { category, type } = {}) {
+        const scrollEl = document.querySelector('#exam-list-container .exam-list');
+        if (!scrollEl) {
+            return;
+        }
+
+        const prefs = await whenBrowseViewPreferencesReady();
+        ensureBrowseScrollListener(scrollEl);
+
+        const normalizedCategory = normalizeCategoryKey(category || (global.getCurrentCategory ? global.getCurrentCategory() : 'all'));
+        const normalizedType = normalizeExamType(type || (global.getCurrentExamType ? global.getCurrentExamType() : 'all'));
+        const autoScrollContext = consumeBrowseAutoScroll(normalizedCategory, normalizedType);
+
+        const applyScroll = () => {
+            const performFallback = () => {
+                if (!restoreBrowseScrollPosition(scrollEl, normalizedCategory, normalizedType)) {
+                    if (prefs.autoScrollEnabled) {
+                        scrollEl.scrollTop = 0;
+                    }
+                }
+            };
+
+            const attemptScrollToEntry = (entry, remaining, onFail) => {
+                if (scrollExamListToEntry(scrollEl, entry)) {
+                    recordBrowseScrollPosition(normalizedCategory, normalizedType, scrollEl.scrollTop);
+                    return;
+                }
+                if (remaining > 0) {
+                    setTimeout(() => attemptScrollToEntry(entry, remaining - 1, onFail), 80);
+                    return;
+                }
+                if (typeof onFail === 'function') {
+                    onFail();
+                }
+            };
+
+            if (prefs.autoScrollEnabled && (normalizedCategory !== 'all' || normalizedType !== 'all')) {
+                const anchor = getBrowseListAnchor(normalizedCategory, normalizedType);
+                if (anchor) {
+                    const entryFromAnchor = findExamEntryByAnchor(exams, anchor);
+                    if (entryFromAnchor) {
+                        const retries = autoScrollContext ? 7 : 4;
+                        attemptScrollToEntry(entryFromAnchor, retries, performFallback);
+                        return;
+                    }
+                }
+            }
+
+            performFallback();
+        };
+
+        if (typeof requestAnimationFrame === 'function') {
+            requestAnimationFrame(applyScroll);
+        } else {
+            applyScroll();
+        }
+    }
+
+    function prepareBrowseAnchorUpdates(records, examIndex) {
+        const list = Array.isArray(records) ? records : [];
+        const indexSnapshot = Array.isArray(examIndex) ? examIndex : [];
+        const updates = {};
+
+        list.forEach((record) => {
+            const info = resolveRecordExamInfo(record, indexSnapshot);
+            if (!info) {
+                return;
+            }
+            const key = buildBrowseFilterKey(info.category, info.type);
+            const timestamp = deriveRecordTimestamp(record);
+            if (!Number.isFinite(timestamp)) {
+                return;
+            }
+            const anchor = {
+                examId: info.examId || null,
+                title: info.title || null,
+                timestamp
+            };
+            const existing = updates[key];
+            if (!existing || timestamp > existing.timestamp) {
+                updates[key] = anchor;
+            }
+        });
+
+        // The Practice record list is authoritative, so stage a complete
+        // immutable projection instead of a delta against possibly stale
+        // durable preferences. A newer snapshot therefore replaces every
+        // anchor omitted from it without relying on deletion tombstones.
+        return mergeBrowseAnchors({}, updates);
+    }
+
+    function readBrowseAnchorPublicationGeneration(publication) {
+        const raw = publication && typeof publication === 'object'
+            ? publication.practiceProjectionGeneration
+            : publication;
+        if (raw == null) {
+            return null;
+        }
+        const generation = Number(raw);
+        return Number.isFinite(generation) ? generation : null;
+    }
+
+    function getBrowseAnchorProjectionState() {
+        if (!browseAnchorProjection) {
+            return { revision: 0, generation: null, persistence: 'idle' };
+        }
+        const debt = browseAnchorPersistenceDebt
+            && browseAnchorPersistenceDebt.revision === browseAnchorProjection.revision
+            ? browseAnchorPersistenceDebt
+            : null;
+        return {
+            revision: browseAnchorProjection.revision,
+            generation: browseAnchorProjection.generation,
+            persistence: debt ? debt.status : 'persisted'
+        };
+    }
+
+    function commitBrowseAnchorUpdates(updates, publication = null) {
+        if (!updates || typeof updates !== 'object' || Array.isArray(updates)) {
+            return false;
+        }
+        let anchors;
+        try {
+            anchors = mergeBrowseAnchors({}, updates);
+        } catch (_) {
+            return false;
+        }
+        const generation = readBrowseAnchorPublicationGeneration(publication);
+        if (generation != null
+            && browseAnchorProjection
+            && browseAnchorProjection.generation != null
+            && generation <= browseAnchorProjection.generation) {
+            return false;
+        }
+
+        const revision = browseAnchorProjectionRevision + 1;
+        const acceptedProjection = {
+            anchors,
+            generation: generation != null
+                ? generation
+                : (browseAnchorProjection ? browseAnchorProjection.generation : null),
+            revision
+        };
+        // This is the anchor publication point: one synchronous assignment
+        // makes the newest full snapshot visible to consumers and subsequent
+        // preparation before any durable write can settle.
+        browseAnchorProjectionRevision = revision;
+        browseAnchorProjection = acceptedProjection;
+        // Keep only the current projection debt. A later accepted full
+        // snapshot supersedes it and retries through the same preference
+        // queue; no independent retry scheduler is introduced here.
+        browseAnchorPersistenceDebt = { revision, status: 'pending' };
+
+        try {
+            enqueueBrowsePreferenceWrite(
+                { listAnchors: anchors },
+                { replaceListAnchors: true, anchorRevision: revision }
+            );
+        } catch (error) {
+            if (browseAnchorPersistenceDebt
+                && browseAnchorPersistenceDebt.revision === revision) {
+                browseAnchorPersistenceDebt.status = 'failed';
+            }
+            console.warn('[BrowsePreferences] 浏览锚点持久化排队失败', error);
+        }
+        return true;
+    }
+
+    function updateBrowseAnchorsFromRecords(records, examIndex, publication = null) {
+        const updates = prepareBrowseAnchorUpdates(records, examIndex);
+        commitBrowseAnchorUpdates(updates, publication);
+        return updates;
+    }
+
+    // --- Global Event Listeners ---
+
+    if (typeof window !== 'undefined') {
+        window.addEventListener('pagehide', flushPendingBrowseScrollPosition);
+        window.addEventListener('beforeunload', flushPendingBrowseScrollPosition);
+
+        if (typeof document !== 'undefined' && typeof document.addEventListener === 'function') {
+            document.addEventListener('visibilitychange', () => {
+                if (document.visibilityState === 'hidden') {
+                    flushPendingBrowseScrollPosition();
+                }
+            });
+        }
+    }
+
+    // --- Exports ---
+
+    global.normalizeCategoryKey = normalizeCategoryKey;
+    global.normalizeExamType = normalizeExamType;
+    global.buildBrowseFilterKey = buildBrowseFilterKey;
+    global.getBrowseViewPreferences = getBrowseViewPreferences;
+    global.whenBrowseViewPreferencesReady = whenBrowseViewPreferencesReady;
+    global.saveBrowseViewPreferences = saveBrowseViewPreferences;
+    global.enqueueBrowsePreferenceWrite = enqueueBrowsePreferenceWrite;
+    global.flushBrowsePreferenceWrites = flushBrowsePreferenceWrites;
+    global.persistBrowseFilter = persistBrowseFilter;
+    global.getPersistedBrowseFilter = getPersistedBrowseFilter;
+    global.prepareBrowseAnchorUpdates = prepareBrowseAnchorUpdates;
+    global.commitBrowseAnchorUpdates = commitBrowseAnchorUpdates;
+    global.getBrowseAnchorProjectionState = getBrowseAnchorProjectionState;
+    global.updateBrowseAnchorsFromRecords = updateBrowseAnchorsFromRecords;
+
+    global.setBrowseTitle = setBrowseTitle;
+    global.formatBrowseTitle = formatBrowseTitle;
+    global.handlePostExamListRender = handlePostExamListRender;
+    global.requestBrowseAutoScroll = requestBrowseAutoScroll;
+    global.clearPendingBrowseAutoScroll = clearPendingBrowseAutoScroll;
+    global.setupBrowsePreferenceUI = setupBrowsePreferenceUI;
+    global.deriveRecordTimestamp = deriveRecordTimestamp;
+    global.resolveRecordExamInfo = resolveRecordExamInfo;
+
+})(typeof window !== "undefined" ? window : globalThis);

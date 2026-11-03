@@ -1,0 +1,433 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "31f86e3fd3651203c9dbbf77f3cd78524d4eca9a054b6a77462467c7ba85e6fd",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.12,
+      "text": "You will hear a number of different recordings and you will have to answer questions on what you hear."
+    },
+    {
+      "start": 7.34,
+      "end": 13.56,
+      "text": "There will be time for you to read the instructions and questions and you will have a chance to check your work."
+    },
+    {
+      "start": 15.04,
+      "end": 17.54,
+      "text": "All the recordings will be played once only."
+    },
+    {
+      "start": 18.54,
+      "end": 20.3,
+      "text": "The test is in four sections."
+    },
+    {
+      "start": 21.34,
+      "end": 26.88,
+      "text": "At the end of the test, you will be given ten minutes to transfer your answers to an answer sheet."
+    },
+    {
+      "start": 30.0,
+      "end": 31.94,
+      "text": "Now turn to section 1."
+    },
+    {
+      "start": 33.2,
+      "end": 34.16,
+      "text": "Section 1."
+    },
+    {
+      "start": 35.52,
+      "end": 39.58,
+      "text": "You will hear a woman phoning to inquire about exhibition information."
+    },
+    {
+      "start": 40.8,
+      "end": 45.04,
+      "text": "First, you have some time to look at questions 1 to 4."
+    },
+    {
+      "start": 60.0,
+      "end": 73.82,
+      "text": "You will see that there is an example that has been done for you."
+    },
+    {
+      "start": 74.74,
+      "end": 79.82,
+      "text": "On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "start": 82.46,
+      "end": 87.44,
+      "text": "Good morning. You're through to the events coordinator at the Birmingham City Council."
+    },
+    {
+      "start": 87.98,
+      "end": 88.92,
+      "text": "How may I help you?"
+    },
+    {
+      "start": 88.92,
+      "end": 95.34,
+      "text": "Hello there. My husband and I are interested in purchasing tickets to the automobile exhibition,"
+    },
+    {
+      "start": 95.98,
+      "end": 99.08,
+      "text": "but I couldn't find many details about it on your website,"
+    },
+    {
+      "start": 99.64,
+      "end": 103.02,
+      "text": "and I was wondering whether you could provide me with some more information."
+    },
+    {
+      "start": 103.82,
+      "end": 104.98,
+      "text": "Does it open in June?"
+    },
+    {
+      "start": 107.72,
+      "end": 114.92,
+      "text": "The purpose of calling is to purchase tickets, so purchasing has been written in the space."
+    },
+    {
+      "start": 115.64,
+      "end": 116.76,
+      "text": "Now we shall begin."
+    },
+    {
+      "start": 116.76,
+      "end": 123.84,
+      "text": "You should answer the questions as you listen, because you will not hear the recording a second time."
+    },
+    {
+      "start": 125.2,
+      "end": 128.28,
+      "text": "Listen carefully and answer questions 1 to 4."
+    },
+    {
+      "start": 130.84,
+      "end": 137.48,
+      "text": "Good morning. You're through to the events coordinator at the Birmingham City Council. How may I help you?"
+    },
+    {
+      "start": 138.0,
+      "end": 143.9,
+      "text": "Hello there. My husband and I are interested in purchasing tickets to the automobile exhibition,"
+    },
+    {
+      "start": 143.9,
+      "end": 147.64,
+      "text": "but I couldn't find many details about it on your website"
+    },
+    {
+      "start": 147.64,
+      "end": 151.58,
+      "text": "and I was wondering whether you could provide me with some more information."
+    },
+    {
+      "start": 152.48,
+      "end": 153.54,
+      "text": "Does it open in June?"
+    },
+    {
+      "start": 154.32,
+      "end": 155.26,
+      "text": "Yes, of course, madam."
+    },
+    {
+      "start": 156.14,
+      "end": 158.5,
+      "text": "The exhibition will take place during July"
+    },
+    {
+      "start": 158.5,
+      "end": 161.64,
+      "text": "and will showcase the history of automobiles"
+    },
+    {
+      "start": 161.64,
+      "end": 165.32,
+      "text": "from the very first commercial car in the late 1800s"
+    },
+    {
+      "start": 165.32,
+      "end": 167.8,
+      "text": "all the way through to the present day."
+    },
+    {
+      "start": 168.44,
+      "end": 171.24,
+      "text": "Is the exhibition open for the duration of July?"
+    },
+    {
+      "start": 171.6,
+      "end": 172.74,
+      "text": "No, madam."
+    },
+    {
+      "start": 173.44,
+      "end": 178.18,
+      "text": "The exhibition will last three days, from the 1st of July to the 3rd of July."
+    },
+    {
+      "start": 178.94,
+      "end": 181.4,
+      "text": "And then the cars will be taken to another exhibition."
+    },
+    {
+      "start": 182.24,
+      "end": 186.18,
+      "text": "OK. Does the exhibition focus on a certain manufacturer?"
+    },
+    {
+      "start": 187.1,
+      "end": 190.94,
+      "text": "No. It will showcase a wide range of manufacturers."
+    },
+    {
+      "start": 191.66,
+      "end": 197.26,
+      "text": "Wonderful. I'm ever so fed up of going to these shows and only seeing one manufacturer."
+    },
+    {
+      "start": 197.26,
+      "end": 201.84,
+      "text": "Are there any opportunities to sit in or even drive the cars?"
+    },
+    {
+      "start": 201.84,
+      "end": 205.14,
+      "text": "There will be many opportunities for you to sit in the cars."
+    },
+    {
+      "start": 205.8,
+      "end": 208.96,
+      "text": "However, some of the cars will only be available to observe."
+    },
+    {
+      "start": 210.08,
+      "end": 214.3,
+      "text": "We are yet to be told whether any of the antique cars will be available to drive."
+    },
+    {
+      "start": 215.06,
+      "end": 221.66,
+      "text": "However, there will certainly be an opportunity to test driving some of the more modern cars on a purpose-built track."
+    },
+    {
+      "start": 222.24,
+      "end": 228.46,
+      "text": "That sounds like great fun. I mustn't forget to bring my camera or my husband will never forgive me."
+    },
+    {
+      "start": 228.46,
+      "end": 234.18,
+      "text": "I'm afraid to say that cameras are actually strictly not allowed to bring into the exhibition."
+    },
+    {
+      "start": 235.36,
+      "end": 238.36,
+      "text": "There will, however, be a section where a professional photographer"
+    },
+    {
+      "start": 238.36,
+      "end": 243.34,
+      "text": "will be available to take photos of you sitting in a car in period clothing."
+    },
+    {
+      "start": 244.14,
+      "end": 248.7,
+      "text": "Well, that sounds like it could be fun, but I assume the photos won't be free."
+    },
+    {
+      "start": 249.42,
+      "end": 253.78,
+      "text": "On the contrary, one free photograph is included within every ticket,"
+    },
+    {
+      "start": 253.78,
+      "end": 256.96,
+      "text": "but each photo after this will cost £5."
+    },
+    {
+      "start": 258.46,
+      "end": 266.32,
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10."
+    },
+    {
+      "start": 266.32,
+      "end": 289.7,
+      "text": "Now listen and answer questions 5 to 10"
+    },
+    {
+      "start": 292.36,
+      "end": 294.06,
+      "text": "That's a nice surprise"
+    },
+    {
+      "start": 294.06,
+      "end": 296.16,
+      "text": "Not many things are free anymore"
+    },
+    {
+      "start": 296.16,
+      "end": 302.4,
+      "text": "I've been asking around about the ticket prices, but I haven't yet had a definite answer."
+    },
+    {
+      "start": 303.1,
+      "end": 308.28,
+      "text": "Is it correct that the tickets are £100, whether you buy them now or on arrival?"
+    },
+    {
+      "start": 309.36,
+      "end": 317.48,
+      "text": "I'm afraid not. If you buy the ticket in advance, the price is £110, but it's £165 on the door."
+    },
+    {
+      "start": 318.38,
+      "end": 321.7,
+      "text": "Oh goodness! I suppose I'd best pay for them now then."
+    },
+    {
+      "start": 321.98,
+      "end": 325.56,
+      "text": "Is it possible to buy tickets from you now over the phone?"
+    },
+    {
+      "start": 326.16,
+      "end": 331.5,
+      "text": "Yes, of course, madam. I'll transfer you to the box office manager, Mark Edgeworth."
+    },
+    {
+      "start": 332.04,
+      "end": 339.16,
+      "text": "That's E-D-G-E-W-O-R-T-H."
+    },
+    {
+      "start": 339.38,
+      "end": 344.42,
+      "text": "And he will probably need to take your credit card details and some personal details."
+    },
+    {
+      "start": 345.26,
+      "end": 350.82,
+      "text": "Yes, that's fine. Before you transfer me, I just need to ask a few more questions."
+    },
+    {
+      "start": 351.7,
+      "end": 354.9,
+      "text": "Will the exhibition be held in the Birmingham Exhibition Centre?"
+    },
+    {
+      "start": 354.9,
+      "end": 357.68,
+      "text": "I think that's where I went last time."
+    },
+    {
+      "start": 358.62,
+      "end": 359.02,
+      "text": "No, madam."
+    },
+    {
+      "start": 359.56,
+      "end": 363.1,
+      "text": "The Birmingham Exhibition Centre is currently undergoing some renovations,"
+    },
+    {
+      "start": 363.7,
+      "end": 367.12,
+      "text": "so this year all exhibitions will be held in the Summer Palace."
+    },
+    {
+      "start": 368.12,
+      "end": 368.84,
+      "text": "Summer Palace?"
+    },
+    {
+      "start": 369.46,
+      "end": 372.06,
+      "text": "I'm not entirely sure where that is."
+    },
+    {
+      "start": 372.8,
+      "end": 374.78,
+      "text": "Well, it's not too far from City Centre."
+    },
+    {
+      "start": 375.58,
+      "end": 379.42,
+      "text": "Once you're in the centre, you should be able to find signs for the palace."
+    },
+    {
+      "start": 380.24,
+      "end": 383.46,
+      "text": "If not, most people in Birmingham will be able to direct you."
+    },
+    {
+      "start": 383.46,
+      "end": 388.08,
+      "text": "Hmm, neither my husband nor I am particularly good with directions."
+    },
+    {
+      "start": 388.84,
+      "end": 391.78,
+      "text": "Is there anywhere I can find this information on the internet?"
+    },
+    {
+      "start": 392.8,
+      "end": 394.6,
+      "text": "Our website will give you an address."
+    },
+    {
+      "start": 395.58,
+      "end": 402.48,
+      "text": "Perhaps you could visit www.directions.com for more detailed information,"
+    },
+    {
+      "start": 402.9,
+      "end": 406.14,
+      "text": "and they should be able to provide you with step-by-step instructions."
+    },
+    {
+      "start": 407.14,
+      "end": 411.68,
+      "text": "OK, and is this the best way to contact you, by phone?"
+    },
+    {
+      "start": 411.68,
+      "end": 422.18,
+      "text": "I think the most convenient way to contact us is enquiring online, which is much simpler than having to dial various different numbers to reach the right person."
+    },
+    {
+      "start": 422.98,
+      "end": 426.26,
+      "text": "Unless you have any more questions, I'll transfer you now."
+    },
+    {
+      "start": 426.94,
+      "end": 429.26,
+      "text": "No, that's great. Thank you for your help."
+    },
+    {
+      "start": 432.46,
+      "end": 434.7,
+      "text": "That is the end of section one."
+    },
+    {
+      "start": 435.56,
+      "end": 438.84,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 441.68,
+      "end": 471.52,
+      "text": "Now turn to section 2."
+    }
+  ]
+};

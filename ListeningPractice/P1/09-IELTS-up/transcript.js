@@ -1,0 +1,398 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "43ab4f57d060753682d8a819e2d0f8251917a5f5c8e35e3647961b6752d54c7b",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.02,
+      "text": "You will hear a number of different recordings and you will have to answer questions on what you hear."
+    },
+    {
+      "start": 7.16,
+      "end": 14.5,
+      "text": "There will be time for you to read the instructions and questions and you will have a chance to check your work."
+    },
+    {
+      "start": 15.26,
+      "end": 18.2,
+      "text": "All the recordings will be played once only."
+    },
+    {
+      "start": 18.88,
+      "end": 20.8,
+      "text": "The test is in four sections."
+    },
+    {
+      "start": 20.8,
+      "end": 27.7,
+      "text": "At the end of the test, you will be given ten minutes to transfer your answers to an answer sheet."
+    },
+    {
+      "start": 30.0,
+      "end": 32.72,
+      "text": "Now turn to Section 1."
+    },
+    {
+      "start": 33.76,
+      "end": 34.76,
+      "text": "Section 1."
+    },
+    {
+      "start": 35.34,
+      "end": 41.84,
+      "text": "You will hear a telephone conversation between a travel company employee and a customer."
+    },
+    {
+      "start": 43.08,
+      "end": 47.34,
+      "text": "First, you have some time to look at questions 1 to 5."
+    },
+    {
+      "start": 60.0,
+      "end": 76.56,
+      "text": "You will see that there is an example which has been done for you."
+    },
+    {
+      "start": 77.66,
+      "end": 83.38,
+      "text": "On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "start": 87.0,
+      "end": 87.64,
+      "text": "Hello?"
+    },
+    {
+      "start": 88.04,
+      "end": 89.08,
+      "text": "Hi, good morning."
+    },
+    {
+      "start": 89.08,
+      "end": 91.96,
+      "text": "This is Talia from Parat Bay Travel Agency."
+    },
+    {
+      "start": 92.36,
+      "end": 93.46,
+      "text": "Is Robert Goddard there?"
+    },
+    {
+      "start": 93.92,
+      "end": 94.9,
+      "text": "Yes, speaking."
+    },
+    {
+      "start": 97.98,
+      "end": 100.96,
+      "text": "The man says that he is Robert Goddard."
+    },
+    {
+      "start": 101.56,
+      "end": 105.58,
+      "text": "So, Robert Goddard has been written in the space."
+    },
+    {
+      "start": 106.8,
+      "end": 108.28,
+      "text": "Now we shall begin."
+    },
+    {
+      "start": 109.18,
+      "end": 111.58,
+      "text": "You should answer the questions as you listen,"
+    },
+    {
+      "start": 112.28,
+      "end": 115.56,
+      "text": "because you will not hear the recording a second time."
+    },
+    {
+      "start": 115.56,
+      "end": 120.34,
+      "text": "Listen carefully and answer questions 1 to 5."
+    },
+    {
+      "start": 145.56,
+      "end": 150.52,
+      "text": "Melbourne. Was this your first visit to Melbourne? No, I have actually been there twice before."
+    },
+    {
+      "start": 150.86,
+      "end": 154.48,
+      "text": "I see. Now, what would you say was your favourite part about Melbourne?"
+    },
+    {
+      "start": 154.8,
+      "end": 161.04,
+      "text": "Well, I did like seeing the exotic wildlife, and there are great sights to see, but I have to say"
+    },
+    {
+      "start": 161.04,
+      "end": 167.28,
+      "text": "I was most impressed by the amazing weather. Yeah, the weather there is amazing. Which of"
+    },
+    {
+      "start": 167.28,
+      "end": 172.58,
+      "text": "the sights listed as part of our official tour did you see, and of those, which was your favourite?"
+    },
+    {
+      "start": 172.58,
+      "end": 177.08,
+      "text": "First I saw the theatre, which was beautifully designed."
+    },
+    {
+      "start": 177.64,
+      "end": 180.18,
+      "text": "It was not nearly as cool as the Town Hall, though."
+    },
+    {
+      "start": 180.68,
+      "end": 183.48,
+      "text": "The building is a huge part of Melbourne's history."
+    },
+    {
+      "start": 184.02,
+      "end": 185.16,
+      "text": "Definitely my favourite."
+    },
+    {
+      "start": 185.66,
+      "end": 188.58,
+      "text": "I saw the aquarium too, but wasn't too impressed."
+    },
+    {
+      "start": 189.1,
+      "end": 193.0,
+      "text": "I see. Yes, people often have great reviews of Town Hall."
+    },
+    {
+      "start": 193.52,
+      "end": 196.54,
+      "text": "Now, I would like to ask you about your dining experience."
+    },
+    {
+      "start": 197.04,
+      "end": 198.5,
+      "text": "Did you enjoy the food there?"
+    },
+    {
+      "start": 198.9,
+      "end": 200.56,
+      "text": "Absolutely, I loved it."
+    },
+    {
+      "start": 200.88,
+      "end": 202.1,
+      "text": "I'm glad to hear it."
+    },
+    {
+      "start": 202.1,
+      "end": 205.76,
+      "text": "Could you tell me a little bit about what you most enjoyed about the food?"
+    },
+    {
+      "start": 206.32,
+      "end": 209.3,
+      "text": "Being such an international city, I loved the variety."
+    },
+    {
+      "start": 209.84,
+      "end": 215.6,
+      "text": "I could find any type of food I wanted, whether I wanted seafood, burgers or anything else."
+    },
+    {
+      "start": 215.8,
+      "end": 217.3,
+      "text": "You name it and they had it."
+    },
+    {
+      "start": 217.82,
+      "end": 219.04,
+      "text": "Did you drive to Melbourne?"
+    },
+    {
+      "start": 219.68,
+      "end": 226.48,
+      "text": "No, I flew. I thought about going by train, but in the interest of time, I decided to go by plane."
+    },
+    {
+      "start": 226.86,
+      "end": 227.84,
+      "text": "Right, I see."
+    },
+    {
+      "start": 227.84,
+      "end": 237.48,
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
+    },
+    {
+      "start": 237.48,
+      "end": 260.38,
+      "text": "Now listen and answer questions 6 to 10."
+    },
+    {
+      "start": 263.66,
+      "end": 267.0,
+      "text": "And would you mind telling me whether you are under 20?"
+    },
+    {
+      "start": 267.48,
+      "end": 271.22,
+      "text": "between the ages of 20 and 40, or older than 40?"
+    },
+    {
+      "start": 271.76,
+      "end": 275.68,
+      "text": "Uh, it would be nice if I was still under 20."
+    },
+    {
+      "start": 276.24,
+      "end": 279.46,
+      "text": "My vacation probably would have been quite different."
+    },
+    {
+      "start": 280.0,
+      "end": 283.14,
+      "text": "Actually, though, I just turned 41 last week."
+    },
+    {
+      "start": 283.72,
+      "end": 284.78,
+      "text": "Oh, happy birthday!"
+    },
+    {
+      "start": 285.5,
+      "end": 288.12,
+      "text": "So, did you treat yourself and fly first class?"
+    },
+    {
+      "start": 288.74,
+      "end": 289.96,
+      "text": "Ha, no way."
+    },
+    {
+      "start": 290.44,
+      "end": 292.34,
+      "text": "I would love to have a budget that high."
+    },
+    {
+      "start": 292.34,
+      "end": 294.98,
+      "text": "I'm more in the mid-range income level."
+    },
+    {
+      "start": 295.74,
+      "end": 296.94,
+      "text": "I wasn't always, though."
+    },
+    {
+      "start": 296.94,
+      "end": 300.96,
+      "text": "I spent much of my life in a low-income household."
+    },
+    {
+      "start": 301.58,
+      "end": 305.62,
+      "text": "I see. That answers my next question then of income level."
+    },
+    {
+      "start": 306.14,
+      "end": 307.96,
+      "text": "And what was the purpose of this visit?"
+    },
+    {
+      "start": 308.46,
+      "end": 313.64,
+      "text": "I had to go there on business a lot before and decided I would go there for tourism this time."
+    },
+    {
+      "start": 314.22,
+      "end": 316.36,
+      "text": "I see. And what is your occupation?"
+    },
+    {
+      "start": 317.16,
+      "end": 318.98,
+      "text": "I am mainly a computer programmer."
+    },
+    {
+      "start": 319.48,
+      "end": 324.64,
+      "text": "I also write for a travel magazine on the side, which is why I visited Melbourne before,"
+    },
+    {
+      "start": 324.64,
+      "end": 327.22,
+      "text": "but it's not my main source of income."
+    },
+    {
+      "start": 328.02,
+      "end": 331.02,
+      "text": "I see. Wow, it sounds like you work a lot."
+    },
+    {
+      "start": 331.7,
+      "end": 337.32,
+      "text": "Yes, I am very busy, which is exactly why I took a nice week-long vacation to Melbourne."
+    },
+    {
+      "start": 337.94,
+      "end": 341.96,
+      "text": "I completely agree. Would you care to comment on your accommodation?"
+    },
+    {
+      "start": 342.84,
+      "end": 347.64,
+      "text": "My hotel was a good value. Staying in the city can get really expensive,"
+    },
+    {
+      "start": 348.0,
+      "end": 351.94,
+      "text": "so it was nice to find such a good price for the location and quality."
+    },
+    {
+      "start": 352.62,
+      "end": 356.4,
+      "text": "I'm glad I didn't end up in some cheap motel in the middle of nowhere."
+    },
+    {
+      "start": 357.0,
+      "end": 358.28,
+      "text": "I'm glad you didn't either."
+    },
+    {
+      "start": 358.72,
+      "end": 360.92,
+      "text": "Well, thank you for taking part in our survey."
+    },
+    {
+      "start": 361.3,
+      "end": 363.12,
+      "text": "And I'm glad you enjoyed your vacation."
+    },
+    {
+      "start": 363.72,
+      "end": 364.92,
+      "text": "No problem. Take care."
+    },
+    {
+      "start": 367.68,
+      "end": 369.8,
+      "text": "That is the end of Section 1."
+    },
+    {
+      "start": 370.34,
+      "end": 373.06,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 381.94,
+      "end": 404.98,
+      "text": "Now turn to section 2."
+    }
+  ]
+};

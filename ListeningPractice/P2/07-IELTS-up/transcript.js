@@ -1,0 +1,323 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "2d9635aa543bb958434c58acb2b1462e649fbc0f77809d0127d507a1f4703216",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.46,
+      "text": "Section 2. You'll hear a tour guide giving a talk about a museum centre called Riverside Industrial Village."
+    },
+    {
+      "start": 9.56,
+      "end": 13.76,
+      "text": "First, you have some time to look at questions 11 to 13."
+    },
+    {
+      "start": 30.0,
+      "end": 37.78,
+      "text": "Now listen carefully and answer questions 11 to 13."
+    },
+    {
+      "start": 40.66,
+      "end": 45.54,
+      "text": "Good afternoon, everybody, and welcome to Riverside Industrial Village."
+    },
+    {
+      "start": 46.32,
+      "end": 51.26,
+      "text": "To start your visit, I'm just going to give you a brief account of the history of the museum"
+    },
+    {
+      "start": 51.26,
+      "end": 53.66,
+      "text": "before letting you roam about on your own."
+    },
+    {
+      "start": 54.04,
+      "end": 55.6,
+      "text": "I won't keep you long, OK?"
+    },
+    {
+      "start": 55.6,
+      "end": 60.92,
+      "text": "Now, from where we're standing, you've got a good view of the river over there."
+    },
+    {
+      "start": 61.56,
+      "end": 67.64,
+      "text": "And it was because of this fast-flowing water that this site was a natural place for manufacturing works."
+    },
+    {
+      "start": 68.4,
+      "end": 73.88,
+      "text": "The water and the availability of raw materials in the area like minerals and iron ore,"
+    },
+    {
+      "start": 74.34,
+      "end": 78.32,
+      "text": "and also the abundance of local fuels like coal and firewood,"
+    },
+    {
+      "start": 78.74,
+      "end": 82.42,
+      "text": "all made this site suitable for industry from a very early time."
+    },
+    {
+      "start": 82.42,
+      "end": 87.12,
+      "text": "Water was the main source of power for the early industries"
+    },
+    {
+      "start": 87.12,
+      "end": 92.52,
+      "text": "and some of the water wheels were first established in the 12th century, would you believe?"
+    },
+    {
+      "start": 93.62,
+      "end": 97.56,
+      "text": "At that time, local craftsmen first built an iron forge"
+    },
+    {
+      "start": 97.56,
+      "end": 100.62,
+      "text": "just behind the village here on the bend in the river"
+    },
+    {
+      "start": 100.62,
+      "end": 108.9,
+      "text": "By the 17th and 18th centuries, the region's rivers supported more than 160 water mills"
+    },
+    {
+      "start": 108.9,
+      "end": 113.68,
+      "text": "and many of these continued to operate well into the 19th century."
+    },
+    {
+      "start": 114.46,
+      "end": 119.16,
+      "text": "But then the steam engine was invented, and then the railways came,"
+    },
+    {
+      "start": 119.64,
+      "end": 125.12,
+      "text": "and the centres of industry were able to move away from the rivers and the countryside and into the towns."
+    },
+    {
+      "start": 125.72,
+      "end": 129.4,
+      "text": "So industrial villages like this one became very rare."
+    },
+    {
+      "start": 131.62,
+      "end": 133.88,
+      "text": "So, that's the history for you."
+    },
+    {
+      "start": 134.52,
+      "end": 137.88,
+      "text": "If you'd like any more information, you can ask me some questions,"
+    },
+    {
+      "start": 137.88,
+      "end": 141.48,
+      "text": "or you can read further in our excellent guidebook."
+    },
+    {
+      "start": 144.34,
+      "end": 146.18,
+      "text": "Before you hear the rest of the talk,"
+    },
+    {
+      "start": 146.56,
+      "end": 150.02,
+      "text": "you have some time to look at questions 14 to 20."
+    },
+    {
+      "start": 167.88,
+      "end": 173.74,
+      "text": "Now listen and answer questions 14 to 20."
+    },
+    {
+      "start": 176.68,
+      "end": 179.44,
+      "text": "Now I'm going to give you a plan of the site,"
+    },
+    {
+      "start": 179.86,
+      "end": 182.86,
+      "text": "and I'd just like to point out where everything is,"
+    },
+    {
+      "start": 183.26,
+      "end": 185.54,
+      "text": "and then you can take a look at everything for yourself."
+    },
+    {
+      "start": 186.38,
+      "end": 189.52,
+      "text": "I've already pointed out the river, which is on the left,"
+    },
+    {
+      "start": 189.52,
+      "end": 194.5,
+      "text": "and of course, running along the bottom is Woodside Road."
+    },
+    {
+      "start": 195.16,
+      "end": 195.54,
+      "text": "Got it?"
+    },
+    {
+      "start": 195.54,
+      "end": 200.26,
+      "text": "OK, now we're standing at the entrance."
+    },
+    {
+      "start": 200.96,
+      "end": 201.68,
+      "text": "See it at the bottom?"
+    },
+    {
+      "start": 202.6,
+      "end": 205.22,
+      "text": "And immediately to our right is the ticket office."
+    },
+    {
+      "start": 205.96,
+      "end": 209.3,
+      "text": "You won't need that because you've got your group booking,"
+    },
+    {
+      "start": 209.7,
+      "end": 211.56,
+      "text": "but just past it are the toilets."
+    },
+    {
+      "start": 212.0,
+      "end": 213.68,
+      "text": "Always good to know where they are."
+    },
+    {
+      "start": 214.5,
+      "end": 217.6,
+      "text": "In front of us is the car park, as you can see,"
+    },
+    {
+      "start": 218.16,
+      "end": 221.4,
+      "text": "and to the left, by the entry gate, is the gift shop."
+    },
+    {
+      "start": 221.92,
+      "end": 225.28,
+      "text": "That's where you can get copies of the guide, like this one here."
+    },
+    {
+      "start": 225.54,
+      "end": 233.26,
+      "text": "Now, beyond the car park, all the buildings are arranged in a half circle with a yard in the middle."
+    },
+    {
+      "start": 233.7,
+      "end": 236.92,
+      "text": "The big stone building at the top is the main workshop."
+    },
+    {
+      "start": 237.68,
+      "end": 244.14,
+      "text": "That's where the furnace is and where all the metal was smelted and the tools were cast, as you'll be able to see."
+    },
+    {
+      "start": 245.12,
+      "end": 250.64,
+      "text": "Now, in the top right-hand corner, that building with bigger windows is the showroom,"
+    },
+    {
+      "start": 251.18,
+      "end": 255.14,
+      "text": "where samples of all the tools that were made through the ages are on display."
+    },
+    {
+      "start": 255.54,
+      "end": 263.28,
+      "text": "In the top left corner is the grinding shop, where the tools were sharpened and finished."
+    },
+    {
+      "start": 264.22,
+      "end": 270.48,
+      "text": "And on one side of that you can see the engine room, and on the other is the cafe,"
+    },
+    {
+      "start": 271.02,
+      "end": 276.38,
+      "text": "which isn't an antique, you'll be pleased to know, though they do serve very nice old-fashioned teas."
+    },
+    {
+      "start": 277.46,
+      "end": 281.56,
+      "text": "The row of buildings you can see on the left are the cottages."
+    },
+    {
+      "start": 282.56,
+      "end": 286.06,
+      "text": "These were built for the workers towards the end of the 18th century,"
+    },
+    {
+      "start": 286.44,
+      "end": 288.7,
+      "text": "and they're still furnished from that period,"
+    },
+    {
+      "start": 288.98,
+      "end": 292.28,
+      "text": "so you can get a good idea of ordinary people's living conditions."
+    },
+    {
+      "start": 293.54,
+      "end": 296.74,
+      "text": "Across the yard from them, you can see the stables,"
+    },
+    {
+      "start": 297.3,
+      "end": 299.96,
+      "text": "where the horses were kept for transporting the products."
+    },
+    {
+      "start": 300.52,
+      "end": 304.44,
+      "text": "And the separate building in front of them is the works office,"
+    },
+    {
+      "start": 305.0,
+      "end": 307.7,
+      "text": "and that still has some of the old accounts on display."
+    },
+    {
+      "start": 307.7,
+      "end": 313.52,
+      "text": "Right, if anyone wants a guided tour, then I'm starting at the engine room."
+    },
+    {
+      "start": 314.16,
+      "end": 316.88,
+      "text": "If you'd like to come along this way, please, ladies and gentlemen."
+    },
+    {
+      "start": 319.82,
+      "end": 321.94,
+      "text": "That is the end of Section 2."
+    },
+    {
+      "start": 322.36,
+      "end": 325.16,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 337.7,
+      "end": 356.76,
+      "text": "Now turn to section 3."
+    }
+  ]
+};

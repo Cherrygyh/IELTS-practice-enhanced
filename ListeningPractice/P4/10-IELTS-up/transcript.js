@@ -1,0 +1,313 @@
+window.IELTSListeningTranscript = {
+  "source": "automatic",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language": "en",
+  "audioSha256": "c3d7190b715a71554e297693bdee185bb04acca91d22d8f173e2dea54a5dd65e",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.2,
+      "text": "Section 4"
+    },
+    {
+      "start": 1.2,
+      "end": 7.2,
+      "text": "You will hear part of a lecture about how to give a quality speech."
+    },
+    {
+      "start": 7.56,
+      "end": 11.98,
+      "text": "First, you have some time to look at questions 31 to 40."
+    },
+    {
+      "start": 30.0,
+      "end": 51.0,
+      "text": "."
+    },
+    {
+      "start": 51.0,
+      "end": 56.32,
+      "text": "Now listen carefully and answer questions 31 to 40."
+    },
+    {
+      "start": 56.32,
+      "end": 64.48,
+      "text": "Good morning. Today I am going to cover the daunting task of giving a quality speech,"
+    },
+    {
+      "start": 64.8,
+      "end": 71.8,
+      "text": "a thought that makes most of us cringe. In fact, 90% of all people feel nervous about public speaking,"
+    },
+    {
+      "start": 72.36,
+      "end": 78.28,
+      "text": "about 10% of whom are described as genuinely terrified. Hopefully, when we are finished here"
+    },
+    {
+      "start": 78.28,
+      "end": 83.84,
+      "text": "today, you all will be in the 10% of the population who do not feel nervous at all."
+    },
+    {
+      "start": 83.84,
+      "end": 89.5,
+      "text": "Did you know that lecturers tend to get more nervous if the speech they are giving is an important one?"
+    },
+    {
+      "start": 89.74,
+      "end": 90.76,
+      "text": "It makes sense, right?"
+    },
+    {
+      "start": 91.1,
+      "end": 97.5,
+      "text": "You probably wouldn't be nearly as nervous to address your residence hall about the proper use of the recycle and compost bins"
+    },
+    {
+      "start": 97.5,
+      "end": 103.66,
+      "text": "as you might be if you were asked to give the graduation speech to your entire 5,000-student class."
+    },
+    {
+      "start": 104.06,
+      "end": 108.2,
+      "text": "So what is it that makes some people completely comfortable in front of crowds?"
+    },
+    {
+      "start": 108.2,
+      "end": 114.38,
+      "text": "Some people think that the ability to give a good speech is a gift that others are simply born with."
+    },
+    {
+      "start": 114.64,
+      "end": 116.1,
+      "text": "This is almost never the case."
+    },
+    {
+      "start": 116.74,
+      "end": 119.06,
+      "text": "Public speaking can be learned with practice."
+    },
+    {
+      "start": 120.22,
+      "end": 127.08,
+      "text": "The first most important thing you can do to improve your confidence in delivering a speech is to prepare a quality speech."
+    },
+    {
+      "start": 127.58,
+      "end": 135.42,
+      "text": "Honestly, while the content of your speech is relatively important, the audience will really only remember the last sentence you say."
+    },
+    {
+      "start": 135.42,
+      "end": 142.3,
+      "text": "It is a good idea to structure the rest of your speech to lead up to this last point to really drive your message home."
+    },
+    {
+      "start": 142.78,
+      "end": 146.04,
+      "text": "This is a good way to ensure that your speech is well organised."
+    },
+    {
+      "start": 151.06,
+      "end": 157.32,
+      "text": "Once you are confident in the quality of the speech you have written, the rest is just about your stage presence."
+    },
+    {
+      "start": 157.98,
+      "end": 160.82,
+      "text": "Let's go through some do's and don'ts of public speaking."
+    },
+    {
+      "start": 161.18,
+      "end": 163.84,
+      "text": "First, you want to command the attention of the room."
+    },
+    {
+      "start": 163.84,
+      "end": 170.4,
+      "text": "Do not, I repeat, do not proceed with your speech until the audience is paying attention."
+    },
+    {
+      "start": 170.64,
+      "end": 174.2,
+      "text": "Even Martin Luther King Jr.'s I Have a Dream speech"
+    },
+    {
+      "start": 174.2,
+      "end": 179.22,
+      "text": "wouldn't have made any difference in the world without the undivided attention of his audience."
+    },
+    {
+      "start": 180.02,
+      "end": 182.5,
+      "text": "To continue with the I Have a Dream example,"
+    },
+    {
+      "start": 182.5,
+      "end": 185.9,
+      "text": "one of the reasons that MLK was such an effective orator"
+    },
+    {
+      "start": 185.9,
+      "end": 189.9,
+      "text": "was his ability to speak with passion and engage with his audience."
+    },
+    {
+      "start": 189.9,
+      "end": 193.86,
+      "text": "That sort of charisma does not come from reading straight from paper."
+    },
+    {
+      "start": 194.42,
+      "end": 201.16,
+      "text": "Don't get me wrong, it is a good idea to write your main ideas down on a note card, sheet of paper or something."
+    },
+    {
+      "start": 201.5,
+      "end": 208.44,
+      "text": "But one factor that will consistently lead to a boring, forgettable speech is writing down your entire speech."
+    },
+    {
+      "start": 208.74,
+      "end": 211.08,
+      "text": "Do not write your full speech down."
+    },
+    {
+      "start": 211.08,
+      "end": 216.2,
+      "text": "If you are constantly reading your paper, you are not making eye contact with your audience,"
+    },
+    {
+      "start": 216.72,
+      "end": 220.7,
+      "text": "and thus failing to really express the feeling that goes with your ideas."
+    },
+    {
+      "start": 221.92,
+      "end": 228.72,
+      "text": "I advise you write one or two ideas, so if you suddenly draw a blank, you have something to jog your memory."
+    },
+    {
+      "start": 229.2,
+      "end": 234.72,
+      "text": "If you've written a good speech that you believe in, those ideas should be sufficient to keep you on track."
+    },
+    {
+      "start": 235.0,
+      "end": 240.78,
+      "text": "Once you have those ideas written down, give your speech a few practice runs in front of the mirror,"
+    },
+    {
+      "start": 241.08,
+      "end": 243.38,
+      "text": "into your sound recorder on your phone,"
+    },
+    {
+      "start": 243.78,
+      "end": 247.16,
+      "text": "or with a friend before it comes time to address a crowd."
+    },
+    {
+      "start": 247.6,
+      "end": 250.56,
+      "text": "That way, you can hear how the ideas come across,"
+    },
+    {
+      "start": 250.72,
+      "end": 252.82,
+      "text": "make sure there are no abrupt transitions,"
+    },
+    {
+      "start": 253.36,
+      "end": 256.9,
+      "text": "and find out whether you are talking too fast or too slow."
+    },
+    {
+      "start": 257.2,
+      "end": 258.26,
+      "text": "Timing is important."
+    },
+    {
+      "start": 258.92,
+      "end": 262.98,
+      "text": "Make sure you time yourself beforehand to see how long your speech is."
+    },
+    {
+      "start": 263.32,
+      "end": 264.7,
+      "text": "That is pretty much it."
+    },
+    {
+      "start": 264.7,
+      "end": 268.06,
+      "text": "With practice, you'll be able to deliver an expert speech"
+    },
+    {
+      "start": 268.06,
+      "end": 271.16,
+      "text": "that engages and even maybe inspires your audience."
+    },
+    {
+      "start": 271.56,
+      "end": 273.54,
+      "text": "Just remember, speak with emotion."
+    },
+    {
+      "start": 274.18,
+      "end": 276.92,
+      "text": "No one wants to listen to someone reading from a script."
+    },
+    {
+      "start": 277.8,
+      "end": 279.9,
+      "text": "As I come to a close in my speech,"
+    },
+    {
+      "start": 280.14,
+      "end": 284.1,
+      "text": "I'll point out that I have employed all of these tips that I have covered."
+    },
+    {
+      "start": 284.1,
+      "end": 287.36,
+      "text": "I practiced my speech ahead of time and timed it"
+    },
+    {
+      "start": 287.36,
+      "end": 290.56,
+      "text": "and I can even show you my one small index card"
+    },
+    {
+      "start": 290.56,
+      "end": 293.14,
+      "text": "with just three simple bullets on it."
+    },
+    {
+      "start": 293.52,
+      "end": 294.82,
+      "text": "It's as easy as that."
+    },
+    {
+      "start": 294.82,
+      "end": 299.94,
+      "text": "That is the end of section 4."
+    },
+    {
+      "start": 300.36,
+      "end": 302.96,
+      "text": "You now have half a minute to check your answers."
+    },
+    {
+      "start": 324.82,
+      "end": 335.26,
+      "text": "That is the end of the listening test."
+    },
+    {
+      "start": 335.26,
+      "end": 341.2,
+      "text": "In the IELTS test, you will now have 10 minutes to transfer your answers to an answer sheet."
+    }
+  ]
+};
